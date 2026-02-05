@@ -1,12 +1,16 @@
 import asyncio
+import csv
 import json
 import logging
 import math
+import os
 from dataclasses import dataclass, field
+from datetime import datetime
 
 from ragas.llms import llm_factory
-from ragas.embeddings import OpenAIEmbeddings
+from langchain_openai import OpenAIEmbeddings
 from ragas.metrics import Faithfulness, AnswerRelevancy
+from ragas.dataset_schema import SingleTurnSample
 from openai import AsyncOpenAI
 
 from src.config import OPENAI_API_KEY, EVAL_LLM_MODEL, EVAL_EMBEDDING_MODEL
@@ -32,6 +36,51 @@ class EvaluationReport:
     avg_response_relevancy: float = float("nan")
 
 
+def save_evaluation_log(report: EvaluationReport) -> tuple[str, str]:
+    log_dir = "eval_logs"
+    os.makedirs(log_dir, exist_ok=True)
+
+    now = datetime.now()
+    timestamp_str = now.strftime("eval_%Y-%m-%d_%H-%M-%S")
+    json_path = os.path.join(log_dir, f"{timestamp_str}.json")
+    csv_path = os.path.join(log_dir, f"{timestamp_str}.csv")
+
+    def clean(value: float):
+        return None if math.isnan(value) else value
+
+    log_data = {
+        "timestamp": now.isoformat(timespec="seconds"),
+        "num_questions": len(report.results),
+        "avg_faithfulness": clean(report.avg_faithfulness),
+        "avg_response_relevancy": clean(report.avg_response_relevancy),
+        "results": [
+            {
+                "question": r.question,
+                "answer": r.answer,
+                "faithfulness": clean(r.faithfulness),
+                "response_relevancy": clean(r.response_relevancy),
+            }
+            for r in report.results
+        ],
+    }
+
+    with open(json_path, "w", encoding="utf-8") as f:
+        json.dump(log_data, f, indent=2, ensure_ascii=False)
+
+    with open(csv_path, "w", encoding="utf-8", newline="") as f:
+        writer = csv.writer(f)
+        writer.writerow(["question", "answer", "faithfulness", "response_relevancy"])
+        for r in report.results:
+            writer.writerow([
+                r.question,
+                r.answer,
+                clean(r.faithfulness) or "",
+                clean(r.response_relevancy) or "",
+            ])
+
+    return json_path, csv_path
+
+
 class RAGASEvaluator:
     def __init__(self):
         client = AsyncOpenAI(
@@ -54,37 +103,51 @@ class RAGASEvaluator:
             llm=evaluator_llm, embeddings=evaluator_embeddings
         )
 
+    async def _safe_faithfulness(self, result: QuestionResult) -> float:
+        try:
+            sample = SingleTurnSample(
+                user_input=result.question,
+                response=result.answer,
+                retrieved_contexts=result.contexts,
+            )
+            score = await self.faithfulness.single_turn_ascore(sample)
+            return score
+        except Exception as e:
+            logger.error(f"Faithfulness scoring failed: {type(e).__name__}: {e}")
+            return float("nan")
+
+    async def _safe_response_relevancy(self, result: QuestionResult) -> float:
+        try:
+            sample = SingleTurnSample(
+                user_input=result.question,
+                response=result.answer,
+                retrieved_contexts=result.contexts,
+            )
+            score = await self.response_relevancy.single_turn_ascore(sample)
+            return score
+        except Exception as e:
+            logger.error(f"Response relevancy scoring failed: {type(e).__name__}: {e}")
+            return float("nan")
+
+    async def aevaluate(
+        self,
+        results: list[QuestionResult],
+        max_concurrency: int = 5,
+    ) -> list[dict]:
+        semaphore = asyncio.Semaphore(max_concurrency)
+
+        async def _score_one(result: QuestionResult) -> dict:
+            async with semaphore:
+                faith, relevancy = await asyncio.gather(
+                    self._safe_faithfulness(result),
+                    self._safe_response_relevancy(result),
+                )
+            return {"faithfulness": faith, "response_relevancy": relevancy}
+
+        return await asyncio.gather(*[_score_one(r) for r in results])
+
     def evaluate(self, results: list[QuestionResult]) -> list[dict]:
-        scores_list = []
-        for result in results:
-            scores = {}
-            try:
-                faith_result = self.faithfulness.ascore(
-                    user_input=result.question,
-                    response=result.answer,
-                    retrieved_contexts=result.contexts,
-                )
-                if asyncio.iscoroutine(faith_result):
-                    faith_result = asyncio.get_event_loop().run_until_complete(faith_result)
-                scores["faithfulness"] = faith_result.value
-            except Exception as e:
-                logger.error(f"Faithfulness scoring failed: {type(e).__name__}: {e}")
-                scores["faithfulness"] = float("nan")
-
-            try:
-                rr_result = self.response_relevancy.ascore(
-                    user_input=result.question,
-                    response=result.answer,
-                )
-                if asyncio.iscoroutine(rr_result):
-                    rr_result = asyncio.get_event_loop().run_until_complete(rr_result)
-                scores["response_relevancy"] = rr_result.value
-            except Exception as e:
-                logger.error(f"Response relevancy scoring failed: {type(e).__name__}: {e}")
-                scores["response_relevancy"] = float("nan")
-
-            scores_list.append(scores)
-        return scores_list
+        return asyncio.run(self.aevaluate(results))
 
 
 def load_questions(file_path: str) -> list[str]:
@@ -101,39 +164,58 @@ def load_questions(file_path: str) -> list[str]:
     return questions
 
 
-def run_rag_pipeline(
+async def async_run_rag_pipeline(
     questions: list[str],
     context_limit: int = 5,
+    ollama_concurrency: int = 3,
     progress_callback=None,
 ) -> list[QuestionResult]:
     retriever = Retriever()
     generator = RAGGenerator()
-    results = []
+    semaphore = asyncio.Semaphore(ollama_concurrency)
 
-    for i, question in enumerate(questions):
+    async def _process_question(i: int, question: str) -> QuestionResult:
+        context = await retriever.asearch(question, limit=context_limit)
+
+        async with semaphore:
+            answer = await generator.aanswer(question, context)
+
         if progress_callback:
             progress_callback(i, len(questions), question)
-
-        context = retriever.search(question, limit=context_limit)
-        answer = generator.answer(question, context)
 
         context_strings = [
             f"{article['title']}\n{article['description']}"
             for article in context
         ]
 
-        results.append(QuestionResult(
+        return QuestionResult(
             question=question,
             answer=answer,
             contexts=context_strings,
-        ))
+        )
 
-    return results
+    tasks = [_process_question(i, q) for i, q in enumerate(questions)]
+    return list(await asyncio.gather(*tasks))
 
 
-def evaluate_results(results: list[QuestionResult]) -> EvaluationReport:
+def run_rag_pipeline(
+    questions: list[str],
+    context_limit: int = 5,
+    progress_callback=None,
+) -> list[QuestionResult]:
+    return asyncio.run(async_run_rag_pipeline(
+        questions,
+        context_limit=context_limit,
+        progress_callback=progress_callback,
+    ))
+
+
+async def async_evaluate_results(
+    results: list[QuestionResult],
+    max_concurrency: int = 5,
+) -> EvaluationReport:
     evaluator = RAGASEvaluator()
-    scores = evaluator.evaluate(results)
+    scores = await evaluator.aevaluate(results, max_concurrency=max_concurrency)
 
     for result, score in zip(results, scores):
         result.faithfulness = score.get("faithfulness", float("nan"))
@@ -150,12 +232,36 @@ def evaluate_results(results: list[QuestionResult]) -> EvaluationReport:
 
     return report
 
+
+def evaluate_results(results: list[QuestionResult]) -> EvaluationReport:
+    return asyncio.run(async_evaluate_results(results))
+
+
+async def async_run_evaluation(
+    file_path: str,
+    context_limit: int = 5,
+    ollama_concurrency: int = 3,
+    eval_concurrency: int = 5,
+    progress_callback=None,
+) -> EvaluationReport:
+    questions = load_questions(file_path)
+    results = await async_run_rag_pipeline(
+        questions,
+        context_limit=context_limit,
+        ollama_concurrency=ollama_concurrency,
+        progress_callback=progress_callback,
+    )
+    report = await async_evaluate_results(results, max_concurrency=eval_concurrency)
+    return report
+
+
 def run_evaluation(
     file_path: str,
     context_limit: int = 5,
     progress_callback=None,
 ) -> EvaluationReport:
-    questions = load_questions(file_path)
-    results = run_rag_pipeline(questions, context_limit, progress_callback)
-    report = evaluate_results(results)
-    return report
+    return asyncio.run(async_run_evaluation(
+        file_path,
+        context_limit=context_limit,
+        progress_callback=progress_callback,
+    ))

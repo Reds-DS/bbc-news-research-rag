@@ -1,3 +1,4 @@
+import asyncio
 import json
 import math
 
@@ -120,9 +121,11 @@ def ask(
 def evaluate(
     questions_file: str = typer.Argument(..., help="Path to JSON file with evaluation questions"),
     context: int = typer.Option(5, "--context", "-c", help="Number of articles for context per question"),
+    ollama_concurrency: int = typer.Option(3, "--ollama-concurrency", help="Max concurrent Ollama requests"),
+    eval_concurrency: int = typer.Option(5, "--eval-concurrency", help="Max concurrent RAGAS evaluation requests"),
 ):
     """Evaluate RAG quality using RAGAS (Faithfulness & Response Relevancy)."""
-    from src.evaluation import load_questions, run_rag_pipeline, evaluate_results
+    from src.evaluation import load_questions, async_run_rag_pipeline, async_evaluate_results, save_evaluation_log
 
     # Phase 1: Load questions
     try:
@@ -138,14 +141,25 @@ def evaluate(
         console.print(f"  [dim]({i + 1}/{total})[/dim] {question}")
 
     console.print("[bold]Running RAG pipeline...[/bold]")
-    results = run_rag_pipeline(questions, context_limit=context, progress_callback=progress_callback)
+    results = asyncio.run(async_run_rag_pipeline(
+        questions,
+        context_limit=context,
+        ollama_concurrency=ollama_concurrency,
+        progress_callback=progress_callback,
+    ))
     console.print("[green]RAG pipeline complete.[/green]\n")
 
     # Phase 3: Run RAGAS evaluation
     with console.status("[bold green]Running RAGAS evaluation (this may take a while)..."):
-        report = evaluate_results(results)
+        report = asyncio.run(async_evaluate_results(results, max_concurrency=eval_concurrency))
 
     console.print("[green]Evaluation complete.[/green]\n")
+
+    # Save evaluation log
+    json_path, csv_path = save_evaluation_log(report)
+    console.print(f"[bold]Evaluation log saved:[/bold]")
+    console.print(f"  JSON: [cyan]{json_path}[/cyan]")
+    console.print(f"  CSV:  [cyan]{csv_path}[/cyan]\n")
 
     # Phase 4: Display results
     for i, result in enumerate(report.results, 1):
