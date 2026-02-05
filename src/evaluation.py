@@ -57,6 +57,7 @@ def save_evaluation_log(report: EvaluationReport) -> tuple[str, str]:
             {
                 "question": r.question,
                 "answer": r.answer,
+                "contexts": r.contexts,
                 "faithfulness": clean(r.faithfulness),
                 "response_relevancy": clean(r.response_relevancy),
             }
@@ -69,11 +70,12 @@ def save_evaluation_log(report: EvaluationReport) -> tuple[str, str]:
 
     with open(csv_path, "w", encoding="utf-8", newline="") as f:
         writer = csv.writer(f)
-        writer.writerow(["question", "answer", "faithfulness", "response_relevancy"])
+        writer.writerow(["question", "answer", "contexts", "faithfulness", "response_relevancy"])
         for r in report.results:
             writer.writerow([
                 r.question,
                 r.answer,
+                "\n---\n".join(r.contexts),
                 clean(r.faithfulness) or "",
                 clean(r.response_relevancy) or "",
             ])
