@@ -67,13 +67,15 @@ def ingest(
 def search(
     query: str = typer.Argument(..., help="Search query"),
     limit: int = typer.Option(5, "--limit", "-n", help="Number of results"),
+    mode: str = typer.Option("hybrid", "--mode", "-m", help="Search mode: semantic, keyword, or hybrid"),
 ):
     """Search for news articles by semantic similarity."""
     from src.retrieval import Retriever
 
+    console.print(f"[dim]Mode: {mode}[/dim]\n")
     console.print(f"[bold]Searching for:[/bold] {query}\n")
 
-    retriever = Retriever()
+    retriever = Retriever(mode=mode)
     results = retriever.search(query, limit=limit)
 
     for i, article in enumerate(results, 1):
@@ -81,7 +83,7 @@ def search(
             f"[bold]{article['title']}[/bold]\n\n"
             f"{article['description'][:300]}{'...' if len(article['description']) > 300 else ''}\n\n"
             f"[dim]Date: {article['pubDate']}[/dim]\n"
-            f"[dim]Distance: {article['distance']:.4f}[/dim]",
+            f"[dim]Score: {article['distance']:.4f}[/dim]",
             title=f"Result {i}",
             border_style="blue",
         )
@@ -92,15 +94,17 @@ def search(
 def ask(
     question: str = typer.Argument(..., help="Question to ask"),
     limit: int = typer.Option(5, "--context", "-c", help="Number of articles for context"),
+    mode: str = typer.Option("hybrid", "--mode", "-m", help="Search mode: semantic, keyword, or hybrid"),
 ):
     """Ask a question using RAG (retrieval + generation)."""
     from src.retrieval import Retriever
     from src.generation import RAGGenerator
 
+    console.print(f"[dim]Mode: {mode}[/dim]\n")
     console.print(f"[bold]Question:[/bold] {question}\n")
 
     with console.status("[bold green]Searching for relevant articles..."):
-        retriever = Retriever()
+        retriever = Retriever(mode=mode)
         context = retriever.search(question, limit=limit)
 
     console.print(f"[dim]Found {len(context)} relevant articles[/dim]\n")
@@ -123,9 +127,12 @@ def evaluate(
     context: int = typer.Option(5, "--context", "-c", help="Number of articles for context per question"),
     ollama_concurrency: int = typer.Option(3, "--ollama-concurrency", help="Max concurrent Ollama requests"),
     eval_concurrency: int = typer.Option(5, "--eval-concurrency", help="Max concurrent RAGAS evaluation requests"),
+    mode: str = typer.Option("hybrid", "--mode", "-m", help="Search mode: semantic, keyword, or hybrid"),
 ):
     """Evaluate RAG quality using RAGAS (Faithfulness & Response Relevancy)."""
     from src.evaluation import load_questions, async_run_rag_pipeline, async_evaluate_results, save_evaluation_log
+
+    console.print(f"[dim]Mode: {mode}[/dim]\n")
 
     # Phase 1: Load questions
     try:
@@ -146,6 +153,7 @@ def evaluate(
         context_limit=context,
         ollama_concurrency=ollama_concurrency,
         progress_callback=progress_callback,
+        search_mode=mode,
     ))
     console.print("[green]RAG pipeline complete.[/green]\n")
 

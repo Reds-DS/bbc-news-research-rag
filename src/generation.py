@@ -29,6 +29,9 @@ class OllamaClient:
     def generate(self, prompt: str) -> str:
         return self.llm.invoke(prompt)
 
+    async def agenerate(self, prompt: str) -> str:
+        return await self.llm.ainvoke(prompt)
+
 
 class RAGGenerator:
     def __init__(self):
@@ -57,3 +60,7 @@ ANSWER:"""
     def answer(self, query: str, context: list[dict]) -> str:
         prompt = self._build_prompt(query, context)
         return self.client.generate(prompt)
+
+    async def aanswer(self, query: str, context: list[dict]) -> str:
+        prompt = self._build_prompt(query, context)
+        return await self.client.agenerate(prompt)

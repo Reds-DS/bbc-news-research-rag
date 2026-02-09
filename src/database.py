@@ -45,3 +45,18 @@ class ChromaDB:
 
     def get_count(self) -> int:
         return self._store._collection.count()
+
+    async def asearch(self, query: str, limit: int = 5) -> list[dict]:
+        """Async search using thread pool executor."""
+        results = await self._store.asimilarity_search_with_score(query, k=limit)
+
+        articles = []
+        for doc, score in results:
+            articles.append({
+                "title": doc.metadata.get("title", ""),
+                "description": doc.metadata.get("description", ""),
+                "pubDate": doc.metadata.get("pubDate", ""),
+                "link": doc.metadata.get("link", ""),
+                "distance": score,
+            })
+        return articles

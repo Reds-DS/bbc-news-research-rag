@@ -13,3 +13,4 @@ requests
 streamlit
 ragas
 openai
+rank-bm25

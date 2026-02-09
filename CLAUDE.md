@@ -59,3 +59,4 @@ chat.py            # Streamlit chat UI
 **Docker Services:**
 - `ollama` - Port 11434
 - `app` - Python application container (Chroma runs embedded inside the app)
+

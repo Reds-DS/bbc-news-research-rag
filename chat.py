@@ -15,7 +15,7 @@ if "messages" not in st.session_state:
 # Initialize components (cached)
 @st.cache_resource
 def get_retriever():
-    return Retriever()
+    return Retriever(mode="hybrid")
 
 
 @st.cache_resource

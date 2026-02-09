@@ -25,3 +25,6 @@ EVAL_QUESTIONS_PATH = "eval_questions.json"
 OPENAI_API_KEY = os.getenv("OPENAI_API_KEY")
 EVAL_LLM_MODEL = "gpt-4o-mini"
 EVAL_EMBEDDING_MODEL = "text-embedding-3-small"
+
+# Hybrid search settings
+RRF_K = 60  # RRF smoothing constant

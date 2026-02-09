@@ -171,8 +171,9 @@ async def async_run_rag_pipeline(
     context_limit: int = 5,
     ollama_concurrency: int = 3,
     progress_callback=None,
+    search_mode: str = "hybrid",
 ) -> list[QuestionResult]:
-    retriever = Retriever()
+    retriever = Retriever(mode=search_mode)
     generator = RAGGenerator()
     semaphore = asyncio.Semaphore(ollama_concurrency)
 
@@ -204,11 +205,13 @@ def run_rag_pipeline(
     questions: list[str],
     context_limit: int = 5,
     progress_callback=None,
+    search_mode: str = "hybrid",
 ) -> list[QuestionResult]:
     return asyncio.run(async_run_rag_pipeline(
         questions,
         context_limit=context_limit,
         progress_callback=progress_callback,
+        search_mode=search_mode,
     ))
 
 
@@ -245,6 +248,7 @@ async def async_run_evaluation(
     ollama_concurrency: int = 3,
     eval_concurrency: int = 5,
     progress_callback=None,
+    search_mode: str = "hybrid",
 ) -> EvaluationReport:
     questions = load_questions(file_path)
     results = await async_run_rag_pipeline(
@@ -252,6 +256,7 @@ async def async_run_evaluation(
         context_limit=context_limit,
         ollama_concurrency=ollama_concurrency,
         progress_callback=progress_callback,
+        search_mode=search_mode,
     )
     report = await async_evaluate_results(results, max_concurrency=eval_concurrency)
     return report
@@ -261,9 +266,11 @@ def run_evaluation(
     file_path: str,
     context_limit: int = 5,
     progress_callback=None,
+    search_mode: str = "hybrid",
 ) -> EvaluationReport:
     return asyncio.run(async_run_evaluation(
         file_path,
         context_limit=context_limit,
         progress_callback=progress_callback,
+        search_mode=search_mode,
     ))
