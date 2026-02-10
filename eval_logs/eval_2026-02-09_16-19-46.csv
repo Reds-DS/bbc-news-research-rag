@@ -1,0 +1,286 @@
+question,answer,contexts,faithfulness,response_relevancy
+What happened in Ukraine?,"The answer to the question ""What happened in Ukraine?"" cannot be found in the provided articles. These articles discuss specific topics such as the Ukraine war, care homes during the pandemic, and the Crimea bridge, but they do not provide a general summary of what happened in Ukraine.","Ukraine war: Bodies found amid reports of Russian atrocities in Kherson
+The BBC speaks to people held by Russians in Kherson, as reports of atrocities emerge from the city.
+---
+Covid: What happened to care homes early in the pandemic?
+The publication of Matt Hancock's messages focuses attention on what happened in care homes during the pandemic.
+---
+War in Ukraine: What happened on day 20 of Russia's invasion
+Three PMs visit Kyiv, while staff at a hospital in Mariupol say they are being held like hostages.
+---
+What happened on the Crimea bridge? And why does it matter?
+The BBC's analysis editor examines what happened to the bridge linking Russia with occupied Crimea.
+---
+Ukraine war: Inside the fight for the last streets of Bakhmut
+The eastern city is a crumpled, skeletal wreck. But Ukraine knows losing it could be costly.",0.6,
+Are Netflix still available in Russia?,"Unfortunately, the provided news articles do not mention whether Netflix is still available in Russia or if it has been affected by the conflict. The article about the global internet being under threat does not provide information on specific services like Netflix, and there is no other relevant information in the other articles to answer this question.","Russia-Ukraine: Is internet on verge of break-up?
+The global internet is under threat as the conflict in Ukraine continues.
+---
+Which of Europe's biggest names are still available on free transfers?
+Will Paul Pogba return to Juventus? What next for Gareth Bale? And where could Christian Eriksen end up?
+---
+Russia's independent TV Rain channel back on air from abroad
+The channel was forced to close in March over its coverage of the war in Ukraine.
+---
+Netflix raises prices as boost from password crackdown fades
+The streaming giant will charge subscribers more in some countries to fuel growth.
+---
+Whatever happened to the Novavax Covid vaccine?
+The jab, seen as an alternative for people who are vaccine-hesitant, is widely available in the EU but still not cleared for use in the UK.",1.0,
+Why families run away from Irpin?,"I couldn't find any information about ""Irpin"" in the provided articles. The articles mention Irpin only as part of the title for the article 'The families who won't evacuate Gaza City', but it's not related to the question asked. If you could provide more context or clarify which article is relevant, I'd be happy to try and help further.","Families struggle with holiday childcare costs
+Parents and campaigners say children could be missing out on important development due to high cost.
+---
+Boy, 15, stabbed to death in London
+Police said they are working to identify the suspect, who is believed to have run away from the scene.
+---
+'Like a kidnapping': Migrant family separated under Trump reunited after four years
+Campaigners say the Trump-era policy has caused irreparable harm for migrant families years later.
+---
+Life on hold: NI's missing people
+Behind the statistics of missing people are the stories of the families left behind.
+---
+The families who won't evacuate Gaza City
+Despite a looming Israeli ground assault, many families are unwilling or unable to leave northern Gaza.",0.8,
+What is the impact of russian oil on global economy?,"Unfortunately, the provided articles do not explicitly state the overall impact of Russian oil on the global economy. However, it can be inferred that the article ""Russia sanctions: How can the world cope without its oil and gas?"" suggests that many countries are heavily dependent on Russian energy and will need to find new suppliers if sanctions are imposed.
+
+The article does mention the challenges faced by Germany in abandoning Russian oil, but it does not provide a comprehensive analysis of the global impact. Therefore, I couldn't find a direct answer to the question within the provided articles.","Russia sanctions: How can the world cope without its oil and gas?
+Many countries are heavily dependent on Russian energy and will need to find new suppliers.
+---
+What impact has Brexit had on the UK economy?
+It is three years since the UK left the EU and time to start looking at the evidence.
+---
+Ukraine war: How Germany is getting rid of Russian oil
+Nowhere is the challenge of abandoning Russian oil clearer than in the refinery town, Schwedt.
+---
+What is the windfall tax on oil and gas companies?
+The government has extended the windfall tax on oil and gas companies.",1.0,
+Do you have information about what happened the day 16 in the ukraine War?,"According to Article: Ukraine: What happened on day 16 of Russia's invasion, Vladimir Putin paves the way for foreign fighters to join the war, while Russia widens its attacks. This article provides information about the events that occurred on day 16 of the Russia-Ukraine invasion.","Ukraine: What happened on day 16 of Russia's invasion
+Vladimir Putin paves the way for foreign fighters to join the war, while Russia widens its attacks.
+---
+Ukraine war: Bodies found amid reports of Russian atrocities in Kherson
+The BBC speaks to people held by Russians in Kherson, as reports of atrocities emerge from the city.
+---
+War in Ukraine: What happened on day 19 of Russia's invasion
+Drone footage shows destruction of Mariupol, and protesters target an oligarch's London mansion.
+---
+Ukraine: What happened on day 15 of Russia's invasion
+On the frontline in the battle for Kharkiv - and Ukrainians rescue their grandmothers from Russian shelling.
+---
+A-level results day: Grades and Ucas clearing explained
+When is results day and what should you do if you do not get the grades you need?",1.0,0.7428423940147812
+How many goals does cristiano scored against totenham?,"I couldn't find any information about Cristiano Ronaldo scoring a goal against Tottenham in the provided articles. If you're looking for this specific piece of information, I recommend checking other sources or BBC News articles that may have covered this event.","Pele: Brazil legend's best World Cup Goals
+Watch some of the best World Cup goals scored by legendary Brazilian forward Pele.
+---
+Sheriff Tiraspol 0-2 Man Utd: Cristiano Ronaldo and Jadon Sancho score
+Cristiano Ronaldo ends his barren spell with the first Europa League goal of his career as Manchester United earn victory at Sheriff Tiraspol.
+---
+Watch the best goals scored by January transfer window signings
+Bruno Fernandes, Jermain Defoe and Luis Suarez feature in BBC Sport's round-up of the best goals scored by January transfer window signings.
+---
+David Beckham: All 18 Premier League Beckham free-kick goals as James Ward-Prowse nears record
+BBC Sport looks back at all 18 of David Beckham's goals from free kicks in the Premier League as Southampton's James Ward-Prowse looks to equal his record.
+---
+Quiz of the week: What was Cristiano Ronaldo's off-field own goal?
+How closely have you been paying attention to what's been going on over the past seven days?",0.3333333333333333,
+How many goals does cristiano scored in the match manchester united vs totenham?,"I don't have any information about a match between Manchester United and Tottenham from the provided articles. The articles only mention matches played by Manchester United against Leeds United, Sheriff Tiraspol (Europa League), and also discuss Cristiano Ronaldo's goals in general, but there is no specific match against Tottenham mentioned.","Manchester United 2-2 Leeds United: Jadon Sancho goal earns home side point in thriller
+Jadon Sancho scores on his Premier League return as Manchester United recover from two goals down to draw with Leeds.
+---
+Cristiano Ronaldo: Is his Manchester United career over? MOTD2 analysis
+Match of the Day 2's Jermaine Jenas and Jermain Defoe discuss Cristiano Ronaldo's future at Manchester United after he said in an interview he felt ""betrayed"" by the club.
+---
+David Beckham: All 18 Premier League Beckham free-kick goals as James Ward-Prowse nears record
+BBC Sport looks back at all 18 of David Beckham's goals from free kicks in the Premier League as Southampton's James Ward-Prowse looks to equal his record.
+---
+Sheriff Tiraspol 0-2 Man Utd: Cristiano Ronaldo and Jadon Sancho score
+Cristiano Ronaldo ends his barren spell with the first Europa League goal of his career as Manchester United earn victory at Sheriff Tiraspol.
+---
+Match of the Day analysis: How Ilkay Gundogan won the Premier League for Manchester City
+Match of the Day pundits Ian Wright and Alan Shearer analyse Manchester City's stunning late comeback to win the Premier League title, highlighting the performance of Ilkay Gundogan, who scored two goals off the bench.",0.8,
+Summarize the information about the ukraine war in the day of 10 march 2022,"I don't have any articles from March 10, 2022. The latest article I have available is from March 13, 2022, which mentions that on day 18 of Russia's invasion, a military base near the Polish border was attacked, and the UK announced a scheme to house refugees.","Ukraine war in maps: Tracking the Russian invasion
+Fighting intensifies in eastern Ukraine and Russian forces prepare a new assault on the steelworks in Mariupol
+---
+Ukraine war: The women sharing their memories of Ukraine before the war
+Four women who shared viral videos of Ukraine before the war speak to the BBC about those memories.
+---
+Ukraine war: On the front line with troops in Kherson region
+The BBC’s Abdujalil Abdurasulov reports from Ukrainian front line positions in the Kherson region
+---
+1,000 Days of War
+Three Ukrainians on how their lives have changed and their hopes for peace
+---
+War in Ukraine: What happened on day 18 of Russia's invasion
+A military base near the Polish border is attacked, and the UK announces a scheme to house refugees.",0.5,
+Summarize the information about the ukraine war in the day of 10/03/2022,"I couldn't find any information about the Ukraine war on October 3rd, 2022 from the provided articles. The latest article about Ukraine war is dated February 23rd, 2023, which commemorates the one-year anniversary of Russia's invasion.
+
+The other articles provide general information about the conflict and its developments up to March 13th, 2022, but do not mention specific events or dates in October 2022.","Ukraine war in maps: Tracking the Russian invasion
+Fighting intensifies in eastern Ukraine and Russian forces prepare a new assault on the steelworks in Mariupol
+---
+Ukraine war: The women sharing their memories of Ukraine before the war
+Four women who shared viral videos of Ukraine before the war speak to the BBC about those memories.
+---
+Newscast
+The future of conflicts in the Middle East, Russia and Ukraine
+---
+War in Ukraine: What happened on day 18 of Russia's invasion
+A military base near the Polish border is attacked, and the UK announces a scheme to house refugees.
+---
+Ukraine war: One year in 87 seconds on anniversary
+On 24 February 2022, Vladimir Putin sent troops into Ukraine, hoping to take over the country in a matter of days.",0.4,
+What happened in the french election?,"According to the articles provided, here's a summary of what happened in the French elections:
+
+Emmanuel Macron was re-elected as President of France, but he lost his majority in the National Assembly. A five-party alliance led by Jean-Luc Mélenchon aimed to deny him control of parliament. The Russian invasion of Ukraine has been mentioned as a factor that shook up the election process and gave Macron a boost in the presidential race.
+
+However, it's worth noting that the specific events leading up to the election, such as any protests or demonstrations at the Champions League final, are not discussed in these articles.","What happened at the Champions League final?
+Eyewitnesses give accounts that cast doubt on French claims that fake tickets caused the chaos.
+---
+French elections: Putin's war gives Macron boost in presidential race
+Russia's invasion of Ukraine has shaken up France's presidential elections, with only three weeks to go.
+---
+Newspaper headlines: Macron re-elected and 'Tory rebels plot to oust PM'
+Emmanuel Macron's victory in the French presidential election and disquiet among Conservative MPs lead the papers
+---
+French elections: Left unites to threaten Macron in parliamentary vote
+A five-party alliance led by Jean-Luc Mélenchon aims to deny the president control of parliament.
+---
+French elections: Macron loses majority as French vote fragments
+Less than two months after re-election, the president loses control of the National Assembly.",1.0,0.844009566331039
+What is the result of the french election?,"Unfortunately, the provided articles do not mention a specific numerical result for the French election. However, they do provide some context and information about the outcome:
+
+* Emmanuel Macron has secured the largest share of the vote in the presidential election (France election: Macron supporters cheer first projections).
+* Less than two months after re-election, President Macron loses control of the National Assembly (French elections: Macron loses majority as French vote fragments).
+
+It's worth noting that the article on Curtice mentions that polls are the last big test of the Westminster government's popularity before the next election, but it does not provide information on the specific results of the French election.","French election 2022: What happened on the night?
+Macron arrives to jubilant scenes at the Eiffel Tower, while there's disappointment for those gathering with Le Pen.
+---
+Curtice: What could the local elections mean for the general election?
+The polls are the last big test of the Westminster government's popularity before the next election.
+---
+France election: Macron supporters cheer first projections
+The incumbent, Emmanuel Macron, has secured the largest share of the vote in the presidential election.
+---
+France's snap election: Will President Macron's gamble pay off?
+The French president dropped a bombshell after his party was beaten in EU elections
+---
+French elections: Macron loses majority as French vote fragments
+Less than two months after re-election, the president loses control of the National Assembly.",0.875,
+Who won the match real madrid vs chelsea?,Real Madrid and Chelsea drew the match 1-1.,"Real Madrid 1-0 Union Berlin: Late Jude Bellingham winner beats Champions League debutants
+Jude Bellingham scores an injury-time tap-in as Real Madrid leave it late to beat Champions League debutants Union Berlin.
+---
+Match of the Day Top 10: Gary Lineker relives Barcelona hat-trick against Real Madrid
+Gary Lineker explains why the referee refused to give away the El Clasico match ball as he relives his hat-trick against Real Madrid.
+---
+Real Madrid 1-1 Chelsea: Blues miss chance to confirm Champions League knockout place
+Chelsea draw 1-1 at Real Madrid to miss chance to wrap up qualification for Women's Champions League quarter-finals.
+---
+Real Madrid 3-1 Paris St-Germain (3-2 agg): Karim Benzema hat-trick inspires superb Real fightback
+Karim Benzema scores a superb second-half hat-trick as Real Madrid produce a stirring fightback at a raucous Bernabeu to reach the Champions League quarter-finals at the expense of Paris St-Germain.
+---
+Real Madrid maintain perfect start with 2-1 victory over Real Sociedad
+Real Madrid continue their perfect start to the La Liga campaign with victory over Real Sociedad.",1.0,0.8496723114458274
+What happened in buccha?,"According to the article ""Ukraine war: Bucha street littered with burned-out tanks and corpses"", Bucha was devastated by a large-scale battle between Ukrainian forces and Russian soldiers. The BBC team that witnessed the area reported finding streets littered with burned-out tanks, corpses, and other signs of intense fighting.","Hawara: 'What happened was horrific and barbaric'
+Residents in the occupied West Bank area tell the BBC a mob went on an hours-long rampage.
+---
+Covid: What happened to care homes early in the pandemic?
+The publication of Matt Hancock's messages focuses attention on what happened in care homes during the pandemic.
+---
+What happened on the Crimea bridge? And why does it matter?
+The BBC's analysis editor examines what happened to the bridge linking Russia with occupied Crimea.
+---
+Linda Razzell: Killer's chance to reveal what happened to missing mum
+A public parole hearing could see Glyn Razzell finally reveal what happened to his wife Linda.
+---
+Ukraine war: Bucha street littered with burned-out tanks and corpses
+A BBC team witnesses utter devastation in the town of Bucha, after Russian soldiers pulled out.",0.6,0.5227259127921416
+Who is the actual president of united states?,"Based on the provided news articles, the answer cannot be found. The article ""Election Results (Part 2): Donald Trump Elected President"" mentions that Donald Trump was elected as the President of the United States in the recent election, but it does not confirm whether he is currently the president at the time of reading or has taken office.","Profile: Who is Donald Trump? (Part 1… The Brand)
+How the man became The Donald
+---
+More than 40,000 killed in Gaza, Hamas-run health ministry says
+The actual number of people killed in the war is likely to be higher, local officials say.
+---
+Macron: I am president for everyone
+After becoming the first French president re-elected in 20 years, Emmanuel Macron told supporters he was ""the president of all.""
+---
+Election Results (Part 2): Donald Trump Elected President
+Is this the biggest political comeback in US history?
+---
+Is the U.S. president now above the law?
+All you need to know about the Supreme Court’s ruling.",1.0,
+What is the actual price of bitcoin?,"Unfortunately, none of the provided articles specify the current or actual price of Bitcoin. They only mention that its value has crashed and been at an 18-month low, but do not provide a specific price.","What is the energy price cap and how high will bills go?
+A typical household bill is now predicted to reach £4,000 in January.
+---
+Macallan: Rare Scotch whisky becomes world's most expensive bottle at £2.1m
+""I tasted a tiny drop,"" says Sotheby's head of whisky as The Macallan 1926 exceeds its estimated price.
+---
+Bitcoin: Why is the largest cryptocurrency crashing?
+The value of Bitcoin is at an 18-month low, as the cryptocurrency market continues to tumble.
+---
+Bitcoin: Missing hard drive could fund Newport crypto hub
+Nearly 10 years after binning the hard drive, it is thought the Bitcoin on it could be worth £150m.
+---
+Tesla sells most of its Bitcoin holdings
+The deal comes as the value of the cryptocurrency has plunged.",1.0,
+Does andrew Tate have a brother?,"Yes, Andrew Tate has a brother named Tristan Tate. He is also involved in the human trafficking and rape investigation with his brother in Romania.","Andrew Tate charged with rape and human trafficking
+Andrew Tate and his brother charged in Romania over human trafficking and sexual exploitation.
+---
+Andrew Tate banned from Facebook and Instagram
+Meta removes influencer Andrew Tate from its platforms for violating its policies.
+---
+Who is Andrew Tate? The self-proclaimed misogynist influencer
+The 36-year-old former kickboxer once said women should ""bear responsibility"" for sexual assault.
+---
+Andrew Tate: See luxury villa where brothers are under house arrest
+The BBC's Lucy Williamson is outside the compound where Andrew Tate and brother Tristan are confined.
+---
+What does Andrew Tate promise his followers?
+The controversial influencer has been detained in Romania as part of a human trafficking and rape investigation.",1.0,0.8179436149471226
+What is the GDP of France in 2023?,"I can't provide information on the GDP of France for the year 2023 based on the provided articles. The articles don't mention GDP data or economic statistics for any country, including France.","What is GDP and how does it affect me?
+How the health of the economy is measured, and why the GDP calculation matters.
+---
+What is GDP and how is it measured?
+A basic guide to how the economy is measured and why that calculation matters.
+---
+World Cup 2022: Mbappe dominates in France's goals of the World Cup so far
+Watch all of France's goals from the 2022 World Cup in Qatar as they prepare to take on Morocco in the semi-finals.
+---
+How will the UK economy compare to other countries in 2024?
+After a tough 2023, will things improve for the UK and other economies in the new year?",1.0,
+How it is calculated the GDP of a country?,"According to BBC News articles, the GDP (Gross Domestic Product) of a country is typically calculated using three main components:
+
+1. Consumption: This includes personal spending by households.
+2. Investment: This includes business investments in new capital, such as buildings and equipment.
+3. Government Spending: This includes government expenditure on goods and services.
+4. Net Exports: This includes the value of exports minus imports.
+
+These four components are added together to give the total GDP.","What is GDP and how does it affect me?
+How the health of the economy is measured, and why the GDP calculation matters.
+---
+What is GDP and how is it measured?
+A basic guide to how the economy is measured and what that calculation is used for.",,0.7208345359801579
+Are women in danger in Yemen?,"Unfortunately, the answer to this question cannot be found in the provided articles. While one of the articles mentions Yemen as a location for a ""forgotten war"", it doesn't specifically address whether women are in danger there. The other articles discuss women's experiences and rights in different countries (Qatar, England, Iran, Afghanistan), but not Yemen.","Qatar: Why women feel safer at World Cup 2022
+Many female fans say they welcome the ban on selling alcohol in World Cup stadiums.
+---
+England's defence in danger after Australia defeat
+England's T20 World Cup defence is already in danger after a damaging 36-run defeat by Australia in Barbados.
+---
+Yemen: The children of a forgotten war
+A rare glimpse of a fractured conflict where the young are stalked by war and hunger.
+---
+Iran's women a year after Mahsa Amini's death: 'I wear what I like now'
+Iran's protests may have subsided, but women have found new ways to defy the country's regime.
+---
+Life as a woman under Taliban rule
+How are Afghanistan’s women and girls coping with harsh new restrictions?",0.8333333333333334,
+What does women face in Yemen?,"Unfortunately, I couldn't find any information about what women specifically face in Yemen from the provided articles. The article ""Yemen: The children of a forgotten war"" discusses the impact of the conflict on children, but it doesn't provide specific details about the experiences or challenges faced by women in Yemen.","Life as a woman under Taliban rule
+How are Afghanistan’s women and girls coping with harsh new restrictions?
+---
+A-levels: How does clearing work and what are the options?
+Some students face tough decisions after finding out their A-level results on Thursday.
+---
+Yemen: The children of a forgotten war
+A rare glimpse of a fractured conflict where the young are stalked by war and hunger.
+---
+Iran's women a year after Mahsa Amini's death: 'I wear what I like now'
+Iran's protests may have subsided, but women have found new ways to defy the country's regime.
+---
+Afghanistan: Women’s faces become latest Taliban restriction after face veil rule
+“They are always after women” rather than tackling Afghanistan’s many problems, one activist told the BBC.",1.0,

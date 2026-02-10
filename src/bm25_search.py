@@ -1,12 +1,13 @@
 from rank_bm25 import BM25Okapi
 from src.database import ChromaDB
-from src.config import RRF_K
+from src.config import HYBRID_BETA
 
 
 class BM25Index:
     """In-memory BM25 index built from ChromaDB collection."""
 
     def __init__(self, db: ChromaDB):
+        """Build the BM25 index from all documents in the given ChromaDB instance."""
         self.db = db
         self._documents = []
         self._corpus = []
@@ -14,6 +15,7 @@ class BM25Index:
         self._build_index()
 
     def _build_index(self):
+        """Fetch all documents from ChromaDB and build the BM25Okapi index."""
         # Fetch all documents from ChromaDB
         collection = self.db._store._collection
         results = collection.get(include=["documents", "metadatas"])
@@ -33,6 +35,7 @@ class BM25Index:
             self._bm25 = BM25Okapi(self._corpus)
 
     def search(self, query: str, limit: int = 5) -> list[dict]:
+        """Search the BM25 index and return the top-k matching article dicts."""
         if not self._bm25:
             return []
 
@@ -51,38 +54,57 @@ class BM25Index:
         return results
 
 
-def reciprocal_rank_fusion(
+def _min_max_normalize(scores: list[float]) -> list[float]:
+    """Normalize scores to [0, 1] using min-max scaling."""
+    min_s = min(scores)
+    max_s = max(scores)
+    span = max_s - min_s
+    if span == 0:
+        return [0.0] * len(scores)
+    return [(s - min_s) / span for s in scores]
+
+
+def beta_score_fusion(
     semantic_results: list[dict],
     keyword_results: list[dict],
-    k: int = 60,
+    beta: float | None = None,
 ) -> list[dict]:
-    """Combine semantic and keyword results using RRF."""
-    k = RRF_K
+    """Combine semantic and keyword results using beta-weighted score fusion.
 
-    # Build score map: link -> (rrf_score, doc)
-    scores = {}
+    final_score = beta * semantic_norm + (1 - beta) * keyword_norm
+    """
+    if beta is None:
+        beta = HYBRID_BETA
 
-    for rank, doc in enumerate(semantic_results):
+    # Normalize scores per result list
+    if semantic_results:
+        sem_scores = _min_max_normalize([d["distance"] for d in semantic_results])
+    else:
+        sem_scores = []
+    if keyword_results:
+        kw_scores = _min_max_normalize([d["distance"] for d in keyword_results])
+    else:
+        kw_scores = []
+
+    # Build score map: link -> (combined_score, doc)
+    scores: dict[str, tuple[float, dict]] = {}
+
+    for doc, norm in zip(semantic_results, sem_scores):
         link = doc["link"]
-        rrf = 1.0 / (k + rank + 1)
-        if link in scores:
-            scores[link] = (scores[link][0] + rrf, doc)
-        else:
-            scores[link] = (rrf, doc)
+        scores[link] = (beta * norm, doc)
 
-    for rank, doc in enumerate(keyword_results):
+    for doc, norm in zip(keyword_results, kw_scores):
         link = doc["link"]
-        rrf = 1.0 / (k + rank + 1)
         if link in scores:
-            scores[link] = (scores[link][0] + rrf, scores[link][1])
+            prev_score, prev_doc = scores[link]
+            scores[link] = (prev_score + (1 - beta) * norm, prev_doc)
         else:
-            scores[link] = (rrf, doc)
+            scores[link] = ((1 - beta) * norm, doc)
 
-    # Sort by RRF score descending
+    # Sort descending by combined score
     sorted_results = sorted(scores.values(), key=lambda x: x[0], reverse=True)
 
-    # Return docs with RRF score as distance
     return [
-        {**doc, "distance": rrf_score}
-        for rrf_score, doc in sorted_results
+        {**doc, "distance": combined}
+        for combined, doc in sorted_results
     ]

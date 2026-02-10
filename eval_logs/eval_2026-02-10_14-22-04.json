@@ -1,0 +1,264 @@
+{
+  "timestamp": "2026-02-10T14:22:04",
+  "num_questions": 20,
+  "avg_faithfulness": 0.8204487179487179,
+  "avg_response_relevancy": 0.20345340192546205,
+  "results": [
+    {
+      "question": "What happened in Ukraine?",
+      "answer": "Based on the provided articles, here's an answer to your question:\n\nAccording to the article \"Ukraine conflict: Your guide to understanding day 11\", more than 1.5 million Ukrainians have fled the country due to the ongoing war. However, the article does not provide a detailed account of what is happening in Ukraine itself, but rather provides an overview and context for those trying to understand the situation.\n\nIf you're looking for specific information on the current situation in Ukraine, I would recommend checking more recent news articles or official sources for updates.",
+      "contexts": [
+        "Ukraine conflict: Your guide to understanding day 11\nMore than 1.5 million Ukrainians have fled the country. Here's what you need to know after day 11 of the war.",
+        "What do we know about the incident?\nCatastrophic floods engulf towns and villages in southern Ukraine after a major dam was destroyed.",
+        "Covid: What happened to care homes early in the pandemic?\nThe publication of Matt Hancock's messages focuses attention on what happened in care homes during the pandemic.",
+        "What happened on the Crimea bridge? And why does it matter?\nThe BBC's analysis editor examines what happened to the bridge linking Russia with occupied Crimea.",
+        "Linda Razzell: Killer's chance to reveal what happened to missing mum\nA public parole hearing could see Glyn Razzell finally reveal what happened to his wife Linda."
+      ],
+      "faithfulness": 0.5,
+      "response_relevancy": 0.0
+    },
+    {
+      "question": "Are Netflix still available in Russia?",
+      "answer": "Unfortunately, the provided articles do not mention whether Netflix is still available in Russia. The article \"Quiz of the week: What replaced McDonald's in Russia?\" does provide information on what replaced McDonald's in Russia, but it does not address the availability of Netflix in the country.",
+      "contexts": [
+        "Quiz of the week: What replaced McDonald's in Russia?\nHow closely have you been paying attention to what's been going on over the past seven days?",
+        "Netflix: Why some viewers are unsubscribing and switching off\nThe dominance of the world's biggest streaming platform could be starting to weaken.",
+        "Netflix: How did the streaming service turn its fortunes around?\nThe streamer has grown its subscriber base after two consecutive quarters of losses.",
+        "Have we seen peak Netflix?\nThe streaming giant is losing subscribers despite huge hits like Squid Game and Bridgerton.",
+        "Which of Europe's biggest names are still available on free transfers?\nWill Paul Pogba return to Juventus? What next for Gareth Bale? And where could Christian Eriksen end up?"
+      ],
+      "faithfulness": 1.0,
+      "response_relevancy": 0.0
+    },
+    {
+      "question": "Why families run away from Irpin?",
+      "answer": "According to the article \"War in Ukraine: 'It's hell, it's really hell' - Families flee bombs in Irpin\", families are running away from Irpin because of the constant bombardment by Russian shells. The article describes a scene where civilians with backpacks try to outpace the Russian shells, indicating that they are fleeing due to the danger posed by the ongoing conflict.",
+      "contexts": [
+        "Ukraine war: One shell that destroyed a family\nA woman recounts the moment her husband and son were killed by a Russian shell in the town of Irpin.",
+        "One Romanian family's fatal attempt to reach the US\nWhat drove the Iordache family to make a desperate bid to reach the US from Canada?",
+        "Boy, 15, stabbed to death in London\nPolice said they are working to identify the suspect, who is believed to have run away from the scene.",
+        "Why some farmers are turning away from the Tories\nThe mood is shifting in an industry destabilised by economic shocks and post-Brexit reforms.",
+        "War in Ukraine: 'It's hell, it's really hell' - Families flee bombs in Irpin\nSilent and weeping, a stream of civilians with backpacks try to outpace the Russian shells."
+      ],
+      "faithfulness": 1.0,
+      "response_relevancy": 0.7486953457504132
+    },
+    {
+      "question": "What is the impact of russian oil on global economy?",
+      "answer": "Unfortunately, I couldn't find any information about the specific impact of Russian oil on the global economy in the provided articles. However, we can make some educated guesses based on general knowledge.\n\nThe articles do mention that Russia says it may cut off gas supplies if countries decide to ban Russian oil (Article 1), and that Germany is getting rid of Russian oil (Article 3). Additionally, Article 2 discusses the impact of Brexit on the UK economy, but doesn't specifically address the global economy's reliance on Russian oil.\n\nHowever, we can infer that a reduction in Russian oil exports could have significant economic implications for countries that rely heavily on it. This might include increased energy costs, reduced economic growth, and potential disruptions to global supply chains.\n\nIf you're looking for more specific information on the impact of Russian oil on the global economy, I'd recommend searching for additional news articles or economic reports that focus on this topic.",
+      "contexts": [
+        "Ukraine war: How reliant is the world on Russia for oil and gas?\nRussia says it may cut off gas supplies if countries decided to ban Russian oil.",
+        "What impact has Brexit had on the UK economy?\nIt is three years since the UK left the EU and time to start looking at the evidence.",
+        "Ukraine war: How Germany is getting rid of Russian oil\nNowhere is the challenge of abandoning Russian oil clearer than in the refinery town, Schwedt.",
+        "What is the windfall tax on oil and gas companies?\nThe government has extended the windfall tax on oil and gas companies."
+      ],
+      "faithfulness": 0.5,
+      "response_relevancy": 0.0
+    },
+    {
+      "question": "Do you have information about what happened the day 16 in the ukraine War?",
+      "answer": "According to the article \"Ukraine: What happened on day 16 of Russia's invasion\", Vladimir Putin paves the way for foreign fighters to join the war, while Russia widens its attacks.",
+      "contexts": [
+        "War in Ukraine: What happened on day 18 of Russia's invasion\nA military base near the Polish border is attacked, and the UK announces a scheme to house refugees.",
+        "Ukraine: What happened on day 16 of Russia's invasion\nVladimir Putin paves the way for foreign fighters to join the war, while Russia widens its attacks.",
+        "Ukraine conflict: Your guide to understanding day 11\nMore than 1.5 million Ukrainians have fled the country. Here's what you need to know after day 11 of the war.",
+        "Ukraine conflict: Your guide to understanding day 14\nA hospital is attacked as civilians try to escape. Here is your guide to the 14th day of fighting.",
+        "A-level results day: Grades and Ucas clearing explained\nWhen is results day and what should you do if you do not get the grades you need?"
+      ],
+      "faithfulness": 1.0,
+      "response_relevancy": 0.6709568941394338
+    },
+    {
+      "question": "How many goals does cristiano scored against totenham?",
+      "answer": "I couldn't find any information about Cristiano Ronaldo scoring goals against Tottenham in the provided articles. The articles only mention his performances and goals for Manchester United, as well as a few other teams (Chelsea and Everton), but not specifically against Tottenham.",
+      "contexts": [
+        "Cristiano Ronaldo: Will forward and Manchester United agree an exit strategy with 'the end in sight'?\nAfter Cristiano Ronaldo was left out of the squad to face Chelsea on Saturday, does the Portugal forward have a future at Manchester United?",
+        "Quiz of the week: What was Cristiano Ronaldo's off-field own goal?\nHow closely have you been paying attention to what's been going on over the past seven days?",
+        "Everton 1-2 Man Utd: Cristiano Ronaldo scores 700th club goal as visitors come from behind to win\nCristiano Ronaldo scores his 700th club goal as Manchester United come from behind to beat Everton at Goodison Park in the Premier League.",
+        "Pele: Brazil legend's best World Cup Goals\nWatch some of the best World Cup goals scored by legendary Brazilian forward Pele.",
+        "Manchester United 1-1 Chelsea: Cristiano Ronaldo scores 17th goal of the season in draw\nCristiano Ronaldo scores his 17th goal of the season to earn Manchester United a point after David de Gea frustrates Chelsea with several superb saves at Old Trafford."
+      ],
+      "faithfulness": 0.8,
+      "response_relevancy": 0.0
+    },
+    {
+      "question": "How many goals does cristiano scored in the match manchester united vs totenham?",
+      "answer": "I don't see any information about a match between Manchester United and Tottenham in the provided articles. The articles only mention matches against Chelsea, Everton, and do not include Tottenham.",
+      "contexts": [
+        "Manchester United 4-1 Chelsea: Hosts secure Champions League place with thumping win\nManchester United secure Champions League football for next season with a 4-1 win over Chelsea at Old Trafford.",
+        "Manchester United 2-1 Chelsea: Scott McTominay double lands hosts crucial win\nScott McTominay scores twice as Manchester United claim a morale-boosting victory over Chelsea at Old Trafford.",
+        "Everton 1-2 Man Utd: Cristiano Ronaldo scores 700th club goal as visitors come from behind to win\nCristiano Ronaldo scores his 700th club goal as Manchester United come from behind to beat Everton at Goodison Park in the Premier League.",
+        "Manchester United 1-1 Chelsea: Cristiano Ronaldo scores 17th goal of the season in draw\nCristiano Ronaldo scores his 17th goal of the season to earn Manchester United a point after David de Gea frustrates Chelsea with several superb saves at Old Trafford.",
+        "Cristiano Ronaldo: Is his Manchester United career over? MOTD2 analysis\nMatch of the Day 2's Jermaine Jenas and Jermain Defoe discuss Cristiano Ronaldo's future at Manchester United after he said in an interview he felt \"betrayed\" by the club."
+      ],
+      "faithfulness": 1.0,
+      "response_relevancy": 0.5038836824238221
+    },
+    {
+      "question": "Summarize the information about the ukraine war in the day of 10 march 2022",
+      "answer": "I couldn't find any information about Ukraine war on March 10, 2022, from the provided articles. The article \"Ukraine conflict: Your guide to understanding day 11\" provides an overview of the situation after day 11 (March 6), but it does not specifically cover day 10.",
+      "contexts": [
+        "Ukraine war: New Christmas date marks shift away from Russia\nThis year Ukraine will celebrate Christmas on 25 December - moving away from the Russian calendar.",
+        "Ukraine moves Christmas Day in snub to Russia\nUkraine will now mark Christmas Day on 25 December - the latest step to distance itself from Russia.",
+        "Eurovision 2022: Highlights of Ukraine's winning night\nUkraine won the Eurovision song contest 2022, with the UK coming second, its best result since 1998.",
+        "Ukraine war: The women sharing their memories of Ukraine before the war\nFour women who shared viral videos of Ukraine before the war speak to the BBC about those memories.",
+        "Ukraine conflict: Your guide to understanding day 11\nMore than 1.5 million Ukrainians have fled the country. Here's what you need to know after day 11 of the war."
+      ],
+      "faithfulness": 1.0,
+      "response_relevancy": 0.0
+    },
+    {
+      "question": "Summarize the information about the ukraine war in the day of 10/03/2022",
+      "answer": "I couldn't find any information about the Ukraine war on Day 10 (March 10, 2022) from the provided articles. The article \"Ukraine conflict: Your guide to understanding day 11\" mentions that more than 1.5 million Ukrainians have fled the country after Day 11 of the war, but it does not provide information about Day 10 specifically.",
+      "contexts": [
+        "Ukraine war: Five ways conflict could go in 2023\nAs the conflict enters its second calendar year, experts predict what could happen on the ground.",
+        "The Ukrainian triplets born into war\nEmilia, Melania and Olivia were born in Ukraine on the day Russian troops invaded in 2022.",
+        "Eurovision 2022: Highlights of Ukraine's winning night\nUkraine won the Eurovision song contest 2022, with the UK coming second, its best result since 1998.",
+        "Ukraine conflict: Your guide to understanding day 11\nMore than 1.5 million Ukrainians have fled the country. Here's what you need to know after day 11 of the war.",
+        "Ukraine war: The women sharing their memories of Ukraine before the war\nFour women who shared viral videos of Ukraine before the war speak to the BBC about those memories."
+      ],
+      "faithfulness": 1.0,
+      "response_relevancy": 0.0
+    },
+    {
+      "question": "What happened in the french election?",
+      "answer": "According to the provided articles, here is a summary of what happened in the French election:\n\nOn Sunday, voters rejected the far-right candidate and instead chose a different path. The exact outcome depends on which specific election you are referring to (the 2022 or 2024 elections). However, both articles suggest that the result was a shock.\n\nIn the 2022 election, President Macron lost control of the National Assembly, despite re-election just less than two months prior.\n\nIn the 2024 election, voters rejected the far-right candidate and instead chose another path. The exact details of this outcome are not specified in the provided articles, but it is mentioned that the campaign was \"ugly\" and that leaders made appeals to voters ahead of the historic vote.",
+      "contexts": [
+        "France ends ugly campaign and draws breath before historic vote\nFrance’s sometimes violent election campaign closes with appeals from leaders ahead of Sunday’s vote.",
+        "What happened at the Champions League final?\nEyewitnesses give accounts that cast doubt on French claims that fake tickets caused the chaos.",
+        "French people reject the far right  - again\nVoters have turned out in large number to produce a shock result, writes the BBC's Hugh Schofield.",
+        "French elections: Macron loses majority as French vote fragments\nLess than two months after re-election, the president loses control of the National Assembly.",
+        "French election 2022: What happened on the night?\nMacron arrives to jubilant scenes at the Eiffel Tower, while there's disappointment for those gathering with Le Pen."
+      ],
+      "faithfulness": 0.5833333333333334,
+      "response_relevancy": 0.0
+    },
+    {
+      "question": "What is the result of the french election?",
+      "answer": "According to the article \"French elections: Macron loses majority as French vote fragments\" (Date: Mon, 20 Jun 2022 00:37:10 GMT), France's President Macron lost control of the National Assembly, indicating that his left-wing bloc won the election. However, it is noted that the president loses control of the National Assembly, suggesting a loss of majority.",
+      "contexts": [
+        "After France's election shock comes the real power struggle\nFrance’s left-wing bloc has won the election - now the real battle begins, writes Andrew Harding.",
+        "Curtice: What could the local elections mean for the general election?\nThe polls are the last big test of the Westminster government's popularity before the next election.",
+        "French elections: Macron loses majority as French vote fragments\nLess than two months after re-election, the president loses control of the National Assembly.",
+        "Sudan fighting: The military rivalry behind the clashes in Khartoum\nThe fighting is a direct result of a vicious power struggle within the military leadership.",
+        "Where are the seats that could decide the election?\nThe parties' top battleground targets across the UK. "
+      ],
+      "faithfulness": 0.5,
+      "response_relevancy": 0.6976473072372691
+    },
+    {
+      "question": "Who won the match real madrid vs chelsea?",
+      "answer": "The answer can be found in Article Title: \"Real Madrid 2-0 Chelsea: Blues' Champions League ambitions dented by the holders\" and also in Article Title: \"Chelsea 2-1 Real Madrid: Emma Hayes' side progress to Women's Champions League quarter-finals as group winners\".",
+      "contexts": [
+        "Chelsea face biggest escapology task yet to overturn Champions League deficit against Real Madrid\nChelsea have a habit of snatching successes in the face of adversity but is a Champions League turnaround against Real Madrid beyond them?",
+        "Chelsea 2-1 Real Madrid: Emma Hayes' side progress to Women's Champions League quarter-finals as group winners\nChelsea are through to the quarter-finals of the Women's Champions League as group winners after grinding out a victory over Real Madrid at Stamford Bridge.",
+        "Real Madrid 2-0 Chelsea: Blues' Champions League ambitions dented by the holders\nChelsea have it all to do if they are to advance to the Champions League semi-finals as they lose to holders Real Madrid at the Bernabeu.",
+        "Match of the Day Top 10: Gary Lineker relives Barcelona hat-trick against Real Madrid\nGary Lineker explains why the referee refused to give away the El Clasico match ball as he relives his hat-trick against Real Madrid.",
+        "Real Madrid 1-1 Chelsea: Blues miss chance to confirm Champions League knockout place\nChelsea draw 1-1 at Real Madrid to miss chance to wrap up qualification for Women's Champions League quarter-finals."
+      ],
+      "faithfulness": 1.0,
+      "response_relevancy": 0.0
+    },
+    {
+      "question": "What happened in buccha?",
+      "answer": "Based on the provided articles, it appears that Bucha was a town in Ukraine that suffered significant damage and atrocities at the hands of Russian soldiers. Here are some key events that occurred in Bucha:\n\n* The town was occupied by Russian forces, leading to widespread destruction and human rights abuses.\n* Mass graves were discovered, and a massive operation was launched to collect and identify the bodies of those who had been killed or died under unclear circumstances.\n* The streets of Bucha were found littered with burned-out tanks and corpses, indicating the scale of the violence that took place there.\n* A BBC team witnessed utter devastation in the town, describing it as a \"scene from hell\".\n* The Russian soldiers' withdrawal from the area left behind a trail of destruction and a legacy of trauma for the local population.\n\nIt's worth noting that the articles do not provide a comprehensive or detailed account of what happened in Bucha, but rather offer a snapshot of the devastating impact of the conflict on the town and its inhabitants.",
+      "contexts": [
+        "Ukraine war: No quick return to normal for scarred Bucha\nEverything has changed in this town since the Russians came, and horrific memories will not easily be erased.",
+        "Head of village near Bucha killed with family in Ukraine\nThe BBC sees further evidence of alleged atrocities in areas recently occupied by Russia.",
+        "Ukraine war: Bucha street littered with burned-out tanks and corpses\nA BBC team witnesses utter devastation in the town of Bucha, after Russian soldiers pulled out.",
+        "Collecting the dead in Bucha\nAfter the discovery of the atrocities in Bucha, a massive operation to find the bodies began.",
+        "Covid: What happened to care homes early in the pandemic?\nThe publication of Matt Hancock's messages focuses attention on what happened in care homes during the pandemic."
+      ],
+      "faithfulness": 0.6923076923076923,
+      "response_relevancy": 0.5124567961187191
+    },
+    {
+      "question": "Who is the actual president of united states?",
+      "answer": "Based on the provided articles, it appears that Donald Trump has been elected as the President of the United States. However, I couldn't find any information about his inauguration or confirmation as the President in these specific articles. \n\nTo confirm, you may need to look for additional news articles or sources that report on the official transition of power and Trump's presidency.",
+      "contexts": [
+        "Will the US ever elect a female president?\nAnd what's next for Trump's enemies?",
+        "Is the U.S. president now above the law?\nAll you need to know about the Supreme Court’s ruling.",
+        "America and... the World\nWhat is the US relationship with the world today and how would Trump and Harris shape it?",
+        "Election Results (Part 2): Donald Trump Elected President\nIs this the biggest political comeback in US history?",
+        "More than 40,000 killed in Gaza, Hamas-run health ministry says\nThe actual number of people killed in the war is likely to be higher, local officials say."
+      ],
+      "faithfulness": 1.0,
+      "response_relevancy": 0.0
+    },
+    {
+      "question": "What is the actual price of bitcoin?",
+      "answer": "The answer cannot be found in the provided articles. The articles discuss Bitcoin and its value, but they do not provide a specific price for it. They mention that there will only ever be 21 million bitcoins, which implies that the total supply is fixed, but does not give an indication of the current market price.",
+      "contexts": [
+        "How big banks are becoming 'Bitcoin whales'\nThere will only ever be 21 million bitcoins, and US financial giants are buying up thousands.",
+        "Missing cryptoqueen: Is Dr Ruja Ignatova the biggest Bitcoin holder?\nAs the FBI adds Ruja Ignatova to its most wanted list, new findings suggest she amassed billions in Bitcoin.",
+        "Hunt for Bitcoin's elusive creator Satoshi Nakamoto hits another dead-end\nWhy are still no closer to unmasking the mysterious Satoshi Nakamoto?",
+        "Bitcoin: Missing hard drive could fund Newport crypto hub\nNearly 10 years after binning the hard drive, it is thought the Bitcoin on it could be worth £150m.",
+        "What is the energy price cap and what will happen to bills?\nThe government's energy price guarantee is being scaled back from two years to six months."
+      ],
+      "faithfulness": 1.0,
+      "response_relevancy": 0.0
+    },
+    {
+      "question": "Does andrew Tate have a brother?",
+      "answer": "Yes, Andrew Tate has a brother named Tristan.",
+      "contexts": [
+        "Andrew Tate held overnight after police raid homes in Romania\nThe internet personality and his brother have been remanded in custody as part of a probe into new allegations.",
+        "Tate brothers accused of being serial tax evaders\nAndrew Tate and his brother Tristan are accused of failing to pay any tax on £21m of revenue.",
+        "Andrew Tate banned from Facebook and Instagram\nMeta removes influencer Andrew Tate from its platforms for violating its policies.",
+        "Andrew Tate loses appeal against latest detention\nThe controversial influencer and his brother Tristan will remain in custody until 29 March.",
+        "Andrew Tate charged with rape and human trafficking\nAndrew Tate and his brother charged in Romania over human trafficking and sexual exploitation."
+      ],
+      "faithfulness": 1.0,
+      "response_relevancy": 0.9354280128395833
+    },
+    {
+      "question": "What is the GDP of France in 2023?",
+      "answer": "I couldn't find any information on the GDP of France in 2023 from the provided articles. The article \"How will the UK economy compare to other countries in 2024?\" mentions the UK economy, but it does not provide data on France's GDP for 2023. Additionally, the other articles do not mention GDP at all.",
+      "contexts": [
+        "What is GDP and how does it affect me?\nHow the health of the economy is measured, and why the GDP calculation matters.",
+        "Euro 2022: Have France gone from ticking time bomb to united?\nFrance are through to the Euro 2022 knockouts with a game to spare, so are they now united in pursuit of a first major women's tournament title?",
+        "World Cup 2022: Mbappe dominates in France's goals of the World Cup so far\nWatch all of France's goals from the 2022 World Cup in Qatar as they prepare to take on Morocco in the semi-finals.",
+        "How will the UK economy compare to other countries in 2024?\nAfter a tough 2023, will things improve for the UK and other economies in the new year?",
+        "World Cup 2022: France beat Morocco to reach World Cup final\nFrance will have a chance to defend their title they won in 2018 after beating Morocco 2-0 to reach World Cup final."
+      ],
+      "faithfulness": 1.0,
+      "response_relevancy": 0.0
+    },
+    {
+      "question": "How it is calculated the GDP of a country?",
+      "answer": "According to the provided articles, the exact method of calculating GDP is not explicitly stated. However, the second article mentions that \"the calculation involves adding up the value of all final goods and services produced within a country's borders over a specific period of time.\"\n\nThe first article does not provide further details on the methodology used to calculate GDP.\n\nIf you're looking for more information on the specific calculations or methodologies used by countries, I'd be happy to try and help you find that.",
+      "contexts": [
+        "What is GDP and how does it affect me?\nHow the health of the economy is measured, and why the GDP calculation matters.",
+        "What is GDP and how is it measured?\nA basic guide to how the economy is measured and why that calculation matters."
+      ],
+      "faithfulness": 0.5,
+      "response_relevancy": 0.0
+    },
+    {
+      "question": "Are women in danger in Yemen?",
+      "answer": "Based on the provided articles, it can be inferred that women and girls in Afghanistan are facing harsh new restrictions under Taliban rule, but there is no direct information about the situation of women in Yemen. However, the article \"How missiles from Yemen could escalate Israel-Gaza war\" mentions that the Iran-backed Houthis have recently begun attacking vessels in the Red Sea they say are linked to Israel, which may pose a threat to regional stability and potentially put people's lives at risk.\n\nIt is not explicitly stated that women in Yemen are directly in danger due to these attacks or any other reason.",
+      "contexts": [
+        "Life as a woman under Taliban rule\nHow are Afghanistan’s women and girls coping with harsh new restrictions?",
+        "How missiles from Yemen could escalate Israel-Gaza war\nThe Iran-backed Houthis have recently begun attacking vessels in the Red Sea they say are linked to Israel.",
+        "'Double tap' attacks in Yemen's civil war\nThe country has seen some of the worst violence of the conflict in the past 12 months.",
+        "England's defence in danger after Australia defeat\nEngland's T20 World Cup defence is already in danger after a damaging 36-run defeat by Australia in Barbados.",
+        "Fears lives are in danger due to firefighter shortage\nThere are concerns fire services may not be able to respond quickly to rural blazes."
+      ],
+      "faithfulness": 0.6666666666666666,
+      "response_relevancy": 0.0
+    },
+    {
+      "question": "What does women face in Yemen?",
+      "answer": "Unfortunately, I couldn't find any information about what women specifically face in Yemen from the provided articles. The article \"Life as a woman under Taliban rule\" is actually about Afghanistan, not Yemen. If you're looking for information on women's experiences in Yemen, I'd be happy to try and help further or suggest searching for additional articles.",
+      "contexts": [
+        "Yemen: The children of a forgotten war\nA rare glimpse of a fractured conflict where the young are stalked by war and hunger.",
+        "Confronting the Houthis: How powerful are Yemen’s rebel rulers?\nThe Houthis represent only around 15% of Yemenis, yet consider themselves the rightful rulers.",
+        "Life as a woman under Taliban rule\nHow are Afghanistan’s women and girls coping with harsh new restrictions?",
+        "'Double tap' attacks in Yemen's civil war\nThe country has seen some of the worst violence of the conflict in the past 12 months.",
+        "A-levels: How does clearing work and what are the options?\nSome students face tough decisions after finding out their A-level results on Thursday."
+      ],
+      "faithfulness": 0.6666666666666666,
+      "response_relevancy": 0.0
+    }
+  ]
+}

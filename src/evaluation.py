@@ -22,6 +22,8 @@ logger = logging.getLogger(__name__)
 
 @dataclass
 class QuestionResult:
+    """Holds a single question's RAG output and evaluation scores."""
+
     question: str
     answer: str
     contexts: list[str]
@@ -31,12 +33,15 @@ class QuestionResult:
 
 @dataclass
 class EvaluationReport:
+    """Aggregated evaluation report containing per-question results and averages."""
+
     results: list[QuestionResult] = field(default_factory=list)
     avg_faithfulness: float = float("nan")
     avg_response_relevancy: float = float("nan")
 
 
 def save_evaluation_log(report: EvaluationReport) -> tuple[str, str]:
+    """Save the evaluation report to timestamped JSON and CSV files."""
     log_dir = "eval_logs"
     os.makedirs(log_dir, exist_ok=True)
 
@@ -84,6 +89,8 @@ def save_evaluation_log(report: EvaluationReport) -> tuple[str, str]:
 
 
 class RAGASEvaluator:
+    """Evaluator that scores RAG outputs using RAGAS Faithfulness and Response Relevancy."""
+
     def __init__(self):
         client = AsyncOpenAI(
             api_key=OPENAI_API_KEY,
@@ -106,6 +113,7 @@ class RAGASEvaluator:
         )
 
     async def _safe_faithfulness(self, result: QuestionResult) -> float:
+        """Score faithfulness for a single result, returning NaN on failure."""
         try:
             sample = SingleTurnSample(
                 user_input=result.question,
@@ -119,6 +127,7 @@ class RAGASEvaluator:
             return float("nan")
 
     async def _safe_response_relevancy(self, result: QuestionResult) -> float:
+        """Score response relevancy for a single result, returning NaN on failure."""
         try:
             sample = SingleTurnSample(
                 user_input=result.question,
@@ -136,6 +145,7 @@ class RAGASEvaluator:
         results: list[QuestionResult],
         max_concurrency: int = 5,
     ) -> list[dict]:
+        """Evaluate all results concurrently and return a list of score dicts."""
         semaphore = asyncio.Semaphore(max_concurrency)
 
         async def _score_one(result: QuestionResult) -> dict:
@@ -149,10 +159,12 @@ class RAGASEvaluator:
         return await asyncio.gather(*[_score_one(r) for r in results])
 
     def evaluate(self, results: list[QuestionResult]) -> list[dict]:
+        """Synchronous wrapper around aevaluate."""
         return asyncio.run(self.aevaluate(results))
 
 
 def load_questions(file_path: str) -> list[str]:
+    """Load and validate a list of question strings from a JSON file."""
     with open(file_path, "r", encoding="utf-8") as f:
         questions = json.load(f)
 
@@ -173,6 +185,7 @@ async def async_run_rag_pipeline(
     progress_callback=None,
     search_mode: str = "hybrid",
 ) -> list[QuestionResult]:
+    """Run the full RAG pipeline (retrieve + generate) for all questions concurrently."""
     retriever = Retriever(mode=search_mode)
     generator = RAGGenerator()
     semaphore = asyncio.Semaphore(ollama_concurrency)
@@ -207,6 +220,7 @@ def run_rag_pipeline(
     progress_callback=None,
     search_mode: str = "hybrid",
 ) -> list[QuestionResult]:
+    """Synchronous wrapper around async_run_rag_pipeline."""
     return asyncio.run(async_run_rag_pipeline(
         questions,
         context_limit=context_limit,
@@ -219,6 +233,7 @@ async def async_evaluate_results(
     results: list[QuestionResult],
     max_concurrency: int = 5,
 ) -> EvaluationReport:
+    """Score all RAG results with RAGAS and return an EvaluationReport."""
     evaluator = RAGASEvaluator()
     scores = await evaluator.aevaluate(results, max_concurrency=max_concurrency)
 
@@ -239,6 +254,7 @@ async def async_evaluate_results(
 
 
 def evaluate_results(results: list[QuestionResult]) -> EvaluationReport:
+    """Synchronous wrapper around async_evaluate_results."""
     return asyncio.run(async_evaluate_results(results))
 
 
@@ -250,6 +266,7 @@ async def async_run_evaluation(
     progress_callback=None,
     search_mode: str = "hybrid",
 ) -> EvaluationReport:
+    """Run the full evaluation pipeline: load questions, RAG, then RAGAS scoring."""
     questions = load_questions(file_path)
     results = await async_run_rag_pipeline(
         questions,
@@ -268,6 +285,7 @@ def run_evaluation(
     progress_callback=None,
     search_mode: str = "hybrid",
 ) -> EvaluationReport:
+    """Synchronous wrapper around async_run_evaluation."""
     return asyncio.run(async_run_evaluation(
         file_path,
         context_limit=context_limit,

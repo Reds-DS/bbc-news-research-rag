@@ -15,11 +15,13 @@ if "messages" not in st.session_state:
 # Initialize components (cached)
 @st.cache_resource
 def get_retriever():
+    """Create and cache a hybrid Retriever instance."""
     return Retriever(mode="hybrid")
 
 
 @st.cache_resource
 def get_generator():
+    """Create and cache a RAGGenerator instance."""
     return RAGGenerator()
 
 

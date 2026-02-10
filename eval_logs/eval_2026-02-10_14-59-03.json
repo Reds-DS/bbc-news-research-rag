@@ -1,0 +1,255 @@
+{
+  "timestamp": "2026-02-10T14:59:03",
+  "num_questions": 19,
+  "avg_faithfulness": 0.8964237516869096,
+  "avg_response_relevancy": 0.408217055203519,
+  "results": [
+    {
+      "question": "Is price of oil higher than 2008 crisis?",
+      "answer": "According to the article \"Ukraine conflict: Oil price soars to highest level since 2008\", yes, the current oil price has reached its highest level since the 2008 crisis.",
+      "contexts": [
+        "Ukraine conflict: Oil price soars to highest level since 2008\nConsumers are feeling the impact of higher energy costs as fuel prices and household bills jump.",
+        "Why are global gas prices so high?\nEuropean gas prices are now about 10 times higher than their average level over the past decade.",
+        "Faisal Islam: Oil price rise comes at a critical point\nAny extended rise raises the possibility of higher petrol prices and gas and electricity bills.",
+        "How worried should I be about rising oil prices?\nAs the conflict across the Middle East widens, rising oil prices are being closely watched.",
+        "Inflation: Why price rises may feel even worse than they are\nYour own personal inflation rate could be higher than official figures suggest."
+      ],
+      "faithfulness": 0.6666666666666666,
+      "response_relevancy": 0.8233482693496692
+    },
+    {
+      "question": "Are Netflix still available in Russia?",
+      "answer": "Unfortunately, the provided articles do not mention whether Netflix is still available in Russia. The article \"Quiz of the week: What replaced McDonald's in Russia?\" does provide information on what replaced McDonald's in Russia, but it does not address the availability of Netflix in the country.",
+      "contexts": [
+        "Quiz of the week: What replaced McDonald's in Russia?\nHow closely have you been paying attention to what's been going on over the past seven days?",
+        "Netflix: Why some viewers are unsubscribing and switching off\nThe dominance of the world's biggest streaming platform could be starting to weaken.",
+        "Netflix: How did the streaming service turn its fortunes around?\nThe streamer has grown its subscriber base after two consecutive quarters of losses.",
+        "Have we seen peak Netflix?\nThe streaming giant is losing subscribers despite huge hits like Squid Game and Bridgerton.",
+        "Which of Europe's biggest names are still available on free transfers?\nWill Paul Pogba return to Juventus? What next for Gareth Bale? And where could Christian Eriksen end up?"
+      ],
+      "faithfulness": 1.0,
+      "response_relevancy": 0.0
+    },
+    {
+      "question": "Why families run away from Irpin?",
+      "answer": "According to the article \"War in Ukraine: 'It's hell, it's really hell' - Families flee bombs in Irpin\", families are running away from Irpin because of the constant bombardment by Russian shells. The article describes a scene where civilians with backpacks try to outpace the Russian shells, indicating that they are fleeing due to the danger posed by the ongoing conflict.",
+      "contexts": [
+        "Ukraine war: One shell that destroyed a family\nA woman recounts the moment her husband and son were killed by a Russian shell in the town of Irpin.",
+        "One Romanian family's fatal attempt to reach the US\nWhat drove the Iordache family to make a desperate bid to reach the US from Canada?",
+        "Boy, 15, stabbed to death in London\nPolice said they are working to identify the suspect, who is believed to have run away from the scene.",
+        "Why some farmers are turning away from the Tories\nThe mood is shifting in an industry destabilised by economic shocks and post-Brexit reforms.",
+        "War in Ukraine: 'It's hell, it's really hell' - Families flee bombs in Irpin\nSilent and weeping, a stream of civilians with backpacks try to outpace the Russian shells."
+      ],
+      "faithfulness": 1.0,
+      "response_relevancy": 0.7485919381667203
+    },
+    {
+      "question": "What is the situation in mariupol?",
+      "answer": "Based on the provided articles, here is the answer to your question:\n\nThe situation in Mariupol is that it has been under Russian control since May 2022, after a brutal siege. The city has suffered significant damage and destruction, but Russia is now trying to win hearts and minds by portraying it as a desirable city with affordable housing options. However, life in Mariupol under Russian occupation is still a subject of concern, with the city's residents facing various challenges and uncertainties.",
+      "contexts": [
+        "Mariupol: The 80 days that left a flourishing city in ruins\nThe Ukrainian port which has seen some of the most intense fighting is now under Russian control.",
+        "Ukraine war: Life in Mariupol under Russian occupation\nRussia captured Mariupol in May after a brutal siege. Now, it's trying to win hearts and minds.",
+        "Ukraine war: The Russians hunting for cheap flats in occupied Mariupol\nLargely destroyed by Russian forces, Mariupol is now portrayed by Moscow as a desirable city.",
+        "Ukraine: The critical fight for 'heart of this war' Mariupol\nRussia could be on the brink of fully capturing the city after a devastating, six-week assault.",
+        "What is happening in Jenin... in 60 seconds\nThe BBC's Jo Floto assesses the situation as Israel launches a major military operation in the occupied West Bank."
+      ],
+      "faithfulness": 0.3333333333333333,
+      "response_relevancy": 0.8704514697844585
+    },
+    {
+      "question": "Do you have information about what happened the day 16 in the ukraine War?",
+      "answer": "According to the article \"Ukraine: What happened on day 16 of Russia's invasion\", Vladimir Putin paves the way for foreign fighters to join the war, while Russia widens its attacks.",
+      "contexts": [
+        "War in Ukraine: What happened on day 18 of Russia's invasion\nA military base near the Polish border is attacked, and the UK announces a scheme to house refugees.",
+        "Ukraine: What happened on day 16 of Russia's invasion\nVladimir Putin paves the way for foreign fighters to join the war, while Russia widens its attacks.",
+        "Ukraine conflict: Your guide to understanding day 11\nMore than 1.5 million Ukrainians have fled the country. Here's what you need to know after day 11 of the war.",
+        "Ukraine conflict: Your guide to understanding day 14\nA hospital is attacked as civilians try to escape. Here is your guide to the 14th day of fighting.",
+        "A-level results day: Grades and Ucas clearing explained\nWhen is results day and what should you do if you do not get the grades you need?"
+      ],
+      "faithfulness": 1.0,
+      "response_relevancy": 0.6247705462779027
+    },
+    {
+      "question": "How many goals does cristiano scored against totenham?",
+      "answer": "I couldn't find any information about Cristiano Ronaldo scoring goals against Tottenham in the provided articles. The articles only mention his performances and goals for Manchester United, as well as a few other teams (Chelsea and Everton), but not specifically against Tottenham.",
+      "contexts": [
+        "Cristiano Ronaldo: Will forward and Manchester United agree an exit strategy with 'the end in sight'?\nAfter Cristiano Ronaldo was left out of the squad to face Chelsea on Saturday, does the Portugal forward have a future at Manchester United?",
+        "Quiz of the week: What was Cristiano Ronaldo's off-field own goal?\nHow closely have you been paying attention to what's been going on over the past seven days?",
+        "Everton 1-2 Man Utd: Cristiano Ronaldo scores 700th club goal as visitors come from behind to win\nCristiano Ronaldo scores his 700th club goal as Manchester United come from behind to beat Everton at Goodison Park in the Premier League.",
+        "Pele: Brazil legend's best World Cup Goals\nWatch some of the best World Cup goals scored by legendary Brazilian forward Pele.",
+        "Manchester United 1-1 Chelsea: Cristiano Ronaldo scores 17th goal of the season in draw\nCristiano Ronaldo scores his 17th goal of the season to earn Manchester United a point after David de Gea frustrates Chelsea with several superb saves at Old Trafford."
+      ],
+      "faithfulness": 1.0,
+      "response_relevancy": 0.0
+    },
+    {
+      "question": "How many goals does cristiano scored in the match manchester united vs totenham?",
+      "answer": "I don't see any information about a match between Manchester United and Tottenham in the provided articles. The articles only mention matches against Chelsea, Everton, and do not include Tottenham.",
+      "contexts": [
+        "Manchester United 4-1 Chelsea: Hosts secure Champions League place with thumping win\nManchester United secure Champions League football for next season with a 4-1 win over Chelsea at Old Trafford.",
+        "Manchester United 2-1 Chelsea: Scott McTominay double lands hosts crucial win\nScott McTominay scores twice as Manchester United claim a morale-boosting victory over Chelsea at Old Trafford.",
+        "Everton 1-2 Man Utd: Cristiano Ronaldo scores 700th club goal as visitors come from behind to win\nCristiano Ronaldo scores his 700th club goal as Manchester United come from behind to beat Everton at Goodison Park in the Premier League.",
+        "Manchester United 1-1 Chelsea: Cristiano Ronaldo scores 17th goal of the season in draw\nCristiano Ronaldo scores his 17th goal of the season to earn Manchester United a point after David de Gea frustrates Chelsea with several superb saves at Old Trafford.",
+        "Cristiano Ronaldo: Is his Manchester United career over? MOTD2 analysis\nMatch of the Day 2's Jermaine Jenas and Jermain Defoe discuss Cristiano Ronaldo's future at Manchester United after he said in an interview he felt \"betrayed\" by the club."
+      ],
+      "faithfulness": 1.0,
+      "response_relevancy": 0.5039089320265611
+    },
+    {
+      "question": "Summarize the information about the ukraine war in the day of 10 march 2022",
+      "answer": "I couldn't find any information about Ukraine war on March 10, 2022, from the provided articles. The article \"Ukraine conflict: Your guide to understanding day 11\" provides an overview of the situation after day 11 (March 6), but it does not specifically cover day 10.",
+      "contexts": [
+        "Ukraine war: New Christmas date marks shift away from Russia\nThis year Ukraine will celebrate Christmas on 25 December - moving away from the Russian calendar.",
+        "Ukraine moves Christmas Day in snub to Russia\nUkraine will now mark Christmas Day on 25 December - the latest step to distance itself from Russia.",
+        "Eurovision 2022: Highlights of Ukraine's winning night\nUkraine won the Eurovision song contest 2022, with the UK coming second, its best result since 1998.",
+        "Ukraine war: The women sharing their memories of Ukraine before the war\nFour women who shared viral videos of Ukraine before the war speak to the BBC about those memories.",
+        "Ukraine conflict: Your guide to understanding day 11\nMore than 1.5 million Ukrainians have fled the country. Here's what you need to know after day 11 of the war."
+      ],
+      "faithfulness": 1.0,
+      "response_relevancy": 0.0
+    },
+    {
+      "question": "Summarize the information about the ukraine war in the day of 10/03/2022",
+      "answer": "I couldn't find any information about the Ukraine war on Day 10 (March 10, 2022) from the provided articles. The article \"Ukraine conflict: Your guide to understanding day 11\" mentions that more than 1.5 million Ukrainians have fled the country after Day 11 of the war, but it does not provide information about Day 10 specifically.",
+      "contexts": [
+        "Ukraine war: Five ways conflict could go in 2023\nAs the conflict enters its second calendar year, experts predict what could happen on the ground.",
+        "The Ukrainian triplets born into war\nEmilia, Melania and Olivia were born in Ukraine on the day Russian troops invaded in 2022.",
+        "Eurovision 2022: Highlights of Ukraine's winning night\nUkraine won the Eurovision song contest 2022, with the UK coming second, its best result since 1998.",
+        "Ukraine conflict: Your guide to understanding day 11\nMore than 1.5 million Ukrainians have fled the country. Here's what you need to know after day 11 of the war.",
+        "Ukraine war: The women sharing their memories of Ukraine before the war\nFour women who shared viral videos of Ukraine before the war speak to the BBC about those memories."
+      ],
+      "faithfulness": 1.0,
+      "response_relevancy": 0.0
+    },
+    {
+      "question": "What happened in the 2022 french election?",
+      "answer": "According to the provided articles, here is a summary of what happened in the 2022 French election:\n\n* A left-green alliance made a strong showing, threatening President Macron's parliamentary majority.\n* The alliance won the election, marking a significant shift in power.\n* There was jubilation at the Eiffel Tower for President Macron upon his arrival, while those supporting Le Pen were disappointed.\n\nNote that the articles do not provide detailed information on the specifics of the election results or the exact margin by which the left-green alliance won.",
+      "contexts": [
+        "French election: Left surge threatens Macron majority in France\nA strong showing by a left-green alliance jeopardises the French president's parliamentary majority.",
+        "What happened at the Champions League final?\nEyewitnesses give accounts that cast doubt on French claims that fake tickets caused the chaos.",
+        "After France's election shock comes the real power struggle\nFrance’s left-wing bloc has won the election - now the real battle begins, writes Andrew Harding.",
+        "French election 2022: What happened on the night?\nMacron arrives to jubilant scenes at the Eiffel Tower, while there's disappointment for those gathering with Le Pen.",
+        "Covid: What happened to care homes early in the pandemic?\nThe publication of Matt Hancock's messages focuses attention on what happened in care homes during the pandemic."
+      ],
+      "faithfulness": 0.75,
+      "response_relevancy": 0.9959649233166971
+    },
+    {
+      "question": "What is the result of the parliament french election?",
+      "answer": "Unfortunately, I couldn't find the specific result of the French parliament election in the provided articles. The articles mention that the reform passed parliament but didn't provide details on the outcome of the vote or the number of votes received by each party.",
+      "contexts": [
+        "Controversial French immigration law passes parliament but hangs in the balance\nThe reform clears parliament, but President Macron is unhappy that it passed with far-right support.",
+        "Watch: France reacts to exit polls with jubilation and stunned silence\nPolls projected a surprise victory for France's left-wing coalition, denying the far-right of its expected win.",
+        "Emmanuel Macron a chastened and greatly weakened leader\nThe parliamentary elections' results confirm the French leader's second term will not be an easy ride.",
+        "Curtice: What could the local elections mean for the general election?\nThe polls are the last big test of the Westminster government's popularity before the next election.",
+        "French election: Left surge threatens Macron majority in France\nA strong showing by a left-green alliance jeopardises the French president's parliamentary majority."
+      ],
+      "faithfulness": 1.0,
+      "response_relevancy": 0.0
+    },
+    {
+      "question": "Who won the match real madrid vs chelsea?",
+      "answer": "The answer can be found in Article Title: \"Real Madrid 2-0 Chelsea: Blues' Champions League ambitions dented by the holders\" and also in Article Title: \"Chelsea 2-1 Real Madrid: Emma Hayes' side progress to Women's Champions League quarter-finals as group winners\".",
+      "contexts": [
+        "Chelsea face biggest escapology task yet to overturn Champions League deficit against Real Madrid\nChelsea have a habit of snatching successes in the face of adversity but is a Champions League turnaround against Real Madrid beyond them?",
+        "Chelsea 2-1 Real Madrid: Emma Hayes' side progress to Women's Champions League quarter-finals as group winners\nChelsea are through to the quarter-finals of the Women's Champions League as group winners after grinding out a victory over Real Madrid at Stamford Bridge.",
+        "Real Madrid 2-0 Chelsea: Blues' Champions League ambitions dented by the holders\nChelsea have it all to do if they are to advance to the Champions League semi-finals as they lose to holders Real Madrid at the Bernabeu.",
+        "Match of the Day Top 10: Gary Lineker relives Barcelona hat-trick against Real Madrid\nGary Lineker explains why the referee refused to give away the El Clasico match ball as he relives his hat-trick against Real Madrid.",
+        "Real Madrid 1-1 Chelsea: Blues miss chance to confirm Champions League knockout place\nChelsea draw 1-1 at Real Madrid to miss chance to wrap up qualification for Women's Champions League quarter-finals."
+      ],
+      "faithfulness": 1.0,
+      "response_relevancy": 0.0
+    },
+    {
+      "question": "What are the news about alexei navalny?",
+      "answer": "Based on the provided articles, here's a summary of the latest news about Alexei Navalny:\n\nAlexei Navalny, a prominent Russian opposition leader, has been found guilty of further offences in a trial held at a prison colony. His jail term has been extended to 19 years.\n\nAdditionally, there are reports that Navalny has died, although no official confirmation is available from the provided articles. However, Steve Rosenberg, BBC Russia Editor, mentions that news of Navalny's death will worsen relations between Russia and the West.\n\nNavalny was also a subject of several documentaries and news pieces, showcasing his life, career, and moments of defiance as an outspoken critic of President Putin.",
+      "contexts": [
+        "Alexei Navalny: Russian opposition leader's jail term extended to 19 years\nThe Russian opposition leader is found guilty of further offences in a trial held at a prison colony.",
+        "Navalny's life and future death captured in Oscar-winning documentary\nThe director of the 2022 Oscar-winning film speaks of his shock at the death of Alexei Navalny.",
+        "Watch: Navalny's moments of defiance\nSee key moments in Alexei Navalny's career as an outspoken critic of President Putin.",
+        "BBC Russia Editor: News will worsen Russia-West relations\nNews of Alexei Navalny's death will worsen relations between Russia and the west, Steve Rosenberg says.",
+        "Alexei Navalny braces for new verdict as Kremlin clamps down\nJailed Russian opposition figure Alexei Navalny could see decades added to his time behind bars."
+      ],
+      "faithfulness": 1.0,
+      "response_relevancy": 0.0
+    },
+    {
+      "question": "What are the news about navalny?",
+      "answer": "Based on the provided articles, here's an answer to your question:\n\nThe latest news about Alexei Navalny include his extended jail term being increased to 19 years after he was found guilty of further offences in a trial held at a prison colony. Additionally, there are reports about his life and future death captured in an Oscar-winning documentary, as well as key moments in his career as an outspoken critic of President Putin showcased in another video.",
+      "contexts": [
+        "Alexei Navalny: Russian opposition leader's jail term extended to 19 years\nThe Russian opposition leader is found guilty of further offences in a trial held at a prison colony.",
+        "Navalny's life and future death captured in Oscar-winning documentary\nThe director of the 2022 Oscar-winning film speaks of his shock at the death of Alexei Navalny.",
+        "Watch: Navalny's moments of defiance\nSee key moments in Alexei Navalny's career as an outspoken critic of President Putin.",
+        "Alexei Navalny braces for new verdict as Kremlin clamps down\nJailed Russian opposition figure Alexei Navalny could see decades added to his time behind bars.",
+        "Chris Mason: Sculptures row about politics as much as history\nThe Parthenon Sculptures are back in the news but is this story also about a looming general election?"
+      ],
+      "faithfulness": 1.0,
+      "response_relevancy": 0.8814251280732646
+    },
+    {
+      "question": "What happened in buccha?",
+      "answer": "Based on the provided articles, it appears that Bucha was a town in Ukraine that suffered significant damage and atrocities at the hands of Russian soldiers. Here are some key events that occurred in Bucha:\n\n* The town was occupied by Russian forces, leading to widespread destruction and human rights abuses.\n* Mass graves were discovered, and a massive operation was launched to collect and identify the bodies of those who had been killed or died under unclear circumstances.\n* The streets of Bucha were found littered with burned-out tanks and corpses, indicating the scale of the violence that took place there.\n* A BBC team witnessed utter devastation in the town, describing it as a \"scene from hell\".\n* The Russian soldiers' withdrawal from the area left behind a trail of destruction and a legacy of trauma for the local population.\n\nIt's worth noting that the articles do not provide a comprehensive or detailed account of what happened in Bucha, but rather offer a snapshot of the devastating impact of the conflict on the town and its inhabitants.",
+      "contexts": [
+        "Ukraine war: No quick return to normal for scarred Bucha\nEverything has changed in this town since the Russians came, and horrific memories will not easily be erased.",
+        "Head of village near Bucha killed with family in Ukraine\nThe BBC sees further evidence of alleged atrocities in areas recently occupied by Russia.",
+        "Ukraine war: Bucha street littered with burned-out tanks and corpses\nA BBC team witnesses utter devastation in the town of Bucha, after Russian soldiers pulled out.",
+        "Collecting the dead in Bucha\nAfter the discovery of the atrocities in Bucha, a massive operation to find the bodies began.",
+        "Covid: What happened to care homes early in the pandemic?\nThe publication of Matt Hancock's messages focuses attention on what happened in care homes during the pandemic."
+      ],
+      "faithfulness": 0.6153846153846154,
+      "response_relevancy": 0.512503822631266
+    },
+    {
+      "question": "Give me the result of the netball world cup 2023",
+      "answer": "The results of the Netball World Cup 2023 are as follows:\n\n* England beat Fiji 89-28\n* England beat Malawi 62-39\n* England beat Tonga 72-46\n* England lost to Australia 45-61 in the final\n* South Africa drew with New Zealand 48-48\n\nNote that these results only include the articles provided and may not be a comprehensive list of all matches played during the Netball World Cup 2023.",
+      "contexts": [
+        "Netball World Cup 2023 results: England 89-28 Fiji - Red Roses dominate to seal semi-final spot\nEngland produce their best performance of the Netball World Cup so far to beat Fiji and confirm their place in the semi-finals.",
+        "Netball World Cup 2023 results: England beat Malawi 62-39 in Pool B\nEngland overcome a nervy start to maintain a perfect record at this Netball World Cup with a 62-39 win over Malawi in Pool B.",
+        "Netball World Cup final 2023: England 45-61 Australia - Roses miss out on historic title\nEngland's wait for a first Netball World Cup title continues after Australia defeat the Roses to win the event for a 12th time.",
+        "Netball World Cup 2023: South Africa score in last second to draw with New Zealand\nWatch South Africa score in the dying seconds to earn a dramatic 48-48 draw with New Zealand at the Netball World Cup.",
+        "Netball World Cup 2023: England beat Tonga 72-46 in second pool phase\nEngland come through a physical test to beat Tonga 72-46 and start the second pool phase of the Netball World Cup with an improved display."
+      ],
+      "faithfulness": 1.0,
+      "response_relevancy": 0.8597292622034737
+    },
+    {
+      "question": "Does andrew Tate have a brother?",
+      "answer": "Yes, Andrew Tate has a brother named Tristan.",
+      "contexts": [
+        "Andrew Tate held overnight after police raid homes in Romania\nThe internet personality and his brother have been remanded in custody as part of a probe into new allegations.",
+        "Tate brothers accused of being serial tax evaders\nAndrew Tate and his brother Tristan are accused of failing to pay any tax on £21m of revenue.",
+        "Andrew Tate banned from Facebook and Instagram\nMeta removes influencer Andrew Tate from its platforms for violating its policies.",
+        "Andrew Tate loses appeal against latest detention\nThe controversial influencer and his brother Tristan will remain in custody until 29 March.",
+        "Andrew Tate charged with rape and human trafficking\nAndrew Tate and his brother charged in Romania over human trafficking and sexual exploitation."
+      ],
+      "faithfulness": 1.0,
+      "response_relevancy": 0.9354297570368479
+    },
+    {
+      "question": "Are women in danger in Yemen?",
+      "answer": "Based on the provided articles, it can be inferred that women and girls in Afghanistan are facing harsh new restrictions under Taliban rule, but there is no direct information about the situation of women in Yemen. However, the article \"How missiles from Yemen could escalate Israel-Gaza war\" mentions that the Iran-backed Houthis have recently begun attacking vessels in the Red Sea they say are linked to Israel, which may pose a threat to regional stability and potentially put people's lives at risk.\n\nIt is not explicitly stated that women in Yemen are directly in danger due to these attacks or any other reason.",
+      "contexts": [
+        "Life as a woman under Taliban rule\nHow are Afghanistan’s women and girls coping with harsh new restrictions?",
+        "How missiles from Yemen could escalate Israel-Gaza war\nThe Iran-backed Houthis have recently begun attacking vessels in the Red Sea they say are linked to Israel.",
+        "'Double tap' attacks in Yemen's civil war\nThe country has seen some of the worst violence of the conflict in the past 12 months.",
+        "England's defence in danger after Australia defeat\nEngland's T20 World Cup defence is already in danger after a damaging 36-run defeat by Australia in Barbados.",
+        "Fears lives are in danger due to firefighter shortage\nThere are concerns fire services may not be able to respond quickly to rural blazes."
+      ],
+      "faithfulness": 0.6666666666666666,
+      "response_relevancy": 0.0
+    },
+    {
+      "question": "What does women face in Yemen?",
+      "answer": "Unfortunately, I couldn't find any information about what women specifically face in Yemen from the provided articles. The article \"Life as a woman under Taliban rule\" is actually about Afghanistan, not Yemen. If you're looking for information on women's experiences in Yemen, I'd be happy to try and help further or suggest searching for additional articles.",
+      "contexts": [
+        "Yemen: The children of a forgotten war\nA rare glimpse of a fractured conflict where the young are stalked by war and hunger.",
+        "Confronting the Houthis: How powerful are Yemen’s rebel rulers?\nThe Houthis represent only around 15% of Yemenis, yet consider themselves the rightful rulers.",
+        "Life as a woman under Taliban rule\nHow are Afghanistan’s women and girls coping with harsh new restrictions?",
+        "'Double tap' attacks in Yemen's civil war\nThe country has seen some of the worst violence of the conflict in the past 12 months.",
+        "A-levels: How does clearing work and what are the options?\nSome students face tough decisions after finding out their A-level results on Thursday."
+      ],
+      "faithfulness": 1.0,
+      "response_relevancy": 0.0
+    }
+  ]
+}

@@ -6,11 +6,13 @@ from src.database import ChromaDB
 
 
 def load_csv(path: str = DATA_PATH) -> pd.DataFrame:
+    """Load BBC News CSV file into a DataFrame."""
     df = pd.read_csv(path)
     return df
 
 
 def prepare_documents(df: pd.DataFrame) -> list[Document]:
+    """Convert DataFrame rows into LangChain Documents with metadata."""
     documents = []
 
     for _, row in df.iterrows():
@@ -30,6 +32,7 @@ def prepare_documents(df: pd.DataFrame) -> list[Document]:
 
 
 def ingest(csv_path: str = DATA_PATH, recreate: bool = False):
+    """Load articles from CSV, embed them, and store in ChromaDB."""
     db = ChromaDB()
 
     if recreate and db.collection_exists():

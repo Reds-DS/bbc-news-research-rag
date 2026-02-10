@@ -9,10 +9,11 @@ CHROMA_PERSIST_DIR = os.getenv("CHROMA_PERSIST_DIR", "/app/chroma_data")
 # Ollama settings
 OLLAMA_URL = os.getenv("OLLAMA_URL", "http://ollama:11434")
 OLLAMA_MODEL = os.getenv("OLLAMA_MODEL", "llama3.2")
+OLLAMA_TEMPERATURE = 0
 
 # Collection settings
 COLLECTION_NAME = "BBC_NEWS"
-EMBEDDING_MODEL = "sentence-transformers/all-MiniLM-L6-v2"
+EMBEDDING_MODEL = "Lajavaness/bilingual-embedding-base"
 
 # Ingestion settings
 BATCH_SIZE = 100
@@ -23,8 +24,8 @@ EVAL_QUESTIONS_PATH = "eval_questions.json"
 
 # OpenAI settings (for evaluation)
 OPENAI_API_KEY = os.getenv("OPENAI_API_KEY")
-EVAL_LLM_MODEL = "gpt-4o-mini"
+EVAL_LLM_MODEL = "gpt-4.1-2025-04-14"
 EVAL_EMBEDDING_MODEL = "text-embedding-3-small"
 
 # Hybrid search settings
-RRF_K = 60  # RRF smoothing constant
+HYBRID_BETA = 0.7  # 0.0 = keyword only, 1.0 = semantic only
