@@ -29,3 +29,6 @@ EVAL_EMBEDDING_MODEL = "text-embedding-3-small"
 
 # Hybrid search settings
 HYBRID_BETA = 0.7  # 0.0 = keyword only, 1.0 = semantic only
+
+# Reranking settings
+RERANK_FETCH_MULTIPLIER = 3

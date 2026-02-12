@@ -1,46 +1,100 @@
 import asyncio
 from src.database import ChromaDB
 from src.bm25_search import BM25Index, beta_score_fusion
+from src.config import RERANK_FETCH_MULTIPLIER
 
 
 class Retriever:
     """Unified retriever supporting semantic, keyword, and hybrid search modes."""
 
-    def __init__(self, mode: str = "hybrid"):
-        """Initialize retriever with the given search mode."""
+    def __init__(self, mode: str = "hybrid", reranker=None):
+        """Initialize the retriever with a search mode and optional cross-encoder reranker.
+
+        Creates the underlying ChromaDB instance and, when the mode requires
+        keyword matching, also builds an in-memory BM25 index from the full
+        collection.
+
+        Args:
+            mode: Search strategy — one of 'semantic' (vector only),
+                'keyword' (BM25 only), or 'hybrid' (beta-weighted fusion
+                of both). Defaults to 'hybrid'.
+            reranker: An optional Reranker instance. When provided, the
+                retriever over-fetches by RERANK_FETCH_MULTIPLIER and then
+                rescores results with the cross-encoder before returning the
+                final top-k. Defaults to None (no reranking).
+        """
         self.mode = mode
         self.db = ChromaDB()
         self._bm25 = None
+        self.reranker = reranker
 
         if mode in ("keyword", "hybrid"):
             self._bm25 = BM25Index(self.db)
 
     def search(self, query: str, limit: int = 5) -> list[dict]:
-        """Search for articles synchronously using the configured mode."""
+        """Search for articles synchronously using the configured mode.
+
+        When a reranker is attached, the initial retrieval fetches
+        limit * RERANK_FETCH_MULTIPLIER documents, which are then rescored
+        by the cross-encoder and trimmed to the requested limit.
+
+        Args:
+            query: The natural-language search query.
+            limit: Number of final results to return (default 5).
+
+        Returns:
+            list[dict]: Ranked article dicts with keys 'title', 'description',
+                'pubDate', 'link', and 'distance'.
+        """
+        fetch_limit = limit * RERANK_FETCH_MULTIPLIER if self.reranker else limit
+
         if self.mode == "semantic":
-            return self.db.search(query, limit=limit)
+            results = self.db.search(query, limit=fetch_limit)
+        elif self.mode == "keyword":
+            results = self._bm25.search(query, limit=fetch_limit)
+        else:
+            # Hybrid: beta-weighted score fusion
+            semantic = self.db.search(query, limit=fetch_limit)
+            keyword = self._bm25.search(query, limit=fetch_limit)
+            results = beta_score_fusion(semantic, keyword)[:fetch_limit]
 
-        if self.mode == "keyword":
-            return self._bm25.search(query, limit=limit)
+        if self.reranker:
+            results = self.reranker.rerank(query, results, top_k=limit)
 
-        # Hybrid: beta-weighted score fusion
-        semantic = self.db.search(query, limit=limit)
-        keyword = self._bm25.search(query, limit=limit)
-        return beta_score_fusion(semantic, keyword)[:limit]
+        return results
 
     async def asearch(self, query: str, limit: int = 5) -> list[dict]:
-        """Search for articles asynchronously using the configured mode."""
+        """Async counterpart of search().
+
+        Runs the retrieval stage asynchronously (ChromaDB via thread pool,
+        BM25 via executor). If a reranker is attached, the cross-encoder
+        rescoring is also offloaded to a thread-pool executor via arerank().
+
+        Args:
+            query: The natural-language search query.
+            limit: Number of final results to return (default 5).
+
+        Returns:
+            list[dict]: Ranked article dicts with keys 'title', 'description',
+                'pubDate', 'link', and 'distance'.
+        """
+        fetch_limit = limit * RERANK_FETCH_MULTIPLIER if self.reranker else limit
+
         if self.mode == "semantic":
-            return await self.db.asearch(query, limit=limit)
-
-        if self.mode == "keyword":
+            results = await self.db.asearch(query, limit=fetch_limit)
+        elif self.mode == "keyword":
             loop = asyncio.get_event_loop()
-            return await loop.run_in_executor(None, self._bm25.search, query, limit)
+            results = await loop.run_in_executor(None, self._bm25.search, query, fetch_limit)
+        else:
+            # Hybrid: beta-weighted score fusion (parallel)
+            semantic_task = self.db.asearch(query, limit=fetch_limit)
+            loop = asyncio.get_event_loop()
+            keyword_task = loop.run_in_executor(None, self._bm25.search, query, fetch_limit)
 
-        # Hybrid: beta-weighted score fusion (parallel)
-        semantic_task = self.db.asearch(query, limit=limit)
-        loop = asyncio.get_event_loop()
-        keyword_task = loop.run_in_executor(None, self._bm25.search, query, limit)
+            semantic, keyword = await asyncio.gather(semantic_task, keyword_task)
+            results = beta_score_fusion(semantic, keyword)[:fetch_limit]
 
-        semantic, keyword = await asyncio.gather(semantic_task, keyword_task)
-        return beta_score_fusion(semantic, keyword)[:limit]
+        if self.reranker:
+            results = await self.reranker.arerank(query, results, top_k=limit)
+
+        return results

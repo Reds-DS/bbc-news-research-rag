@@ -6,13 +6,37 @@ from src.database import ChromaDB
 
 
 def load_csv(path: str = DATA_PATH) -> pd.DataFrame:
-    """Load BBC News CSV file into a DataFrame."""
+    """Load a BBC News CSV file into a pandas DataFrame.
+
+    Expects columns: title, description, pubDate, guid, link.
+
+    Args:
+        path: Filesystem path to the CSV file. Defaults to DATA_PATH
+            from config.py (typically 'Data/bbc_news.csv').
+
+    Returns:
+        pd.DataFrame: Raw DataFrame with one row per news article.
+    """
     df = pd.read_csv(path)
     return df
 
 
 def prepare_documents(df: pd.DataFrame) -> list[Document]:
-    """Convert DataFrame rows into LangChain Documents with metadata."""
+    """Convert DataFrame rows into LangChain Document objects for embedding.
+
+    Each document's page_content is built as "title\\n\\ndescription" (the text
+    that will be embedded), while the original fields are preserved in metadata
+    for retrieval display. NaN values are replaced with empty strings.
+
+    Args:
+        df: DataFrame loaded from the BBC News CSV. Expected columns:
+            title, description, pubDate, guid, link.
+
+    Returns:
+        list[Document]: One LangChain Document per row, with page_content
+            and metadata dict containing title, description, pubDate,
+            guid, and link.
+    """
     documents = []
 
     for _, row in df.iterrows():
@@ -32,7 +56,18 @@ def prepare_documents(df: pd.DataFrame) -> list[Document]:
 
 
 def ingest(csv_path: str = DATA_PATH, recreate: bool = False):
-    """Load articles from CSV, embed them, and store in ChromaDB."""
+    """End-to-end ingestion pipeline: load CSV, embed articles, store in ChromaDB.
+
+    Reads articles from the given CSV file, converts them to LangChain Documents,
+    then inserts them into ChromaDB in batches (BATCH_SIZE from config.py).
+    A Rich progress bar is displayed during embedding and insertion.
+
+    Args:
+        csv_path: Path to the BBC News CSV file. Defaults to DATA_PATH
+            from config.py.
+        recreate: If True and the collection already exists, delete all
+            existing documents before inserting new ones. Defaults to False.
+    """
     db = ChromaDB()
 
     if recreate and db.collection_exists():

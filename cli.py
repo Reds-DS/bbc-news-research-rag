@@ -13,7 +13,13 @@ console = Console()
 
 @app.command()
 def status():
-    """Check Chroma and Ollama connection status."""
+    """Check Chroma and Ollama connection status.
+
+    Displays a Rich table showing connectivity and details for each backend
+    service: ChromaDB (collection name, document count) and Ollama (available
+    models). Useful for verifying the environment is properly configured
+    before running other commands.
+    """
     from src.database import ChromaDB
     from src.generation import OllamaClient
     from src.config import COLLECTION_NAME
@@ -53,7 +59,16 @@ def ingest(
     recreate: bool = typer.Option(False, "--recreate", "-r", help="Delete and recreate the collection"),
     csv_path: str = typer.Option(None, "--csv", "-c", help="Path to CSV file"),
 ):
-    """Load BBC News data into Chroma."""
+    """Load BBC News data from CSV into ChromaDB.
+
+    Reads articles, embeds them using the configured HuggingFace model, and
+    stores them in the ChromaDB collection. Use --recreate to drop and rebuild
+    the collection from scratch.
+
+    Args:
+        recreate: If True, delete the existing collection before ingesting.
+        csv_path: Override path to the CSV file (defaults to config DATA_PATH).
+    """
     from src.ingestion import ingest as run_ingest
     from src.config import DATA_PATH
 
@@ -68,14 +83,28 @@ def search(
     query: str = typer.Argument(..., help="Search query"),
     limit: int = typer.Option(5, "--limit", "-n", help="Number of results"),
     mode: str = typer.Option("hybrid", "--mode", "-m", help="Search mode: semantic, keyword, or hybrid"),
+    reranker: str = typer.Option("none", "--reranker", help="Reranker model: none, light, or heavy"),
 ):
-    """Search for news articles by semantic similarity."""
-    from src.retrieval import Retriever
+    """Search for news articles using the specified retrieval mode.
 
-    console.print(f"[dim]Mode: {mode}[/dim]\n")
+    Retrieves and displays matching articles as Rich panels showing title,
+    description snippet, date, and relevance score. Supports semantic,
+    keyword, and hybrid search modes with optional cross-encoder reranking.
+
+    Args:
+        query: The search query string.
+        limit: Number of results to return.
+        mode: Search mode — 'semantic', 'keyword', or 'hybrid'.
+        reranker: Reranker model — 'none', 'light', or 'heavy'.
+    """
+    from src.retrieval import Retriever
+    from src.reranker import Reranker
+
+    console.print(f"[dim]Mode: {mode} | Reranker: {reranker}[/dim]\n")
     console.print(f"[bold]Searching for:[/bold] {query}\n")
 
-    retriever = Retriever(mode=mode)
+    reranker_obj = Reranker(reranker) if reranker != "none" else None
+    retriever = Retriever(mode=mode, reranker=reranker_obj)
     results = retriever.search(query, limit=limit)
 
     for i, article in enumerate(results, 1):
@@ -95,16 +124,30 @@ def ask(
     question: str = typer.Argument(..., help="Question to ask"),
     limit: int = typer.Option(5, "--context", "-c", help="Number of articles for context"),
     mode: str = typer.Option("hybrid", "--mode", "-m", help="Search mode: semantic, keyword, or hybrid"),
+    reranker: str = typer.Option("none", "--reranker", help="Reranker model: none, light, or heavy"),
 ):
-    """Ask a question using RAG (retrieval + generation)."""
+    """Ask a question using the full RAG pipeline (retrieve + generate).
+
+    Retrieves relevant articles from ChromaDB, optionally reranks them with
+    a cross-encoder, then generates an answer using the Ollama LLM grounded
+    in the retrieved context. Displays the answer and source articles.
+
+    Args:
+        question: The natural-language question to answer.
+        limit: Number of context articles to retrieve.
+        mode: Search mode — 'semantic', 'keyword', or 'hybrid'.
+        reranker: Reranker model — 'none', 'light', or 'heavy'.
+    """
     from src.retrieval import Retriever
     from src.generation import RAGGenerator
+    from src.reranker import Reranker
 
-    console.print(f"[dim]Mode: {mode}[/dim]\n")
+    console.print(f"[dim]Mode: {mode} | Reranker: {reranker}[/dim]\n")
     console.print(f"[bold]Question:[/bold] {question}\n")
 
     with console.status("[bold green]Searching for relevant articles..."):
-        retriever = Retriever(mode=mode)
+        reranker_obj = Reranker(reranker) if reranker != "none" else None
+        retriever = Retriever(mode=mode, reranker=reranker_obj)
         context = retriever.search(question, limit=limit)
 
     console.print(f"[dim]Found {len(context)} relevant articles[/dim]\n")
@@ -128,11 +171,31 @@ def evaluate(
     ollama_concurrency: int = typer.Option(3, "--ollama-concurrency", help="Max concurrent Ollama requests"),
     eval_concurrency: int = typer.Option(5, "--eval-concurrency", help="Max concurrent RAGAS evaluation requests"),
     mode: str = typer.Option("hybrid", "--mode", "-m", help="Search mode: semantic, keyword, or hybrid"),
+    reranker: str = typer.Option("none", "--reranker", help="Reranker model: none, light, or heavy"),
+    notes: str = typer.Option("", "--notes", "-n", help="Description of what changed for the changelog"),
 ):
-    """Evaluate RAG quality using RAGAS (Faithfulness & Response Relevancy)."""
-    from src.evaluation import load_questions, async_run_rag_pipeline, async_evaluate_results, save_evaluation_log
+    """Evaluate RAG quality using RAGAS (Faithfulness & Response Relevancy).
 
-    console.print(f"[dim]Mode: {mode}[/dim]\n")
+    Runs the full pipeline in four phases:
+    1. Load evaluation questions from a JSON file.
+    2. Run the RAG pipeline (retrieve + generate) for each question.
+    3. Score each result with RAGAS Faithfulness and Response Relevancy
+       metrics using GPT-4.1 as the evaluator LLM.
+    4. Display per-question scores and a summary table, and save results
+       to timestamped JSON/CSV logs and the CHANGELOG.md.
+
+    Args:
+        questions_file: Path to a JSON array of question strings.
+        context: Number of articles to retrieve per question.
+        ollama_concurrency: Max concurrent Ollama generation requests.
+        eval_concurrency: Max concurrent RAGAS evaluation requests.
+        mode: Search mode — 'semantic', 'keyword', or 'hybrid'.
+        reranker: Reranker model — 'none', 'light', or 'heavy'.
+        notes: Free-text description appended to the changelog entry.
+    """
+    from src.evaluation import load_questions, async_run_rag_pipeline, async_evaluate_results, save_evaluation_log, append_changelog
+
+    console.print(f"[dim]Mode: {mode} | Reranker: {reranker}[/dim]\n")
 
     # Phase 1: Load questions
     try:
@@ -154,6 +217,7 @@ def evaluate(
         ollama_concurrency=ollama_concurrency,
         progress_callback=progress_callback,
         search_mode=mode,
+        reranker_model=reranker,
     ))
     console.print("[green]RAG pipeline complete.[/green]\n")
 
@@ -167,7 +231,10 @@ def evaluate(
     json_path, csv_path = save_evaluation_log(report)
     console.print(f"[bold]Evaluation log saved:[/bold]")
     console.print(f"  JSON: [cyan]{json_path}[/cyan]")
-    console.print(f"  CSV:  [cyan]{csv_path}[/cyan]\n")
+    console.print(f"  CSV:  [cyan]{csv_path}[/cyan]")
+
+    changelog_path = append_changelog(report, search_mode=mode, notes=notes)
+    console.print(f"  Log:  [cyan]{changelog_path}[/cyan]\n")
 
     # Phase 4: Display results
     for i, result in enumerate(report.results, 1):

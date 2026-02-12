@@ -7,7 +7,16 @@ class BM25Index:
     """In-memory BM25 index built from ChromaDB collection."""
 
     def __init__(self, db: ChromaDB):
-        """Build the BM25 index from all documents in the given ChromaDB instance."""
+        """Build an in-memory BM25 keyword index from all documents in ChromaDB.
+
+        Fetches every document and its metadata from the ChromaDB collection,
+        tokenises the text (lowercased whitespace split), and constructs a
+        BM25Okapi index for keyword-based retrieval.
+
+        Args:
+            db: An initialised ChromaDB instance whose collection contains the
+                documents to index.
+        """
         self.db = db
         self._documents = []
         self._corpus = []
@@ -15,7 +24,13 @@ class BM25Index:
         self._build_index()
 
     def _build_index(self):
-        """Fetch all documents from ChromaDB and build the BM25Okapi index."""
+        """Fetch all documents from ChromaDB and build the BM25Okapi index.
+
+        Accesses the underlying ChromaDB collection directly to retrieve raw
+        document texts and metadata. Each document is tokenised via lowercase
+        whitespace splitting to form the BM25 corpus. Called automatically by
+        __init__; should not be called again after construction.
+        """
         # Fetch all documents from ChromaDB
         collection = self.db._store._collection
         results = collection.get(include=["documents", "metadatas"])
@@ -35,7 +50,21 @@ class BM25Index:
             self._bm25 = BM25Okapi(self._corpus)
 
     def search(self, query: str, limit: int = 5) -> list[dict]:
-        """Search the BM25 index and return the top-k matching article dicts."""
+        """Search the BM25 index and return the top-k matching articles.
+
+        Tokenises the query (lowercase whitespace split) and scores every
+        document in the corpus using BM25Okapi. Returns the highest-scoring
+        documents sorted by descending BM25 score.
+
+        Args:
+            query: The natural-language search query.
+            limit: Maximum number of results to return (default 5).
+
+        Returns:
+            list[dict]: Ranked list of article dicts, each containing keys:
+                'title', 'description', 'pubDate', 'link', 'content', and
+                'distance' (BM25 score — higher means more relevant).
+        """
         if not self._bm25:
             return []
 
@@ -55,7 +84,17 @@ class BM25Index:
 
 
 def _min_max_normalize(scores: list[float]) -> list[float]:
-    """Normalize scores to [0, 1] using min-max scaling."""
+    """Normalize a list of scores to the [0, 1] range using min-max scaling.
+
+    When all scores are identical (span == 0), returns a list of 0.0 values
+    to avoid division by zero.
+
+    Args:
+        scores: Raw float scores to normalize.
+
+    Returns:
+        list[float]: Normalized scores in [0, 1], preserving relative order.
+    """
     min_s = min(scores)
     max_s = max(scores)
     span = max_s - min_s
@@ -71,7 +110,28 @@ def beta_score_fusion(
 ) -> list[dict]:
     """Combine semantic and keyword results using beta-weighted score fusion.
 
-    final_score = beta * semantic_norm + (1 - beta) * keyword_norm
+    Each result set is min-max normalized independently, then a weighted
+    combination produces the final score:
+        final_score = beta * semantic_norm + (1 - beta) * keyword_norm
+
+    Documents appearing in both result sets have their semantic and keyword
+    contributions summed. Documents appearing in only one set receive a
+    contribution only from that set.
+
+    Args:
+        semantic_results: Articles from the vector (embedding) search, each
+            with a 'distance' key (cosine distance) and a 'link' key for
+            deduplication.
+        keyword_results: Articles from the BM25 keyword search, each with
+            a 'distance' key (BM25 score) and a 'link' key.
+        beta: Weight for semantic scores in [0, 1]. A value of 1.0 means
+            semantic-only, 0.0 means keyword-only. Defaults to HYBRID_BETA
+            from config.py (0.7).
+
+    Returns:
+        list[dict]: Merged and deduplicated articles sorted by descending
+            combined score. The 'distance' field is replaced with the
+            fused score.
     """
     if beta is None:
         beta = HYBRID_BETA

@@ -15,13 +15,29 @@ if "messages" not in st.session_state:
 # Initialize components (cached)
 @st.cache_resource
 def get_retriever():
-    """Create and cache a hybrid Retriever instance."""
+    """Create and cache a hybrid Retriever instance for the Streamlit session.
+
+    Uses Streamlit's @cache_resource decorator so the Retriever (including
+    its ChromaDB connection and BM25 index) is initialised only once and
+    shared across all user interactions in the same server process.
+
+    Returns:
+        Retriever: A Retriever configured with hybrid search mode.
+    """
     return Retriever(mode="hybrid")
 
 
 @st.cache_resource
 def get_generator():
-    """Create and cache a RAGGenerator instance."""
+    """Create and cache a RAGGenerator instance for the Streamlit session.
+
+    Uses Streamlit's @cache_resource decorator so the RAGGenerator (and its
+    underlying OllamaClient connection) is initialised only once and shared
+    across all user interactions in the same server process.
+
+    Returns:
+        RAGGenerator: A generator configured with the default Ollama model.
+    """
     return RAGGenerator()
 
 
