@@ -1,0 +1,548 @@
+question,answer,contexts,faithfulness,response_relevancy
+How tall is the Shakira statue?,There is no information about a statue of Shakira in the provided articles.,"Queen Elizabeth II: Council concerned over upkeep of Queen statue
+Oakham Town Council has been asked to take on the maintenance costs of the 13ft (3.96m) statue.
+---
+The Big Cases
+Shakira Spencer was tortured and starved by people she considered friends.
+---
+Latin Grammys 2023: Shakira and Karol G come out on top
+The ceremony which celebrates achievement in the Latin music industry has taken place in Spain.
+---
+MTV VMAs 2023: Taylor Swift and Shakira are the big award winners
+Shakira crowd-surfs her way to a lifetime achievement award, while Swift wins artist of the year.
+---
+Shakira Spencer: Three convicted of torture murder of mother of two
+At the Old Bailey trial, the prosecution likened Shakira Spencer's killers to a pack of feral savages.",1.0,0.7040578873091186
+Does most of the UK provide consistent 24/7 care for terminally ill patients?,"No, research suggests that most of the UK lacks consistent round-the-clock care for the terminally ill.","Palliative care: 'My dad should not have been expected to die in office hours'
+Most of the UK lacks consistent round-the-clock care for the terminally ill, research suggests.
+---
+'We don't train to give care in corridors'
+Patients at a London hospital are waiting 24 hours in corridors as staff endure their ""hardest winter"".
+---
+Patients at risk stuck on hidden NHS waiting lists
+Patients are facing delays for ongoing cancer care, heart check-ups and eye treatment in England.
+---
+Hospitals in England with worst A&E waits revealed
+More than half of patients have waited more than four hours in some trusts in England this winter.
+---
+UK's high rate of avoidable deaths linked to NHS woes
+People in UK less likely to survive treatable conditions than in other rich nations, study suggests.",1.0,0.9444472108887456
+Which university won the Boat Race in 2023?,"Cambridge University won the Boat Race in 2023, completing a double over rivals Oxford.","Boat Race 2023: Cambridge's men and women complete boat race double
+Cambridge's men win the Boat Race to complete a double for the university over rivals Oxford.
+---
+World Athletics Championships 2023: Zharnel Hughes takes bronze as Noah Lyles wins men's 100m
+Watch as Great Britain's Zharnel Hughes takes bronze in the men's 100m, while Noah Lyles of the United States wins gold.
+---
+World Athletics Championships 2023: Laura Muir sixth as Faith Kipyegon wins third title
+Britain's Laura Muir finishes sixth at the World Championships in Budapest as Faith Kipyegon wins her third 1500m title.
+---
+Top-grade unis soak up students, Ucas data shows
+Universities asking for the highest entry grades have accepted more students so far this year than in 2023. 
+---
+European Championship Munich 2022: GB win gold and silver in 200m final
+Watch GB's Zharnel Hughes win gold in the men's 200m at the European Championships with compatriot Nethaneel Mitchell-Blake taking silver.",1.0,0.8926967317654729
+How many people died in the crash?,"The number of fatalities in the crashes mentioned varies:
+
+- Four people from Glasgow were killed.
+- At least one person was killed in China.
+- One person died in a bus crash involving a Tesla and a bus.
+- Two people died in a helicopter crash.
+- At least 15 people died in a highway crash in Canada.","Four people from Glasgow killed in M6 crash
+Five people, including two children, died in the crash on Tuesday, according to Cumbria Police.
+---
+Fatal car crash involving over 200 vehicles in China
+At least one person has been killed after heavy fog caused a pile-up near the city of Zhengzhou.
+---
+One dead and five injured in bus crash - police
+A 31-year-old man died at the scene of the crash involving a Tesla and a bus, police say.
+---
+Two people die in Westmeath helicopter crash
+The incident happened at around 15.30 BST. 
+---
+Canada highway crash near Winnipeg leaves at least 15 dead
+The crash between a truck and a bus carrying elderly people sparks massive emergency response.",1.0,0.6975111562300944
+How old is Mitch McConnell?,Mitch McConnell is 81 years old.,"Mitch McConnell says he is 'fine' after freezing at conference
+The 81-year-old senator abruptly stops speaking before Republican colleagues escorted him away.
+---
+Mitch McConnell freezes for second time during press event
+The 81-year-old Senate minority leader had another verbal lapse in July.
+---
+Mitch McConnell: After health scare, voters weigh in on whether politicians are too old
+The 81-year-old Republican appeared to freeze for the second time in just over a month while speaking to reporters.
+---
+McConnell to step down as Senate Republican leader
+The longest-serving Republican leader of the US Senate announces it is ""time to move on"".
+---
+Donald Trump and Mitch McConnell: Republican anger over midterms
+Donald Trump and Mitch McConnell get heat from colleagues after the Democrats keep control of the Senate.",1.0,0.9999993417702828
+Why is Mo Farah not running in the London Marathon?,Mo Farah has withdrawn from the London Marathon due to a hip injury.,"Mo Farah: British runner will not run London Marathon
+Four-time Olympic champion Mo Farah withdraws from Sunday's London Marathon with a hip injury.
+---
+London 10,000: Mo Farah to race for first time since June
+Mo Farah says it would not ""make any sense"" to continue racing if he could compete at the top, as he prepares for the London 10,000.
+---
+London Marathon 2023: Mo Farah prepares for 'emotional goodbye' at home race
+Mo Farah will say an ""emotional"" London Marathon ""goodbye"" to his home support after confirming his participation in this year's race.
+---
+Mo Farah finishes fourth in The Big Half in final London race
+Mo Farah's final race in his home city of London ends with a fourth-placed finish in The Big Half, as Jack Rowe wins.
+---
+Runner 'pinching himself' after beating Sir Mo Farah
+Winner of the Vitality London 10,000 road race, Ellis Cross, shares what it is like to beat the former Olympic champion.",1.0,0.9028446449325023
+Who is Hans Niemann suing?,Hans Niemann is suing Magnus Carlsen and Chess.com for libel.,"Chess cheating row: Hans Niemann sues accusers Magnus Carlsen and Chess.com for libel
+Hans Niemann is suing grandmaster Magnus Carlsen and others after they accused him of cheating.
+---
+Chess grandmaster Hans Niemann denies using vibrating sex toy to cheat
+Hans Niemann was accused of cheating after he beat Norwegian grandmaster Magnus Carlsen last September.
+---
+Magnus Carlsen and Hans Niemann: The cheating row that's blowing up the chess world
+Magnus Carlsen's apparent accusation against Hans Niemann is the biggest chess scandal in years.
+---
+Chess rivals settle long-running cheating dispute
+World champion Magnus Carlsen's accusations against Hans Niemann left the world of chess in turmoil.
+---
+Hans Niemann: Chess player accused of cheating 'not backing down'
+After winning his US Championship match, Hans Niemann said the game was ""a message to everyone"".",1.0,0.91395885531441
+What does a scalper do with products like PlayStations?,There is no information in the provided articles about what scalpers do with products like PlayStation consoles.,"Xbox v PlayStation: The battle for control
+A brief history of the warring console makers' attempts to become the games industry's big boss.
+---
+Xbox games on Nintendo and PlayStation: Is the console war over?
+Why the war between the big games console makers may be coming to an end.
+---
+Cuddly toy reviews used for headphones on Amazon
+Sellers are boosting ratings of electronics with reviews for completely different products, Which? finds.
+---
+Warning over children using anti-ageing skincare products
+Dermatologists say products with ingredients potentially harmful to children are growing popular.
+---
+Shopping giant removes copies of tiny firm's cards
+A small business owner says identical versions of her products were copied without permission.",1.0,
+When is the next UK general election?,The next UK general election will take place on 4 July.,"First time voter? What you need to know
+Prime Minister Rishi Sunak has announced the UK general election will take place on 4 July.
+---
+UK elections 2022: Is there an election in my area?
+National elections in Northern Ireland and local elections in the rest of the UK happen on 5 May 2022.
+---
+General election 2024 poll tracker: How do the parties compare?
+How do people say they will vote in the UK general election? Our poll tracker measures the trends.
+---
+General Election: When is the next one and could it be called sooner?
+If a PM wants an early election they need to make a ""request"" to the Queen.
+---
+Curtice: What could the local elections mean for the general election?
+The polls are the last big test of the Westminster government's popularity before the next election.",1.0,0.9799409116796953
+How old was William Friedkin when he died?,There is no relevant information about William Friedkin in the provided articles.,"William Brown: Arrest after boy, 7, killed in Sandgate hit-and-run
+A man has been arrested after seven-year-old William Brown died when he was hit by a vehicle.
+---
+'Godfather' of avocado toast Bill Granger dies, aged 54
+He passed away in a London hospital on Christmas Day, aged 54, with his family by his side.
+---
+From Wombles to Doctor Who: Cribbins' career in video
+The actor has died at the age of 93.
+---
+Olympic champion swimmer Wilkie dies aged 70
+British Olympic swimming champion David Wilkie dies at the age of 70.
+---
+Bernard Cribbins: Doctor Who pays tribute to veteran actor
+The veteran actor, who died in 2022 aged 93, reprised his role as Wilfred Mott one last time.",1.0,
+Are attitudes towards pre-owned goods changing?,"Yes, attitudes towards pre-owned goods are changing, with sustainability advocates welcoming the shift as a positive trend.","Cost of living: Second-hand shopping in vogue as prices rise
+Attitudes towards pre-owned goods are changing and sustainability advocates welcome the shift.
+---
+Rise in sales of second-hand outfits for festive parties
+The cost of living and sustainable shopping are driving a trend for pre-loved party pieces, experts say.
+---
+Why some farmers are turning away from the Tories
+The mood is shifting in an industry destabilised by economic shocks and post-Brexit reforms.
+---
+Why second-hand fashion is back in style
+""Pre-loved"" clothing is big business and it is not just about saving money and the planet.
+---
+Attitudes towards disability: 'Teenagers threatened to tip me out of my wheelchair'
+From physical threats to patronising comments, attitudes towards disabled people are revealed.",1.0,0.9999994319363867
+How much do secondary school uniforms cost parents annually?,"According to the article ""Secondary school uniform costs parents £422 a year"", secondary school uniforms cost parents approximately £422 per year.","Secondary school uniform costs parents £422 a year
+Parents still spending ""exorbitant"" sums on uniforms despite rules meant to cut costs, says charity.
+---
+Do new school uniform rules save parents money?
+Schools now have to take unnecessary logos off uniforms, but so far not all parents are benefitting.
+---
+Secondary school places: When do parents find out?
+Councils will soon be offering secondary school places to children in England and Wales.
+---
+Secondary school places: What parents need to know
+Children starting school in England and Wales in September will be offered places this week.
+---
+Cost of living: Are high school proms too expensive?
+Pupils are skipping school as their families cannot afford expensive outfits and limos, charity warns.",1.0,0.9138674391430541
+Will iPhone users in the EU be able to download apps from sources other than the App Store?,"Yes, iPhone users in the EU will soon be able to download apps from places other than the App Store.","Apple to allow rival app stores on iPhones in EU
+iPhone users in the EU will soon be able to download apps from places other than the App Store.
+---
+Apple in breach of law on App Store, says EU
+It is the first time a company has been found to be in breach of the Digital Markets Act (DMA).
+---
+New iPhone, new charger: Apple bends to EU rules
+A European Union law will require portable devices to have a common charger by 2024.
+---
+Apple 'like Godfather' with new App Store rules
+As Apple begins to allow other app stores on iPhones one entrepreneur criticises its behaviour.
+---
+Apple forced to ditch lightning charger in new iPhone
+Apple confirms new iPhone 15 will have a common USB-C charging port after the EU forced the change.",1.0,0.953692534686701
+Who took responsibility for England's World Cup exit?,Harry Kane took responsibility for England's World Cup exit after missing a crucial penalty during their 2-1 defeat to France.,"World Cup 2022: Harry Kane takes responsibility after World Cup exit
+Harry Kane took responsibility for England's World Cup exit after missing a crucial penalty during their 2-1 defeat to France.
+---
+Gareth Southgate: England manager on decision to stay, World Cup & human rights
+Gareth Southgate talks to BBC sports editor Dan Roan about his decision to remain England manager, the team's performance in Qatar and why he has no regrets.
+---
+Rugby League World Cup: Where did it go wrong for England as they exit at semi-finals?
+Another Rugby League World Cup, another gut-wrenching failure for England - but where did it all go wrong for Shaun Wane's side?
+---
+England 13-27 South Africa: Eddie Jones says defeat was 'entirely my fault'
+England head coach Eddie Jones says his side's 27-13 defeat by South Africa at Twickenham was ""entirely my fault"" but believes they can have a ""really good go"" at next year's World Cup.
+---
+Cricket World Cup: How politics derailed England's 2003 World Cup campaign
+The story behind England's 2003 World Cup elimination, which was partly because of their decision not to play Zimbabwe in Harare.",1.0,0.8687281210073018
+How long did their handshake last?,There is no information in the provided articles about the duration of a handshake.,"The Queen and Martin McGuinness' four-second handshake
+How the eyes of the world watched the Queen and former IRA leader Martin McGuinness shake hands.
+---
+Kenya election: How a handshake changed Odinga's heartland
+The BBC visits the home of presidential hopeful Raila Odinga, where a dramatic deal is paying off.
+---
+Watch: Zelensky and D-Day veteran call each other 'hero'
+Ukraine’s president hugged the World War Two soldier at a ceremony to mark the 80th anniversary of D-Day.
+---
+Mini heatwave: Will the very warm weather last?
+Very warm and sunny at the moment, but for how long will it last?
+---
+Quiz of the Year, part four: Who clinked glasses at a state banquet?
+How well do you remember the news of the past 12 months?",,
+Was Steph Houghton considered for the World Cup squad?,"Yes, according to England manager Sarina Wiegman, former captain Steph Houghton was ""in our conversations"" about being included in the World Cup squad.","Steph Houghton: Ex-England captain was considered for World Cup spot
+England manager Sarina Wiegman says former captain Steph Houghton was ""in our conversations"" despite being left out of the World Cup squad.
+---
+Steph Houghton: Former England captain left out of squad for women's Euros
+Former England captain Steph Houghton has not been included in the 23-player squad for the women's Euros.
+---
+'An icon of the game' - ex-England captain Houghton to retire
+Manchester City defender and former England captain Steph Houghton will retire at the end of the current Women's Super League season.
+---
+World Cup 2022: England squad features Maddison, Rashford and Wilson
+James Maddison, Marcus Rashford and Callum Wilson are included in England's 26-man Fifa World Cup squad for Qatar.
+---
+Jason Roy: England opener should go to the World Cup, says James Anderson
+Opener Jason Roy should remain in England's World Cup squad despite not taking part in the series against New Zealand, according to James Anderson.",1.0,0.967724127565921
+Are travel firms optimistic about their prospects for 2022?,"Yes, despite the threat of higher airline ticket prices, the travel industry is still upbeat and bookings are rising.","Travel firms confident they can bounce back in 2022
+Despite the threat of higher airline ticket prices, the industry is still upbeat as bookings are rising.
+---
+Warning that thousands of firms face collapse
+There are fears that 2023 could see a wave of company failures as the cost of living crisis continues.
+---
+Will there be more air travel chaos this summer?
+Air travel is booming, but last year delays were much worse than pre-pandemic. Will 2024 be the same?
+---
+Fears grow for summer holidays after flight cancellations
+Travel agents say staff are dealing with calls from holidaymakers anxious about their plans.
+---
+Easter holiday travel: No repeat of airport chaos, industry says
+Airports and airlines say they have enough staff to cope as they expect near 2019 levels of travel.",1.0,0.7030676049663594
+Will the cost of alcohol increase according to the context?,"Yes, according to the article ""Cheap booze prices to rise as MSPs raise minimum cost"", the cost of alcohol is set to increase due to a policy decision by MSPs.","Cheap booze prices to rise as MSPs raise minimum cost
+MSPs are set to increase the cost of alcohol but opinions remain split over the policy's effectiveness.
+---
+Cost of living: The young people saving money by going sober
+With the price of alcohol going up, young people say they're saving money by going sober.
+---
+Cigarette prices rise but draught beer duty is frozen
+Duty for draught pints is frozen but the average price of a pack of 20 cigarettes rises to £14.39.
+---
+Pub chain warns of higher food prices as VAT rises
+With hospitality businesses facing soaring costs, some are warning they will have to increase prices.
+---
+BBC licence fee £15 increase too high, culture secretary says
+The culture secretary says an increase of £15 to the fee would add to cost of living pressures.",1.0,0.6495115022571286
+How long has passed since the Mariupol siege?,It has been approximately 1 year since the Mariupol siege began.,"Ukraine war: Drone shots show Mariupol devastated by fighting
+Thousands of civilians have been trapped in the Ukrainian port city for nearly two weeks
+---
+'We thought it'd be a crisis we could live through' - one year on from Mariupol siege
+Mariupol's former Azovstal workers yearn for their old lives in the now Russian-held city.
+---
+Ukraine: The critical fight for 'heart of this war' Mariupol
+Russia could be on the brink of fully capturing the city after a devastating, six-week assault.
+---
+Ukraine war: Holocaust survivor aged 91 among Mariupol's civilian dead - reports
+The woman reportedly died in a basement more than 80 years after surviving the city's Nazi occupiers.
+---
+War in Ukraine: Estimated 300 dead in Mariupol theatre strike
+The Mariupol attack reportedly caused the worst known loss of life in one strike since the invasion began.",1.0,0.9465100727402288
+Which player scored the winning goal in the match?,"The answer depends on which match you are referring to. 
+
+For the 1990 World Cup final, it was Andreas Brehme who scored the winning goal for Germany.
+
+For Jude Bellingham's winning goal against Slovakia, no specific details about the match are provided in the articles.
+
+For the other matches mentioned (Real Madrid vs Eintracht Frankfurt, Liverpool vs Chelsea, and Paris St-Germain vs Bayern Munich), no information is available on a single ""winning goal"" being scored.","Brehme 'saved his best for the biggest games'
+BBC Sport remembers former Germany defender Andreas Brehme, who scored the winning goal in the 1990 World Cup final and has died aged 63.
+---
+Watch: England goal stuns reporter during live interview
+Jude Bellingham scored a winning goal against Slovakia, with an airborne kick that shocked the audience.
+
+---
+Real Madrid 2-0 Eintracht Frankfurt: Karim Benzema scores 324th goal for Real in Super Cup win
+Karim Benzema continues his Ballon d'Or pursuit with a landmark 324th goal for Real Madrid to help them beat Eintracht Frankfurt in the Uefa Super Cup.
+---
+FA Cup final: Konstantinos Tsimikas scores winning penalty for Liverpool against Chelsea
+Konstantinos Tsimikas scores the winning penalty to seal Liverpool a 6-5 shoot-out victory against Chelsea to win the FA Cup after the final had finished goalless at Wembley.
+---
+Paris St-Germain 0-1 Bayern Munich: Kingsley Coman strikes as Germans snatch last-16 first-leg lead
+Frenchman Kingsley Coman scores the winner for Bayern Munich against former club Paris St-Germain in their Champions League last-16 first-leg encounter.",0.8333333333333334,
+What trend has been observed regarding care worker numbers?,"There is a trend that the number of unpaid carers, particularly young carers, has increased since the pandemic.","Midwife quit over 'unsafe care' and staffing
+Other NHS workers have risen in number five times more than midwives over the past decade.
+---
+The young Essex carers whose help equates to a full-time job
+Charities say they have seen a ""massive rise"" in the number of young carers since the pandemic.
+---
+Census 2021: 'It took me two years before I realised I was a carer'
+Why have the number of unpaid carers dropped, according to the 2021 census?
+---
+'It is all about raising the profile of carers'
+The UK economy cannot afford to have more of its 10.5m army of carers quit the workforce for good.
+---
+The puzzle of UK’s half a million missing workers
+The number out of work through ill health has been rising sharply - and no-one is really sure why.",0.6666666666666666,0.6574931459968433
+Which player scored the winning goal for the Netherlands?,The answer is not explicitly stated in the provided articles.,"France 4-0 Netherlands: World Cup runners-up begin Euro 2024 qualifying campaign with win
+Kylian Mbappe scores his first goals as France captain as the World Cup finalists begin their Euro 2024 qualifying campaign with a comfortable win against the Netherlands.
+---
+World Cup 2022: Netherlands leave it late to beat Senegal 2-0 - highlights
+Watch highlights as the Netherlands leave it late to secure a 2-0 victory against Senegal in their first appearance at a World Cup since 2014 with goals from youngster Cody Gakpo and Davy Klaassen.
+---
+Euro 2022 - Netherlands v Portugal: Van de Donk stunner restores lead
+Danielle van de Donk scores ""an absolute rocket"" to secure a 3-2 win for the Netherlands over Portugal at Euro 2022.
+---
+'One of the best goals you'll see!' Depay finishes 21-pass move
+Watch Memphis Depay score for the Netherlands after a brilliant 21-pass move against the USA.
+---
+Senegal 0-2 Netherlands: Late goals give Dutch victory in World Cup opener
+Late goals give the Netherlands an important victory in their World Cup opener against Senegal in Group A.",1.0,
+What situation exists regarding punishment of rapists in Sierra Leone?,"In Sierra Leone, despite declaring sexual violence a national emergency, perpetrators are rarely punished.","A president declared an emergency over rape. What happened next?
+Despite Sierra Leone declaring sexual violence a national emergency, perpetrators are rarely punished.
+---
+Sierra Leone lifts curfew after breakout from Freetown's Pademba Road Prison
+President Julius Maada Bio says most of the leaders behind the attack are detained and calm restored.
+---
+Teenager living in fear after rapist Sean Hogg walked free
+Due to new sentencing guidelines Sean Hogg was given community payback for raping a 13-year-old.
+---
+Rape survivors 'battered and bruised' by justice system
+Three women raped by the same man say they want to reform the way victims of sex offences are treated in courts.
+---
+Ethiopia's civil war: The women who paid the price
+The BBC speaks to victims of sexual violence as rights groups say rape was used as a weapon of war.",1.0,0.7401582215275034
+Which clubs are leading the race for Alexis Mac Allister?,"Liverpool is a leading club in the race for Alexis Mac Allister, according to recent reports.","Wednesday's transfer gossip: Kane, Messi, Mourinho, Moyes, Mac Allister
+Paris St-Germain want Harry Kane, David Moyes to leave West Ham, Man Utd and Liverpool lead race for Alexis Mac Allister, plus more.
+---
+Liverpool battle past Sheff Utd to return to top
+Jurgen Klopp praises Alexis Mac Allister's ""wonder goal"" as Liverpool overcome Sheffield United to reclaim top spot in the Premier League and maintain control of the title race.
+---
+Brighton 1-0 Manchester United: Alexis Mac Allister scores 99th-minute penalty to win it
+Brighton snatched a dramatic win over Champions League-chasing Manchester United courtesy of a 99th-minute penalty by Alexis Mac Allister.
+---
+Pochettino agrees to become Chelsea boss - Sunday's gossip
+Mauricio Pochettino agrees terms to become Chelsea manager, Liverpool are favourites to sign Alexis Mac Allister, Kyle Walker wants to stay at Manchester City, plus more.
+---
+'He was destined to reach the top' - the making of Mac Allister
+From the streets of Argentina to the Premier League and World Cup glory - the story of Liverpool's new signing Alexis Mac Allister.",1.0,0.9423876420559797
+When does the Rugby League World Cup start?,"The Rugby League World Cup does not have a specified start date mentioned in the provided articles, but it is mentioned that France was initially set to host the tournament in 2025 before pulling out due to financial reasons.","World Rugby: New international competition announced in 'significant overhaul'
+World Rugby announces a new competition starting in 2026 as part of a ""significant overhaul"" of the men's international calendar.
+---
+Rugby League World Cup: France pulls out of hosting tournament in 2025
+France pulls out of hosting the 2025 Rugby League World Cup with organisers citing financial reasons for the decision.
+---
+Rugby League World Cup: Wales 12-18 Cook Islands - Steve Marsters seals Kukis' victory
+Cook Islands power back from a half-time deficit to edge Wales 18-12 in their Rugby League World Cup opener in Leigh.
+---
+Rugby World Cup 2023: What to look out for in second week of fixtures
+Billy Vunipola is back, Wales look to lay down a marker, and Sam Whitelock will equal a record - what to look out for in week two of the Rugby World Cup.
+---
+Rugby League World Cup: Australia 16-14 New Zealand highlights
+Watch highlights as defending champions Australia earn a hard-fought 16-14 win over New Zealand to reach their 15th consecutive Rugby League World Cup final.",1.0,
+Who scored the winning goal for Manchester United?,Marcus Rashford scored the winning goal for Manchester United.,"MOTD analysis: Does Marcus Rashford have a new role at Manchester United?
+Gabby Logan, Leon Osman and Dion Dublin analyse Marcus Rashford's performance as he scores the winning goal in Manchester United's 1-0 home win over Brentford.
+---
+Manchester United 2-1 Chelsea: Scott McTominay double lands hosts crucial win
+Scott McTominay scores twice as Manchester United claim a morale-boosting victory over Chelsea at Old Trafford.
+---
+Manchester United 1-0 Brentford: Marcus Rashford hit winner to send Red Devils fourth
+Manchester United climb back into the Premier League's top four by overcoming Brentford at Old Trafford.
+---
+Manchester United 1-0 Omonia Nicosia: Scott McTominay scores stoppage-time winner
+Manchester United leave it late as Scott McTominay scores a stoppage-time winner over Omonia Nicosia in the Europa League.
+---
+Manchester United 2-0 Burnley: Christian Eriksen and Marcus Rashford score in EFL Cup
+Christian Eriksen and Marcus Rashford score as Manchester United see off Burnley at Old Trafford in the Carabao Cup fourth round.",1.0,0.9999993308759646
+How old was the girl who was killed?,The girl who was killed was 15 years old.,"Thousands at vigil to remember girl, 15, killed on way to school
+Flowers, cards and teddies are laid at the spot where the 15-year-old was killed a week ago.
+---
+Murder investigation after girl, 10, dies
+Officers say a 33-year-old woman has been arrested after the child was found dead by police.
+---
+Elianne Andam: Mourners remember 15-year-old girl
+Elianne Andam was fatally stabbed while on her way to school in Croydon on 27 September.
+---
+Lilia Valutyte: Girl, 9, killed in Boston stab attack named by police
+A nine-year-old girl who died from a stab wound in Boston, Lincolnshire, is named by police.
+---
+Croydon: Tributes paid to girl, 15, killed on way to school
+A teenage boy has been arrested after the girl was stabbed on her way to school in south London.",1.0,0.9999994525708248
+How much is the typical household energy bill expected to be this winter?,"The typical household energy bill is expected to hit £3,549.","'Lives at risk' without more help on energy bills
+The typical household energy bill will hit £3,549, prompting concern for people's health this winter.
+---
+UK household energy bills to hit £3,000 per year
+Energy price rises mean a surge in winter fuel bills are expected.
+---
+Energy bills to be capped at £2,500 for typical household
+The new prime minister unveils a multi-billion pound plan to limit energy bill rises from October.
+---
+Liz Truss set to unveil plans to cut energy bills for millions
+The government could borrow £100bn to cap the typical household energy bill at around £2,500 a year.
+---
+When are the £324 cost-of-living payments and energy rebates due?
+All UK households are getting £400 off their winter energy bill and many on low incomes get extra help.",1.0,0.8453835766247526
+When does the 2022-23 Premier League season start?,"The 2022-23 Premier League season starts on Friday, a week earlier than usual due to the World Cup.","Premier League 2022-23: Everything you need to know as new season starts
+The Premier League season begins on Friday, a week earlier than usual, with the World Cup in mind. Here is what to expect this season.
+---
+Premier League: What should you look out for on the final day?
+The 2022-23 Premier League season finishes on Sunday - and the battle to avoid relegation looks set to provide the main drama.
+---
+Premier League 2022-23 fixtures: Schedule to be announced on Thursday
+The 2022-23 Premier League fixtures will be released at 09:00 BST on Thursday - find out how to follow your favourite team on BBC Sport.
+---
+Premier League predictions: Who will finish where in 2024-25?
+The new Premier League season starts on Friday - BBC Sport chief football writer Phil McNulty and BBC Sport fan writers predict who will finish where.
+---
+Premier League fixtures: Man City away to West Ham, Liverpool at Fulham, Forest at Newcastle
+Champions Manchester City travel to West Ham on the opening weekend of the 2022-23 Premier League season.",1.0,0.794689084447278
+How many years has Liege-Bastogne-Liege been celebrated as cycling's oldest spring classic?,Liege-Bastogne-Liege has been celebrated as cycling's oldest spring classic for 130 years.,"Liege-Bastogne-Liege: Cycling's oldest spring classic celebrates 130 years of torture
+Liege-Bastogne-Liege rarely fails to test riders. In its 130th year, a legend of the race looks back on his most remarkable win.
+---
+Olney: The town where a pancake race is a global event
+The pancake race in Olney, Buckinghamshire, is thought to be the world's oldest, starting in 1445.
+---
+Cycling World Championships 2023: Great Britain's Neil Fachie claims 19th world title
+Great Britain's Neil Fachie claims his 19th world title and Frances Brown also takes gold in the Cycling World Championships in Glasgow.
+---
+Filippo Ganna smashes cycling's hour world record
+Italy's Filippo Ganna smashes cycling's hour world record, recording 56.792km.
+---
+How city of light changed the Olympics
+The 2024 Paris Olympics mark 100 years since the French capital last played host. From art competitions to the Chariots of Fire legend, it was a Games of many firsts and lasts.",1.0,0.9821415141181501
+How many Ukrainians have fled their homes since the Russian invasion?,More than 11 million Ukrainians have fled their homes since the Russian invasion.,"How many Ukrainians have fled their homes and where have they gone?
+The UN says more than 11 million people have fled their homes since the Russian invasion of Ukraine.",1.0,0.9999995027180777
+Who is leading the US PGA Championship 2023?,Brooks Koepka leads the US PGA Championship 2023.,"US PGA Championship 2023: Brooks Koepka leads with Rory McIlroy and Justin Rose in touch
+Justin Rose and Rory McIlroy are among a stellar group of contenders who will challenge leader Brooks Koepka in Sunday's final round at the US PGA Championship.
+---
+US PGA Championship 2023: DeChambeau leads Scheffler, McIlroy battles, Rahm struggles at Oak Hill
+Bryson DeChambeau takes the lead at the US PGA Championship at Oak Hill, where Jon Rahm endures a nightmare start.
+---
+US PGA Championship 2023: Brooks Koepka beats Scottie Scheffler and Viktor Hovland at Oak Hill
+A resurgent Brooks Koepka holds off Scottie Scheffler and Viktor Hovland to claim his third US PGA Championship title at Oak Hill.
+---
+US Open 2023: Rickie Fowler & Wyndham Clark lead with Rory McIlroy and Scottie Scheffler firmly in contention
+Rickie Fowler and Wyndham Clark take a one-shot lead into the final round of the US Open with Rory McIlroy and Scottie Scheffler firmly in contention.
+---
+US Open 2022: Matt Fitzpatrick and Will Zalatoris lead going into final round
+Matt Fitzpatrick and Will Zalatoris share the US Open lead after the third round at Brookline Country Club.",1.0,0.9999995069855578
+Where did the Queen's state funeral take place?,The Queen's state funeral took place at Westminster Abbey.,"The Queen's funeral in pictures
+Photos of the Queen's state funeral, the service at Westminster Abbey to her final journey to Windsor.
+---
+Queen to lie in state for four full days before state funeral
+People will be able to view the Queen's coffin at Westminster Hall and pay respects in Edinburgh.
+---
+The Queen's journey to lying-in-state
+Her coffin travels from Buckingham Palace to Westminster Hall, where the public can pay their respects.
+---
+Queen's lying-in-state: The symbolism and ceremony explained
+A look at the ceremonial events surrounding the Queen's lying-in-state, ahead of her state funeral on Monday.
+---
+Queen Elizabeth II: A day-by-day guide from now to the funeral
+The Queen's coffin is lying in state for a fourth and final day ahead of her state funeral tomorrow.",1.0,0.9999993857618896
+Which areas experienced flooding due to Storm Bert?,Flooding was reported in Scotland and Wales due to Storm Bert.,"Flood fears as Storm Bert heads into second day
+Scotland is bracing for a second day of disruption with high winds and localised flooding forecast.
+---
+Storm Bert brings landslide and 82mph gusts
+Ten people were rescued after a landslide near Llangollen, Denbighshire, on Saturday afternoon.
+---
+Man dies after tree falls on car as Storm Bert sweeps UK
+Weather warnings for rain, wind, and floods remain in place for much of England, Scotland, and Wales.
+---
+Your pictures of Storm Bert from around the UK
+There's widespread disruption across the country as severe weather hits large areas.
+---
+Storm Bert floods 'absolutely devastating', says Welsh FM
+Eluned Morgan says there will be discussions about the support given to those impacted.",1.0,0.9026979178091322
+Where did the King and Queen stay in Wales before Charles' coronation?,"The King and Queen stayed at a Welsh country estate prior to Charles' coronation, although no specific location is mentioned in the provided articles.","King to give up lease on Welsh country estate
+It served as a royal home to the King and Queen during visits to Wales prior to Charles' coronation.
+---
+King Charles III in Cardiff for first Wales visit as monarch
+King Charles III extends his ""heartfelt thanks for your kind words"" following the Queen's death.
+---
+King and Queen begin summer stay in Scotland at Balmoral
+King Charles is continuing his mother's royal tradition of taking a summer residence in Scotland.
+---
+King's Coronation: Pubs to stay open longer in England and Wales
+People in England and Wales will get served for an extra two hours to mark King Charles III's coronation.
+---
+King Charles and Queen Camilla pose in royal regalia for official portraits
+The official photographs marking the King and Queen's Coronation were taken after the lavish ceremony.",1.0,
+How old was Alain Delon when he died?,Alain Delon was 88 years old when he died.,"Brigitte Bardot leads tributes as French star Alain Delon dies aged 88
+Brigitte Bardot says Delon's death has left a ""huge void that nothing and no-one will be able to fill"".
+---
+Architect of modern EU Jacques Delors dies aged 98
+Delors helped create the single market, but his dreams of integration faced stiff UK opposition.
+---
+French 'Spider-Man' scales skyscraper aged 60
+Alain Robert says he climbed the 48-storey skyscraper without safety gear to mark his 60th birthday.
+---
+Alain Delon: Tragic finale as film great's family is torn apart
+Old feuds and past rivalries re-emerge in public as ailing cinematic great's children fight for his legacy.
+---
+The Papers: 'Royal role models' and 'unforgettable' Alain Delon
+Front pages include the Sussexes finishing their Colombia tour and tributes to the French actor Alain Delon.",1.0,0.9999999999999998
+How old is the BBC turning this year?,The BBC is turning 70 years old this year.,"BBC Weather shares forecasts from the past as it turns 70
+See how presenting styles, technology and fashion have changed on BBC Weather over the decades.
+---
+BBC 100 Women marks 10th year with focus on progress
+The innovative BBC season reflects on a decade of change in a tumultuous year which has seen women taking centre stage.
+---
+An incomplete history of pop on BBC television
+It's 70 years since the BBC launched its first televised chart show. How have things changed since?
+---
+Newsround at 50: Five memorable moments as Newsround celebrates anniversary
+BBC children's show Newsround celebrates five decades of bulletins.
+---
+BBC Breakfast: Forty years of early morning bloopers
+A look back at some of the unexpected funny moments in the history of the BBC's morning news programme.",,0.9999999999999991
+What does Antony claim he never did?,Antony claims he never attacked any woman.,"Manchester United's Antony appears on Brazilian TV to deny allegations of assault
+Manchester United's Antony appears on Brazilian TV to deny allegations of assault saying ""I never attacked any woman"".
+---
+Antony to delay Manchester United return after assault allegations
+Manchester United's Antony will delay his return to the club after allegations of assault.
+---
+Manchester United 3-1 Arsenal: Antony scores on his debut to end Arsenal's winning run
+Manchester United earn a thrilling victory as Antony scores on his debut and ends Arsenal's winning run in an intense game at Old Trafford.
+---
+Antony must earn right to play for Man Utd - Ten Hag
+Manchester United manager Erik ten Hag says Brazil winger Antony must ""earn the right"" to play.
+---
+Antony: Manchester United's £80m man who grew up in Sao Paulo's 'Little Hell'
+BBC Sport takes a closer look at Antony's journey from Brazil's favelas to becoming Manchester United's second-most expensive signing.",1.0,0.6510860194445305
+In which Olympic event did Yuto Horigome win a gold medal?,Yuto Horigome won a gold medal in men's street skateboarding.,"Japan's Horigome nails incredible skill to win street skateboarding gold
+Watch Japan's Yuto Horigome's ""knockout"" gold medal-winning runs in the men's street skateboarding final on day three of the Paris 2024 Olympics.
+---
+Hodgkinson wins 800m gold to end wait for global title
+Great Britain's Keely Hodgkinson dominates the Olympic 800m final to win gold in Paris and end her wait for a global title.
+---
+ParalympicsGB surpass Tokyo gold medal tally with Coutya's second win
+Dimitri Coutya wins his second Paralympic gold medal in Paris with victory in the men's individual epee B final, as GB surpass their gold tally from the Tokyo Games.
+---
+Biles inspires USA to gymnastics team gold
+Simone Biles leads the United States to victory in the women's team gymnastics event to win her fifth Olympic gold and first since 2016.
+---
+Hodgkinson makes winning start to Olympic title bid
+Great Britain's Keely Hodgkinson makes a winning start to her Olympic 800m title bid as Joshua Cheptegei claims the first track gold at Paris 2024 in the 10,000m.",1.0,0.4740161227462688

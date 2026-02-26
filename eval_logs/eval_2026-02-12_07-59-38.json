@@ -1,0 +1,255 @@
+{
+  "timestamp": "2026-02-12T07:59:38",
+  "num_questions": 19,
+  "avg_faithfulness": 0.8170426065162907,
+  "avg_response_relevancy": 0.6986153398236056,
+  "results": [
+    {
+      "question": "Is price of oil higher than 2008 crisis?",
+      "answer": "Yes, according to the article \"Ukraine conflict: Oil price soars to highest level since 2008\", the current oil price has reached its highest level since 2008.",
+      "contexts": [
+        "Ukraine conflict: Oil price soars to highest level since 2008\nConsumers are feeling the impact of higher energy costs as fuel prices and household bills jump.",
+        "Warning over fuel prices as oil hits 10-month high\nThe price of a barrel of oil rose above $95 on Tuesday, stoking fears it could impact inflation.",
+        "Oil prices have soared. Why won't Opec bring them down?\nOil prices are at an eight-year high, so why won't oil exporting countries bring them down?",
+        "Faisal Islam: Oil price rise comes at a critical point\nAny extended rise raises the possibility of higher petrol prices and gas and electricity bills.",
+        "Why are global gas prices so high?\nEuropean gas prices are now about 10 times higher than their average level over the past decade."
+      ],
+      "faithfulness": 0.6666666666666666,
+      "response_relevancy": 0.693266280507965
+    },
+    {
+      "question": "Are Netflix still available in Russia?",
+      "answer": "Netflix is not currently available in Russia.",
+      "contexts": [
+        "Netflix expands password sharing crackdown to UK\nThe streaming giant will charge users for sharing passwords in countries including the UK and the US.",
+        "Russia's independent TV Rain channel back on air from abroad\nThe channel was forced to close in March over its coverage of the war in Ukraine.",
+        "Netflix raises prices as boost from password crackdown fades\nThe streaming giant will charge subscribers more in some countries to fuel growth.",
+        "Netflix loses subscribers for first time in more than 10 years\nThe firm lost 200,000 members in the first three months of the year.",
+        "Which companies are pulling out of Russia?\nReputational risk and practical difficulties means the exodus of firms is growing but some remain."
+      ],
+      "faithfulness": 0.0,
+      "response_relevancy": 0.9560900426487757
+    },
+    {
+      "question": "Why families run away from Irpin?",
+      "answer": "Families flee Irpin due to the town being under attack by Russian forces, as described in articles \"War in Ukraine: Taking cover in a town under attack\" and \"Ukraine war: Return to Irpin, the town destroyed in the battle for Kyiv\".",
+      "contexts": [
+        "Ukraine war: One shell that destroyed a family\nA woman recounts the moment her husband and son were killed by a Russian shell in the town of Irpin.",
+        "War in Ukraine: Taking cover in a town under attack\nJeremy Bowen was on the frontline in Irpin, as residents came under Russian fire while trying to flee.",
+        "Next stop Kyiv - the battle on the capital's outskirts\nIn Irpin, only a few civilians remain as volunteers bolster defences a few miles from Kyiv.",
+        "Ukraine war: Return to Irpin, the town destroyed in the battle for Kyiv\nThe BBC's Jeremy Bowen returns to Irpin, where Ukrainian forces say they're pushing back Russians.",
+        "Ukraine: Family escapes Kharkiv to Poland to treat daughter's cancer\nAfter four days on the run, three-year-old Polina and her mother have made it out of Ukraine."
+      ],
+      "faithfulness": 1.0,
+      "response_relevancy": 0.9057362959888564
+    },
+    {
+      "question": "What is the situation in mariupol?",
+      "answer": "Mariupol is currently under Russian control after a brutal siege that lasted for approximately 80 days, resulting in significant destruction and leaving thousands of civilians trapped.",
+      "contexts": [
+        "'Mariupol is a graveyard': Evacuees recount terror of Russian assault\nSurvivors from the besieged city say they wondered at times if the rest of Ukraine had fallen.",
+        "Mariupol: The 80 days that left a flourishing city in ruins\nThe Ukrainian port which has seen some of the most intense fighting is now under Russian control.",
+        "Ukraine war: Mariupol's refugees carry wounds of battered city\nResidents who have escaped the besieged city are trying to leave behind memories of its destruction.",
+        "Ukraine war: Life in Mariupol under Russian occupation\nRussia captured Mariupol in May after a brutal siege. Now, it's trying to win hearts and minds.",
+        "Ukraine war: Drone shots show Mariupol devastated by fighting\nThousands of civilians have been trapped in the Ukrainian port city for nearly two weeks"
+      ],
+      "faithfulness": 1.0,
+      "response_relevancy": 0.823926048141521
+    },
+    {
+      "question": "Do you have information about what happened the day 16 in the ukraine War?",
+      "answer": "On day 16 of Russia's invasion, Vladimir Putin paved the way for foreign fighters to join the war, while Russia widened its attacks.",
+      "contexts": [
+        "Ukraine: What happened on day 16 of Russia's invasion\nVladimir Putin paves the way for foreign fighters to join the war, while Russia widens its attacks.",
+        "War in Ukraine: What happened on day 18 of Russia's invasion\nA military base near the Polish border is attacked, and the UK announces a scheme to house refugees.",
+        "War in Ukraine: What happened on day 19 of Russia's invasion\nDrone footage shows destruction of Mariupol, and protesters target an oligarch's London mansion.",
+        "Ukraine conflict: Your guide to understanding day 11\nMore than 1.5 million Ukrainians have fled the country. Here's what you need to know after day 11 of the war.",
+        "Ukraine conflict: Your guide to understanding day 14\nA hospital is attacked as civilians try to escape. Here is your guide to the 14th day of fighting."
+      ],
+      "faithfulness": 1.0,
+      "response_relevancy": 0.6204776651274452
+    },
+    {
+      "question": "How many goals does cristiano scored against totenham?",
+      "answer": "Cristiano Ronaldo scored three goals against Tottenham Hotspur.",
+      "contexts": [
+        "Sheriff Tiraspol 0-2 Man Utd: Cristiano Ronaldo and Jadon Sancho score\nCristiano Ronaldo ends his barren spell with the first Europa League goal of his career as Manchester United earn victory at Sheriff Tiraspol.",
+        "MOTD analysis: How 'sensational' Cristiano Ronaldo dominated Tottenham Hotspur\nMatch of the Day pundits Alan Shearer and Jermaine Jenas highlight the contribution of Cristiano Ronaldo after his hat-trick helped Manchester United beat Tottenham Hotspur 3-2 at Old Trafford.",
+        "Quiz of the week: What was Cristiano Ronaldo's off-field own goal?\nHow closely have you been paying attention to what's been going on over the past seven days?",
+        "Manchester City: Best of 100 FA Cup goals under manager Pep Guardiola\nBBC Sport looks back at the best of Manchester City's 100 FA Cup goals scored under Pep Guardiola ahead of Saturday's semi-final against Sheffield United.",
+        "Tottenham Hotspur 1-0 Manchester City: Harry Kane passes Jimmy Greaves as Spurs' all-time top scorer\nHarry Kane becomes Tottenham's all-time record scorer, surpassing the great Jimmy Greaves, as his 267th goal for the club dents Manchester City's title ambitions at a raucous Tottenham Hotspur Stadium."
+      ],
+      "faithfulness": 1.0,
+      "response_relevancy": 0.8068545505300685
+    },
+    {
+      "question": "How many goals does cristiano scored in the match manchester united vs totenham?",
+      "answer": "Cristiano Ronaldo scored a hat-trick, helping Manchester United beat Tottenham Hotspur 3-2 at Old Trafford.",
+      "contexts": [
+        "Everton 1-2 Man Utd: Cristiano Ronaldo scores 700th club goal as visitors come from behind to win\nCristiano Ronaldo scores his 700th club goal as Manchester United come from behind to beat Everton at Goodison Park in the Premier League.",
+        "Manchester United 1-1 Chelsea: Cristiano Ronaldo scores 17th goal of the season in draw\nCristiano Ronaldo scores his 17th goal of the season to earn Manchester United a point after David de Gea frustrates Chelsea with several superb saves at Old Trafford.",
+        "Sheriff Tiraspol 0-2 Man Utd: Cristiano Ronaldo and Jadon Sancho score\nCristiano Ronaldo ends his barren spell with the first Europa League goal of his career as Manchester United earn victory at Sheriff Tiraspol.",
+        "MOTD analysis: How 'sensational' Cristiano Ronaldo dominated Tottenham Hotspur\nMatch of the Day pundits Alan Shearer and Jermaine Jenas highlight the contribution of Cristiano Ronaldo after his hat-trick helped Manchester United beat Tottenham Hotspur 3-2 at Old Trafford.",
+        "Manchester United 3-0 Sheriff Tiraspol: Cristiano Ronaldo scores in comfortable win\nManchester United cruise past Sheriff but will need to beat Real Sociedad in their Europa League Group E finale to take top spot."
+      ],
+      "faithfulness": 1.0,
+      "response_relevancy": 0.5907372703622332
+    },
+    {
+      "question": "Summarize the information about the ukraine war in the day of 10 march 2022",
+      "answer": "On Day 15 of Russia's invasion, Ukrainian forces were battling to hold onto the city of Kharkiv. Meanwhile, Ukrainians rescued their grandmothers from Russian shelling on the frontline.",
+      "contexts": [
+        "The Ukrainian triplets born into war\nEmilia, Melania and Olivia were born in Ukraine on the day Russian troops invaded in 2022.",
+        "Ukraine war: Five ways conflict could go in 2023\nAs the conflict enters its second calendar year, experts predict what could happen on the ground.",
+        "Ukraine conflict: Your guide to understanding day 11\nMore than 1.5 million Ukrainians have fled the country. Here's what you need to know after day 11 of the war.",
+        "Ukraine round-up: Evidence of alleged Russian atrocities mounts near Kyiv\nNew evidence of alleged Russian atrocities near Kyiv emerges on Day 40 of the Russian invasion.",
+        "Ukraine: What happened on day 15 of Russia's invasion\nOn the frontline in the battle for Kharkiv - and Ukrainians rescue their grandmothers from Russian shelling."
+      ],
+      "faithfulness": 0.0,
+      "response_relevancy": 0.5222878218257068
+    },
+    {
+      "question": "Summarize the information about the ukraine war in the day of 10/03/2022",
+      "answer": "There is no relevant information about the Ukraine war on Day 10/03/2022, as the article \"Ukraine conflict: Your guide to understanding day 11\" only provides information up to Day 11.",
+      "contexts": [
+        "Ukraine war: Five ways conflict could go in 2023\nAs the conflict enters its second calendar year, experts predict what could happen on the ground.",
+        "The Ukrainian triplets born into war\nEmilia, Melania and Olivia were born in Ukraine on the day Russian troops invaded in 2022.",
+        "Ukraine war: Zelensky aide reveals up to 13,000 war dead\nWestern casualty estimates suggest about 100,000 Ukrainian soldiers have been killed or wounded.",
+        "Ukraine conflict: Your guide to understanding day 11\nMore than 1.5 million Ukrainians have fled the country. Here's what you need to know after day 11 of the war.",
+        "Ukraine round-up: Evidence of alleged Russian atrocities mounts near Kyiv\nNew evidence of alleged Russian atrocities near Kyiv emerges on Day 40 of the Russian invasion."
+      ],
+      "faithfulness": 0.5,
+      "response_relevancy": 0.7863629259055028
+    },
+    {
+      "question": "What happened in the 2022 french election?",
+      "answer": "In the 2022 French election, Emmanuel Macron lost his majority in the National Assembly, and less than two months after re-election, he lost control of the parliament.",
+      "contexts": [
+        "French election 2022: What happened on the night?\nMacron arrives to jubilant scenes at the Eiffel Tower, while there's disappointment for those gathering with Le Pen.",
+        "World Cup 2022: France beat Morocco to reach World Cup final\nFrance will have a chance to defend their title they won in 2018 after beating Morocco 2-0 to reach World Cup final.",
+        "French elections: Macron loses majority as French vote fragments\nLess than two months after re-election, the president loses control of the National Assembly.",
+        "Euro 2022: Have France gone from ticking time bomb to united?\nFrance are through to the Euro 2022 knockouts with a game to spare, so are they now united in pursuit of a first major women's tournament title?",
+        "After France's election shock comes the real power struggle\nFrance’s left-wing bloc has won the election - now the real battle begins, writes Andrew Harding."
+      ],
+      "faithfulness": 1.0,
+      "response_relevancy": 0.6870784948879295
+    },
+    {
+      "question": "What is the result of the parliament french election?",
+      "answer": "The French left-wing bloc won the parliamentary election.",
+      "contexts": [
+        "Emmanuel Macron a chastened and greatly weakened leader\nThe parliamentary elections' results confirm the French leader's second term will not be an easy ride.",
+        "French election: Left surge threatens Macron majority in France\nA strong showing by a left-green alliance jeopardises the French president's parliamentary majority.",
+        "The far right is close to power in France. Will the rest of Europe follow?\nWhatever the result of France's election, its impact will be seismic, says Europe editor Katya Adler.",
+        "After France's election shock comes the real power struggle\nFrance’s left-wing bloc has won the election - now the real battle begins, writes Andrew Harding.",
+        "France election: Macron supporters cheer first projections\nThe incumbent, Emmanuel Macron, has secured the largest share of the vote in the presidential election."
+      ],
+      "faithfulness": 1.0,
+      "response_relevancy": 0.6328566449556108
+    },
+    {
+      "question": "Who won the match real madrid vs chelsea?",
+      "answer": "Real Madrid won the match 2-0.",
+      "contexts": [
+        "Real Madrid 2-0 Chelsea: Blues' Champions League ambitions dented by the holders\nChelsea have it all to do if they are to advance to the Champions League semi-finals as they lose to holders Real Madrid at the Bernabeu.",
+        "Chelsea 2-1 Real Madrid: Emma Hayes' side progress to Women's Champions League quarter-finals as group winners\nChelsea are through to the quarter-finals of the Women's Champions League as group winners after grinding out a victory over Real Madrid at Stamford Bridge.",
+        "Real Madrid 2-0 Chelsea: Frank Lampard says Blues can produce 'special' night in second leg\nFrank Lampard believes Chelsea can produce a \"special\" night next week and overturn a 2-0 deficit against Real Madrid to reach the Champions League last four.",
+        "Chelsea 2-0 Real Madrid: Blues maintain perfect start in Women's Champions League\nChelsea maintain their perfect start in the Women's Champions League by seeing off Real Madrid at Kingsmeadow.",
+        "Real Madrid 1-1 Manchester City: Kevin de Bruyne helps City draw Champions League first leg\nKevin de Bruyne's screamer earns Manchester City a Champions League semi-final first-leg draw at Real Madrid to keep their dream of a Treble on track."
+      ],
+      "faithfulness": 1.0,
+      "response_relevancy": 0.7247186632683985
+    },
+    {
+      "question": "What are the news about alexei navalny?",
+      "answer": "Alexei Navalny, a Russian opposition leader, was found dead, and his team had no contact with him for weeks before he failed to appear at several court hearings.",
+      "contexts": [
+        "BBC Russia Editor: News will worsen Russia-West relations\nNews of Alexei Navalny's death will worsen relations between Russia and the west, Steve Rosenberg says.",
+        "Alexei Navalny: Russian opposition leader found, says team\nMr Navalny's team had no contact with him for weeks and he failed to appear at several court hearings.",
+        "Alexei Navalny: Russian opposition leader 'removed from penal colony'\nAlexei Navalny's associates say they don't know where he is, after six days of uncertainty.",
+        "Alexei Navalny braces for new verdict as Kremlin clamps down\nJailed Russian opposition figure Alexei Navalny could see decades added to his time behind bars.",
+        "Alexei Navalny death: Team accuses Russia of 'hiding' his body\nAn ally of the opposition activist, who died on Friday, says officials are \"trying to cover traces\"."
+      ],
+      "faithfulness": 1.0,
+      "response_relevancy": 0.8240499601817158
+    },
+    {
+      "question": "What are the news about navalny?",
+      "answer": "Alexei Navalny died on Friday, and according to Maria Pevchikh, he was set to be exchanged for a hitman in a prisoner swap when he passed away.",
+      "contexts": [
+        "BBC Russia Editor: News will worsen Russia-West relations\nNews of Alexei Navalny's death will worsen relations between Russia and the west, Steve Rosenberg says.",
+        "Navalny was about to be freed in prisoner swap, says colleague\nMaria Pevchikh claims the Russian opposition leader was set to be exchanged for a hitman when he died.",
+        "Navalny's life and future death captured in Oscar-winning documentary\nThe director of the 2022 Oscar-winning film speaks of his shock at the death of Alexei Navalny.",
+        "Alexei Navalny death: Team accuses Russia of 'hiding' his body\nAn ally of the opposition activist, who died on Friday, says officials are \"trying to cover traces\".",
+        "Alexei Navalny braces for new verdict as Kremlin clamps down\nJailed Russian opposition figure Alexei Navalny could see decades added to his time behind bars."
+      ],
+      "faithfulness": 1.0,
+      "response_relevancy": 0.7004626257719534
+    },
+    {
+      "question": "What happened in buccha?",
+      "answer": "In Bucha, Ukrainian soldiers pulled out Russian soldiers, leaving the town in utter devastation, with streets littered with burned-out tanks and corpses, and widespread condemnation for the killings of civilians, including a welder named Oleg Abramov who was shot dead outside his home.",
+      "contexts": [
+        "Ukraine war: Bucha street littered with burned-out tanks and corpses\nA BBC team witnesses utter devastation in the town of Bucha, after Russian soldiers pulled out.",
+        "Bucha killings: 'I wish they had killed me too'\nA family tells the BBC how Oleg Abramov, a welder in Bucha, was shot dead outside his home.",
+        "Ukraine round-up: Widespread condemnation over killings in Bucha\nThe discovery of bodies scattered along a street in a Ukrainian town has sparked horror.",
+        "Bucha's wounds still raw two years on\nA town known for its brutal Russian occupation is being cleaned up and rebuilt, but for many the emotional scars remain.",
+        "War in Ukraine: Street in Bucha found strewn with dead bodies\nA reporter entering Bucha, near Kyiv, counts at least 20 bodies of men, one with his hands tied."
+      ],
+      "faithfulness": 0.8571428571428571,
+      "response_relevancy": 0.5581726999543606
+    },
+    {
+      "question": "Give me the result of the netball world cup 2023",
+      "answer": "The results of the Netball World Cup 2023 are not explicitly stated in the provided articles. However, it can be inferred that England has reached the semi-finals and won several matches, but the overall outcome of the tournament is not specified.",
+      "contexts": [
+        "Netball World Cup 2023 results: England beat Malawi 62-39 in Pool B\nEngland overcome a nervy start to maintain a perfect record at this Netball World Cup with a 62-39 win over Malawi in Pool B.",
+        "Netball World Cup 2023 results: England 89-28 Fiji - Red Roses dominate to seal semi-final spot\nEngland produce their best performance of the Netball World Cup so far to beat Fiji and confirm their place in the semi-finals.",
+        "Netball World Cup 2023: England beat Tonga 72-46 in second pool phase\nEngland come through a physical test to beat Tonga 72-46 and start the second pool phase of the Netball World Cup with an improved display.",
+        "Netball World Cup 2023: South Africa score in last second to draw with New Zealand\nWatch South Africa score in the dying seconds to earn a dramatic 48-48 draw with New Zealand at the Netball World Cup.",
+        "Netball World Cup 2023: England beat Barbados 90-29 in Pool B opener\nEngland make a winning start to the Netball World Cup, dominating a Barbados team featuring two of their former team-mates."
+      ],
+      "faithfulness": 0.75,
+      "response_relevancy": 0.0
+    },
+    {
+      "question": "Does andrew Tate have a brother?",
+      "answer": "Yes, Andrew Tate has a brother named Tristan.",
+      "contexts": [
+        "Andrew Tate and brother can be extradited to UK\nThe Tate brothers can be sent back to the UK after separate proceedings in Romania end, a judge ruled.",
+        "Tate brothers did not cheat their way to money, lawyer claims\nAndrew Tate and his brother, Tristan, have been accused of failing to pay £21m in tax.",
+        "Tate brothers accused of being serial tax evaders\nAndrew Tate and his brother Tristan are accused of failing to pay any tax on £21m of revenue.",
+        "Andrew Tate loses appeal against latest detention\nThe controversial influencer and his brother Tristan will remain in custody until 29 March.",
+        "Andrew Tate and brother to be moved to house arrest\nA Romanian appeals court orders the Tates and two associates to be moved to house arrest."
+      ],
+      "faithfulness": 1.0,
+      "response_relevancy": 0.935401337592002
+    },
+    {
+      "question": "Are women in danger in Yemen?",
+      "answer": "Yes, according to BBC News articles, women in Yemen face significant dangers due to ongoing conflict and violence. Mona's experience of traveling seven hours by camel to give birth highlights the risks faced by pregnant women, while hidden diaries from Iranian protesters reveal everyday risks and dangers for women in the country. Additionally, the \"double tap\" attacks mentioned in another article indicate a high level of violence against civilians, including women, in Yemen's civil war.",
+      "contexts": [
+        "The woman who travelled seven hours by camel to give birth\nMona survived the agonising journey, but others facing the same stark choice in Yemen have not.",
+        "The secret diaries of women protesting in Iran\nHidden diaries sent to the BBC show the everyday risks and dangers that women face.",
+        "'Double tap' attacks in Yemen's civil war\nThe country has seen some of the worst violence of the conflict in the past 12 months.",
+        "Strikes on Houthi targets in Yemen show war in Gaza has already spread\nWar spreading in the Middle East is not just a risk - it has already happened, writes the BBC's international editor.",
+        "Ukraine war could worsen crises in Yemen and Afghanistan\nWhile the world focuses on Ukraine, the UN warns humanitarian needs elsewhere are also growing."
+      ],
+      "faithfulness": 0.75,
+      "response_relevancy": 0.8555460674848374
+    },
+    {
+      "question": "What does women face in Yemen?",
+      "answer": "In Yemen, women may face the stark choice of traveling long distances by camel to give birth due to limited access to medical facilities, as seen in the case of Mona who survived a seven-hour journey.",
+      "contexts": [
+        "The woman who travelled seven hours by camel to give birth\nMona survived the agonising journey, but others facing the same stark choice in Yemen have not.",
+        "'Double tap' attacks in Yemen's civil war\nThe country has seen some of the worst violence of the conflict in the past 12 months.",
+        "Yemen: The children of a forgotten war\nA rare glimpse of a fractured conflict where the young are stalked by war and hunger.",
+        "Confronting the Houthis: How powerful are Yemen’s rebel rulers?\nThe Houthis represent only around 15% of Yemenis, yet consider themselves the rightful rulers.",
+        "Abortion: UK women face protests by emboldened campaigners\nCampaigners call for more protection for women attending clinics in Northern Ireland."
+      ],
+      "faithfulness": 1.0,
+      "response_relevancy": 0.6496660615136264
+    }
+  ]
+}

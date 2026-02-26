@@ -1,0 +1,253 @@
+{
+  "question": "How old was William Friedkin when he died?",
+  "timestamp": "2026-02-26T14:28:59",
+  "search_mode": "hybrid",
+  "beta": 0.6,
+  "reranker": "light",
+  "pre_rerank_results": [
+    {
+      "rank": 1,
+      "title": "JPR Williams: Wales and British and Irish Lions legend dies aged 74",
+      "description": "Legendary Wales and British and Irish Lions full-back JPR Williams dies at the age of 74.",
+      "pubDate": "Mon, 08 Jan 2024 22:22:20 GMT",
+      "link": "https://www.bbc.co.uk/sport/rugby-union/67912287?at_medium=RSS&at_campaign=KARANGA",
+      "score": 0.6
+    },
+    {
+      "rank": 2,
+      "title": "Dick Fosbury: The athlete who developed the 'Fosbury Flop' dies aged 76",
+      "description": "Dick Fosbury - the man who revolutionised the high jump in athletics - has died at the age of 76.",
+      "pubDate": "Mon, 13 Mar 2023 20:16:34 GMT",
+      "link": "https://www.bbc.co.uk/sport/athletics/64945985?at_medium=RSS&at_campaign=KARANGA",
+      "score": 0.5972062174483195
+    },
+    {
+      "rank": 3,
+      "title": "Pulp bassist Steve Mackey dies aged 56",
+      "description": "The musician, who had been in hospital for the past three months, died on Thursday morning.",
+      "pubDate": "Thu, 02 Mar 2023 17:15:15 GMT",
+      "link": "https://www.bbc.co.uk/news/entertainment-arts-64827409?at_medium=RSS&at_campaign=KARANGA",
+      "score": 0.5961301091998888
+    },
+    {
+      "rank": 4,
+      "title": "Richard Franklin: Doctor Who and Emmerdale star dies on Christmas Day",
+      "description": "The 87-year-old - who also stood for parliament - died in his sleep, it has been confirmed.",
+      "pubDate": "Mon, 25 Dec 2023 22:59:00 GMT",
+      "link": "https://www.bbc.co.uk/news/uk-67820877?at_medium=RSS&at_campaign=KARANGA",
+      "score": 0.593594883708727
+    },
+    {
+      "rank": 5,
+      "title": "UK's second-oldest man dies aged 111, eight months after dream visit to No. 10",
+      "description": "John Farringdon is believed to have been the third oldest man in the world.",
+      "pubDate": "Fri, 16 Aug 2024 12:29:57 GMT",
+      "link": "https://www.bbc.com/news/articles/clyn89j77meo",
+      "score": 0.5926240695188304
+    },
+    {
+      "rank": 6,
+      "title": "Mikhail Gorbachev: Last Soviet leader dies aged 91",
+      "description": "The former president opened up the USSR but failed to prevent its collapse in 1991.",
+      "pubDate": "Tue, 30 Aug 2022 23:14:53 GMT",
+      "link": "https://www.bbc.co.uk/news/uk-62732447?at_medium=RSS&at_campaign=KARANGA",
+      "score": 0.5921172026333911
+    },
+    {
+      "rank": 7,
+      "title": "Earth, Wind & Fire drummer Fred White dies aged 67",
+      "description": "Child drumming prodigy White was one of the early members of the band with several of his brothers.",
+      "pubDate": "Mon, 02 Jan 2023 23:16:38 GMT",
+      "link": "https://www.bbc.co.uk/news/entertainment-arts-64148843?at_medium=RSS&at_campaign=KARANGA",
+      "score": 0.590561701971776
+    },
+    {
+      "rank": 8,
+      "title": "Russian sausage tycoon Pavel Antov dies in Indian hotel fall",
+      "description": "Meat millionaire Pavel Antov, who recently denied criticising the war in Ukraine, had just turned 65.",
+      "pubDate": "Tue, 27 Dec 2022 12:28:15 GMT",
+      "link": "https://www.bbc.co.uk/news/world-europe-64101437?at_medium=RSS&at_campaign=KARANGA",
+      "score": 0.5900037474190084
+    },
+    {
+      "rank": 9,
+      "title": "Robbie Coltrane: Harry Potter actor dies aged 72",
+      "description": "Actor Robbie Coltrane, who played Hagrid in the Harry Potter films, dies aged 72.",
+      "pubDate": "Fri, 14 Oct 2022 21:36:57 GMT",
+      "link": "https://www.bbc.co.uk/news/entertainment-arts-63261204?at_medium=RSS&at_campaign=KARANGA",
+      "score": 0.5889267481066128
+    },
+    {
+      "rank": 10,
+      "title": "In pictures: The life of ex-Soviet leader Mikhail Gorbachev",
+      "description": "The ex-Soviet leader - who was one of the 20th century's most influential figures - dies age 91.",
+      "pubDate": "Tue, 30 Aug 2022 22:18:33 GMT",
+      "link": "https://www.bbc.co.uk/news/world-europe-62732829?at_medium=RSS&at_campaign=KARANGA",
+      "score": 0.5773892518874467
+    },
+    {
+      "rank": 11,
+      "title": "'Godfather' of avocado toast Bill Granger dies, aged 54",
+      "description": "He passed away in a London hospital on Christmas Day, aged 54, with his family by his side.",
+      "pubDate": "Wed, 27 Dec 2023 12:22:21 GMT",
+      "link": "https://www.bbc.co.uk/news/world-australia-67825337?at_medium=RSS&at_campaign=KARANGA",
+      "score": 0.5762552244812894
+    },
+    {
+      "rank": 12,
+      "title": "John Berylson: Millwall owner and chairman dies aged 70 in 'tragic accident'",
+      "description": "Millwall's owner and chairman John Berylson dies at the age of 70 following a \"tragic accident\", the club announce.",
+      "pubDate": "Tue, 04 Jul 2023 21:40:58 GMT",
+      "link": "https://www.bbc.co.uk/sport/football/66105440?at_medium=RSS&at_campaign=KARANGA",
+      "score": 0.5723842941065524
+    },
+    {
+      "rank": 13,
+      "title": "Yevgeny Prigozhin: Was the Wagner chief a dead man walking?",
+      "description": "Ever since he led a mutinous march on Moscow in late June, some speculated Yevgeny Prigozhin's days were numbered.",
+      "pubDate": "Wed, 23 Aug 2023 23:32:05 GMT",
+      "link": "https://www.bbc.co.uk/news/world-europe-66601452?at_medium=RSS&at_campaign=KARANGA",
+      "score": 0.5706626100154599
+    },
+    {
+      "rank": 14,
+      "title": "Northern Ireland World Cup manager Billy Bingham dies",
+      "description": "Billy Bingham, who managed Northern Ireland at the 1982 and 1986 World Cup finals, dies at the age of 90.",
+      "pubDate": "Fri, 10 Jun 2022 12:25:42 GMT",
+      "link": "https://www.bbc.co.uk/sport/football/61757384?at_medium=RSS&at_campaign=KARANGA",
+      "score": 0.570131535892304
+    },
+    {
+      "rank": 15,
+      "title": "New Zealand's Māori King Tuhetia dies ",
+      "description": "The 69-year-old died peacefully, surrounded by family, after heart surgery. ",
+      "pubDate": "Fri, 30 Aug 2024 00:00:06 GMT",
+      "link": "https://www.bbc.com/news/articles/crkm8xjeyzyo",
+      "score": 0.565605970524594
+    },
+    {
+      "rank": 16,
+      "title": "Phyllis Latour: The secret life of a WW2 heroine revealed",
+      "description": "WW2 spy Phyllis Latour has died aged 102. Now the full story of her wartime career can be told.",
+      "pubDate": "Fri, 13 Oct 2023 23:08:49 GMT",
+      "link": "https://www.bbc.co.uk/news/uk-67100792?at_medium=RSS&at_campaign=KARANGA",
+      "score": 0.5512317721727654
+    },
+    {
+      "rank": 17,
+      "title": "Tom Wilkinson: The Full Monty actor dies at 75",
+      "description": "The British star won a Bafta for the hit 1997 film, and was nominated for two Oscars.",
+      "pubDate": "Sat, 30 Dec 2023 22:06:30 GMT",
+      "link": "https://www.bbc.co.uk/news/entertainment-arts-65823240?at_medium=RSS&at_campaign=KARANGA",
+      "score": 0.508692675503711
+    },
+    {
+      "rank": 18,
+      "title": "Bernard Cribbins: Doctor Who pays tribute to veteran actor",
+      "description": "The veteran actor, who died in 2022 aged 93, reprised his role as Wilfred Mott one last time.",
+      "pubDate": "Sun, 03 Dec 2023 13:21:30 GMT",
+      "link": "https://www.bbc.co.uk/news/uk-wales-67600137?at_medium=RSS&at_campaign=KARANGA",
+      "score": 0.4986242467415523
+    },
+    {
+      "rank": 19,
+      "title": "From Wombles to Doctor Who: Cribbins' career in video",
+      "description": "The actor has died at the age of 93.",
+      "pubDate": "Thu, 28 Jul 2022 09:27:22 GMT",
+      "link": "https://www.bbc.co.uk/news/entertainment-arts-62331433?at_medium=RSS&at_campaign=KARANGA",
+      "score": 0.49717017886128956
+    },
+    {
+      "rank": 20,
+      "title": "William Brown: Arrest after boy, 7, killed in Sandgate hit-and-run",
+      "description": "A man has been arrested after seven-year-old William Brown died when he was hit by a vehicle.",
+      "pubDate": "Thu, 07 Dec 2023 19:49:44 GMT",
+      "link": "https://www.bbc.co.uk/news/uk-england-kent-67645864?at_medium=RSS&at_campaign=KARANGA",
+      "score": 0.4
+    },
+    {
+      "rank": 21,
+      "title": "William Hill: Gambling addict says bookmaker didn't help him stop",
+      "description": "A teacher says William Hill should have done more to stop him betting when he was staking thousands.",
+      "pubDate": "Sat, 18 Mar 2023 21:56:10 GMT",
+      "link": "https://www.bbc.co.uk/news/uk-wales-64975068?at_medium=RSS&at_campaign=KARANGA",
+      "score": 0.3844918991273236
+    },
+    {
+      "rank": 22,
+      "title": "Olympic champion swimmer Wilkie dies aged 70",
+      "description": "British Olympic swimming champion David Wilkie dies at the age of 70.",
+      "pubDate": "Wed, 22 May 2024 15:18:46 GMT",
+      "link": "https://www.bbc.com/sport/swimming/articles/c3ggndekv8lo",
+      "score": 0.32283009835861065
+    },
+    {
+      "rank": 23,
+      "title": "Prince William meets crash survivor he helped save",
+      "description": "Jack Beeton says it is \"lovely\" to meet the Prince of Wales, who helped save him when he was a pilot.",
+      "pubDate": "Fri, 02 Jun 2023 19:39:36 GMT",
+      "link": "https://www.bbc.co.uk/news/uk-england-cambridgeshire-65793298?at_medium=RSS&at_campaign=KARANGA",
+      "score": 0.28852896534025185
+    },
+    {
+      "rank": 24,
+      "title": "Boy quizzes Prince William about his bank balance",
+      "description": "The Prince of Wales was put on the spot when a boy asked him how much was in his bank account.",
+      "pubDate": "Thu, 16 Nov 2023 17:53:20 GMT",
+      "link": "https://www.bbc.co.uk/news/uk-england-manchester-67440515?at_medium=RSS&at_campaign=KARANGA",
+      "score": 0.264874976405804
+    },
+    {
+      "rank": 25,
+      "title": "Roma owner Friedkin interested in Everton takeover",
+      "description": "Roma owner Dan Friedkin emerges as one of a number of parties interested in a takeover of Premier League club Everton.",
+      "pubDate": "Sat, 08 Jun 2024 16:30:21 GMT",
+      "link": "https://www.bbc.com/sport/football/articles/cljj12571ddo",
+      "score": 0.21305436384176724
+    }
+  ],
+  "post_rerank_results": [
+    {
+      "rank": 1,
+      "title": "William Brown: Arrest after boy, 7, killed in Sandgate hit-and-run",
+      "description": "A man has been arrested after seven-year-old William Brown died when he was hit by a vehicle.",
+      "pubDate": "Thu, 07 Dec 2023 19:49:44 GMT",
+      "link": "https://www.bbc.co.uk/news/uk-england-kent-67645864?at_medium=RSS&at_campaign=KARANGA",
+      "score": 1.3650195598602295
+    },
+    {
+      "rank": 2,
+      "title": "UK's second-oldest man dies aged 111, eight months after dream visit to No. 10",
+      "description": "John Farringdon is believed to have been the third oldest man in the world.",
+      "pubDate": "Fri, 16 Aug 2024 12:29:57 GMT",
+      "link": "https://www.bbc.com/news/articles/clyn89j77meo",
+      "score": -3.3737692832946777
+    },
+    {
+      "rank": 3,
+      "title": "Richard Franklin: Doctor Who and Emmerdale star dies on Christmas Day",
+      "description": "The 87-year-old - who also stood for parliament - died in his sleep, it has been confirmed.",
+      "pubDate": "Mon, 25 Dec 2023 22:59:00 GMT",
+      "link": "https://www.bbc.co.uk/news/uk-67820877?at_medium=RSS&at_campaign=KARANGA",
+      "score": -3.6687614917755127
+    },
+    {
+      "rank": 4,
+      "title": "'Godfather' of avocado toast Bill Granger dies, aged 54",
+      "description": "He passed away in a London hospital on Christmas Day, aged 54, with his family by his side.",
+      "pubDate": "Wed, 27 Dec 2023 12:22:21 GMT",
+      "link": "https://www.bbc.co.uk/news/world-australia-67825337?at_medium=RSS&at_campaign=KARANGA",
+      "score": -3.843374252319336
+    },
+    {
+      "rank": 5,
+      "title": "From Wombles to Doctor Who: Cribbins' career in video",
+      "description": "The actor has died at the age of 93.",
+      "pubDate": "Thu, 28 Jul 2022 09:27:22 GMT",
+      "link": "https://www.bbc.co.uk/news/entertainment-arts-62331433?at_medium=RSS&at_campaign=KARANGA",
+      "score": -4.173716068267822
+    }
+  ],
+  "prompt": "You are a helpful assistant answering questions based on BBC News articles.\n\nAnswer the question directly and concisely using only the information from the articles below. Synthesize relevant details into a clear answer. If the articles contain no relevant information, reply with a single sentence stating that.\n\nARTICLES:\nTitle: William Brown: Arrest after boy, 7, killed in Sandgate hit-and-run\nDate: Thu, 07 Dec 2023 19:49:44 GMT\nContent: A man has been arrested after seven-year-old William Brown died when he was hit by a vehicle.\n\n---\n\nTitle: UK's second-oldest man dies aged 111, eight months after dream visit to No. 10\nDate: Fri, 16 Aug 2024 12:29:57 GMT\nContent: John Farringdon is believed to have been the third oldest man in the world.\n\n---\n\nTitle: Richard Franklin: Doctor Who and Emmerdale star dies on Christmas Day\nDate: Mon, 25 Dec 2023 22:59:00 GMT\nContent: The 87-year-old - who also stood for parliament - died in his sleep, it has been confirmed.\n\n---\n\nTitle: 'Godfather' of avocado toast Bill Granger dies, aged 54\nDate: Wed, 27 Dec 2023 12:22:21 GMT\nContent: He passed away in a London hospital on Christmas Day, aged 54, with his family by his side.\n\n---\n\nTitle: From Wombles to Doctor Who: Cribbins' career in video\nDate: Thu, 28 Jul 2022 09:27:22 GMT\nContent: The actor has died at the age of 93.\n\nQUESTION: How old was William Friedkin when he died?\n\nANSWER:",
+  "answer": "There is no relevant information about a person named William Friedkin in the provided articles."
+}

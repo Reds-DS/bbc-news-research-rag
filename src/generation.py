@@ -143,6 +143,12 @@ ANSWER:"""
         prompt = self._build_prompt(query, context)
         return self.client.generate(prompt)
 
+    def trace_answer(self, query: str, context: list[dict]) -> tuple[str, str]:
+        """Return (prompt, answer) — the full LLM prompt and generated answer."""
+        prompt = self._build_prompt(query, context)
+        answer = self.client.generate(prompt)
+        return prompt, answer
+
     async def aanswer(self, query: str, context: list[dict]) -> str:
         """Answer a question asynchronously using retrieved article context.
 

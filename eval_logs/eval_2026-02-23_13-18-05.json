@@ -1,0 +1,1919 @@
+{
+  "timestamp": "2026-02-23T13:18:05",
+  "num_questions": 148,
+  "avg_faithfulness": 0.8983108108108109,
+  "avg_response_relevancy": 0.7151706503985092,
+  "results": [
+    {
+      "question": "Who warned that the energy bill help for all program is too expensive?",
+      "answer": "The World Bank's president warned that the energy bill help for all program is too expensive.",
+      "contexts": [
+        "What is the energy price cap and what will happen to bills?\nHelp with energy costs is still under review by the government, but help could continue.",
+        "Energy bill support for firms to be reduced from April\nThe government says the current level of support for firms was \"unsustainably expensive\".",
+        "Warning of fresh energy bill shock in October as prices rise again\nA typical annual energy bill could be as high as £2,600 by October, warns consultancy Cornwall Insight.",
+        "Energy bills: What do I do if I can't pay?\nCharities warn against not paying for energy bills as a campaign to refuse to pay builds.",
+        "Energy bill help for all is too expensive, warns the World Bank\nSome Covid help was not targeted enough and the same is happening with energy bills, its president says."
+      ],
+      "faithfulness": 1.0,
+      "response_relevancy": 0.6520682907063474
+    },
+    {
+      "question": "How much was the disputed bill for the use of Chevening country house?",
+      "answer": "The disputed bill for the use of Chevening country house was £12,000.",
+      "contexts": [
+        "Prince Andrew repays cash amid financial dispute\nThe Duke of York returns £750,000 claimed to have been \"misappropriated\" from its Turkish owner.",
+        "Boris Johnson's taxpayer-funded legal bill rises to £245,000\nThe BBC has found the Treasury did not sign off the decision to use taxpayer funds to foot the bill.",
+        "Nationality and Borders Bill: Can you lose your citizenship?\nThe Nationality and Borders Bill, currently being debated in Parliament, has sparked controversy.",
+        "Liz Truss contests £12,000 bill over use of Chevening country house\nThe former prime minister says most of the bill relates to using Chevening for government business.",
+        "Is Cromwell's body buried at this country house?\nThe family who own the estate think the Civil War leader's final resting place is in their attic."
+      ],
+      "faithfulness": 1.0,
+      "response_relevancy": 0.9427642844321552
+    },
+    {
+      "question": "How tall is the Shakira statue?",
+      "answer": "There is no information about a statue of Shakira in the provided articles.",
+      "contexts": [
+        "Is H from Steps really getting a statue?\nThe idea has caught the imagination of some in the town, but sceptics think it could all be a hoax.",
+        "MTV VMAs 2023: Taylor Swift and Shakira are the big award winners\nShakira crowd-surfs her way to a lifetime achievement award, while Swift wins artist of the year.",
+        "Latin Grammys 2023: Shakira and Karol G come out on top\nThe ceremony which celebrates achievement in the Latin music industry has taken place in Spain.",
+        "Taylor Swift gets 'heavenly' welcome from Christ the Redeemer\nThe famous statue in Rio de Janeiro is illuminated as the global pop sensation arrives on her Eras tour.",
+        "Shakira Spencer: Three convicted of torture murder of mother of two\nAt the Old Bailey trial, the prosecution likened Shakira Spencer's killers to a pack of feral savages."
+      ],
+      "faithfulness": 1.0,
+      "response_relevancy": 0.70401149005328
+    },
+    {
+      "question": "What position does Huddersfield now hold?",
+      "answer": "Huddersfield Town is currently in the Championship, having been promoted to the Premier League after winning the Championship play-off final against Nottingham Forest.",
+      "contexts": [
+        "Super League: Hull KR 10-38 Huddersfield Giants - Leroy Cudjoe hat-trick crowns comeback\nLeroy Cudjoe claims a hat-trick as Huddersfield come from behind to thrash Hull KR for their sixth straight win",
+        "Championship play-off final: Huddersfield Town 0-1 Nottingham Forest\nNottingham Forest end their 23-year wait for Premier League football with a narrow win over Huddersfield Town in the Championship play-off final at Wembley.",
+        "Huddersfield Town 0-1 Burnley: Vincent Kompany's side impress with dominant victory\nVincent Kompany's reign as Burnley manager gets off to a great start with a dominant 1-0 win away at Huddersfield Town.",
+        "Luton Town 1-1 Huddersfield Town: Championship play-off semi-final first leg ends in draw\nThe Championship play-off semi-final between Luton and Huddersfield is finely poised after the first leg ends in a draw.",
+        "British food: How traditional firms are faring under pressure\nStilton and pork pie makers have survived for centuries - but what does the future hold?"
+      ],
+      "faithfulness": 0.5,
+      "response_relevancy": 0.7163877562061451
+    },
+    {
+      "question": "Does most of the UK provide consistent 24/7 care for terminally ill patients?",
+      "answer": "No, research suggests that most of the UK lacks consistent round-the-clock care for the terminally ill.",
+      "contexts": [
+        "The UK asylum system in seven charts\nHow many people seek asylum in the UK versus other countries, and how many are allowed to stay?",
+        "'I'm too tired to chew food but still can't get care for my ME'\nWhat is NHS care like for people with severe ME, also known as chronic fatigue syndrome?",
+        "Palliative care: 'My dad should not have been expected to die in office hours'\nMost of the UK lacks consistent round-the-clock care for the terminally ill, research suggests.",
+        "Ukraine crisis: Is the UK doing enough to help refugees?\nHow is the government helping Ukrainian refugees in the UK and in countries neighbouring Ukraine?",
+        "Jersey approves assisted dying plans for terminally ill\nJersey politicians approve assisted dying plans for terminally ill by 32 votes to 14."
+      ],
+      "faithfulness": 1.0,
+      "response_relevancy": 0.9444524648905327
+    },
+    {
+      "question": "Which city did the BBC visit to report on the earthquake impact?",
+      "answer": "The BBC visited Antakya in Turkey to report on the earthquake impact.",
+      "contexts": [
+        "How rescue videos give only glimpse into Syria quake horror\nA look at how the BBC is able to cover the story with such limited access on the ground.",
+        "Turkey earthquake: Antakya now unrecognisable to tour guide\nA 20-year tour guide takes the BBC into the Turkish city, where his usual reference points are in ruins.",
+        "Watch: BBC visits earthquake region in Japan\nJean Mackenzie assesses the damage in Ishikawa prefecture battling against cut off roads.",
+        "Which BBC pundit got his predictions spot on - and how did the others fare?\nTwenty-seven BBC pundits predicted who would win the 2022-23 Premier League title and finish in the top four. Who was spot on, and how did everyone else fare?",
+        "What did the inquiry say?\nThe report finds the infected blood scandal could and should have been largely avoided."
+      ],
+      "faithfulness": 1.0,
+      "response_relevancy": 0.47044209514518326
+    },
+    {
+      "question": "Which university won the Boat Race in 2023?",
+      "answer": "Cambridge University won the Boat Race in 2023, completing a double with their women's team also winning.",
+      "contexts": [
+        "World Athletics Championships 2023: Zharnel Hughes takes bronze as Noah Lyles wins men's 100m\nWatch as Great Britain's Zharnel Hughes takes bronze in the men's 100m, while Noah Lyles of the United States wins gold.",
+        "Bath University makes students resit exam after giving answers\nA university accidentally printed the answers on one of their exams and is making students resit.",
+        "World Aquatics Championships 2024: Great Britain's Laura Stephens wins butterfly for maiden title\nGreat Britain's Laura Stephens wins maiden world title in women's 200m butterfly at World Aquatics Championships in Doha.",
+        "If a university goes bust, which students lose most?\nWhoever forms the next government is going to find it hard to ignore the issue of university funding",
+        "Boat Race 2023: Cambridge's men and women complete boat race double\nCambridge's men win the Boat Race to complete a double for the university over rivals Oxford."
+      ],
+      "faithfulness": 1.0,
+      "response_relevancy": 0.8925936462274432
+    },
+    {
+      "question": "Who became a leading voice against the Taliban's assault on women's rights?",
+      "answer": "Wahida Amiri, an Afghan librarian, became a leading voice against the Taliban's assault on women's rights.",
+      "contexts": [
+        "The Iraqi YouTube star killed by her father\nTiba al-Ali's death has sparked the call for change for violence against women in Iraq.",
+        "Life as a woman under Taliban rule\nHow are Afghanistan’s women and girls coping with harsh new restrictions?",
+        "Afghanistan: Women’s faces become latest Taliban restriction after face veil rule\n“They are always after women” rather than tackling Afghanistan’s many problems, one activist told the BBC.",
+        "Tobias Ellwood: Afghan women slate UK MP's video praising 'country transformed'\nTobias Ellwood is castigated for backing engagement with the Taliban but barely mentioning human rights.",
+        "The librarian who defied the Taliban\nWahida Amiri became one of the leading voices against the Taliban's assault on women's rights."
+      ],
+      "faithfulness": 1.0,
+      "response_relevancy": 0.9999994600591559
+    },
+    {
+      "question": "How many people died in the crash?",
+      "answer": "At least one person has been killed in the car crash.",
+      "contexts": [
+        "Fatal car crash involving over 200 vehicles in China\nAt least one person has been killed after heavy fog caused a pile-up near the city of Zhengzhou.",
+        "Four people from Glasgow killed in M6 crash\nFive people, including two children, died in the crash on Tuesday, according to Cumbria Police.",
+        "War in Ukraine: Can we say how many people have died?\nRussia and Ukraine have different claims of how many people have died in the conflict. The BBC explores the data.",
+        "How many people cross the Channel in small boats and where do they come from?\nHow many people seek asylum in the UK versus other countries, and how many are allowed to stay?",
+        "How many migrants cross the English Channel in small boats?\nAt least four people have died after a boat carrying migrants started sinking off the Kent coast."
+      ],
+      "faithfulness": 1.0,
+      "response_relevancy": 0.0
+    },
+    {
+      "question": "What age is Geoff Marshall?",
+      "answer": "There is no relevant information about a person named Geoff Marshall in the provided articles.",
+      "contexts": [
+        "Liam Marshall: Wigan Warriors winger hopes Super League Grand Final win can start dynasty\nWigan winger Liam Marshall hopes their Super League Grand Final win against Catalans can spur them to more silverware.",
+        "Commonwealth Games: George Miller becomes oldest medallist as Scotland win bowls gold\nGeorge Miller, 75, becomes the oldest Commonwealth Games gold medallist as Scotland defeat Wales in the final of the B2/B3 mixed pairs bowls.",
+        "Savannah Marshall: Briton beats Franchon Crews-Dezurn to win undisputed super-middleweight title\nBritain's Savannah Marshall becomes the undisputed super-middleweight champion with a majority decision points win over Franchon Crews-Dezurn at Manchester's AO Arena.",
+        "Challenge Cup final: Huddersfield Giants 14-16 Wigan Warriors highlights\nWatch highlights as Liam Marshall scores a last-gasp try for Wigan Warriors to edge Huddersfield Giants 16-14 and claim their 20th Challenge Cup title.",
+        "Is University really worth it?\nComedian Geoff Norcott investigates Britain’s higher education sector."
+      ],
+      "faithfulness": 1.0,
+      "response_relevancy": 0.745066870811747
+    },
+    {
+      "question": "How old is Mitch McConnell?",
+      "answer": "Mitch McConnell is 81 years old.",
+      "contexts": [
+        "Mitch McConnell says he is 'fine' after freezing at conference\nThe 81-year-old senator abruptly stops speaking before Republican colleagues escorted him away.",
+        "Who will replace McConnell as top Senate Republican?\nThe three \"Johns\" and a senator who challenged Mr McConnell for his post are considered likely successors.",
+        "Mitch McConnell: After health scare, voters weigh in on whether politicians are too old\nThe 81-year-old Republican appeared to freeze for the second time in just over a month while speaking to reporters.",
+        "Mitch McConnell freezes for second time during press event\nThe 81-year-old Senate minority leader had another verbal lapse in July.",
+        "Donald Trump and Mitch McConnell: Republican anger over midterms\nDonald Trump and Mitch McConnell get heat from colleagues after the Democrats keep control of the Senate."
+      ],
+      "faithfulness": 1.0,
+      "response_relevancy": 0.9999994768089795
+    },
+    {
+      "question": "What does the new blood test help identify before a full relapse?",
+      "answer": "The new blood test can predict breast cancer return by finding traces of a tumour's DNA before a full relapse.",
+      "contexts": [
+        "The day I found out I had special 'neo' blood\nSome patients, especially newborns, need specially tested blood to ensure it does not cause harm.",
+        "Got a new rash? Monkeypox or something else?\nRed bumps and lumps? Scabs or blisters? What are the signs to look for?",
+        "'Quick' cancer DNA test offers hope for thousands\nThe new cancer test means a quicker diagnosis and better treatment options for patients.",
+        "Blood tests may spare cancer patients chemo\nA blood test which can detect cancer cells could spare patients unnecessary chemotherapy.",
+        "New blood test 'can predict' breast cancer return\nThe test can find traces of a tumour's DNA before a full relapse, allowing treatment to start early,  experts say."
+      ],
+      "faithfulness": 1.0,
+      "response_relevancy": 0.6759942241733897
+    },
+    {
+      "question": "What is the new maximum amount that can be written off by a debt relief order?",
+      "answer": "I couldn't find any information in the provided articles about the new maximum amount that can be written off by a debt relief order.",
+      "contexts": [
+        "Which debts and bills should I pay first?\nWhat help and options are available to people struggling with debt repayments?",
+        "Debt: What should I pay first and what can I do?\nWhat help and options are available to people struggling with debt repayments?",
+        "What is income tax and how much will I pay?\nNew tax rules mean the amount of money raised by the government is rising significantly.",
+        "Debt advisor referral fees banned by regulator\nThe FCA is banning fees that debt advisors receive for referring people to debt solution companies.",
+        "Domestic abuse survivor left with £10,000 debt after escaping\nHelen realised having her debt written off would mean her address being shared on a public register."
+      ],
+      "faithfulness": 1.0,
+      "response_relevancy": 0.0
+    },
+    {
+      "question": "Which team does Manchester United expect Cristiano Ronaldo to play for next season?",
+      "answer": "Manchester United expect Cristiano Ronaldo to be part of their squad next season.",
+      "contexts": [
+        "Cristiano Ronaldo to leave Manchester United with immediate effect\nPortugal forward Cristiano Ronaldo is to leave Manchester United with immediate effect.",
+        "Cristiano Ronaldo: Manchester United forward wants to leave but where would he go?\nCristiano Ronaldo doesn't have an obvious next destination as he considers his Manchester United future, according to the BBC Radio 5 Live Euro Leagues podcast team.",
+        "Cristiano Ronaldo: Will forward and Manchester United agree an exit strategy with 'the end in sight'?\nAfter Cristiano Ronaldo was left out of the squad to face Chelsea on Saturday, does the Portugal forward have a future at Manchester United?",
+        "Cristiano Ronaldo: Manchester United expect forward to stay despite Chelsea links\nManchester United expect Cristiano Ronaldo to be part of their squad next season despite reports linking him with Chelsea.",
+        "Cristiano Ronaldo & Man Utd - what comes next for the Portugal forward?\nAfter saying that he feels betrayed by Manchester United, what comes next for Cristiano Ronaldo?"
+      ],
+      "faithfulness": 1.0,
+      "response_relevancy": 0.0
+    },
+    {
+      "question": "How many Met Police officers are set to appear at the hearing?",
+      "answer": "Five Met Police officers are due to appear at a gross-misconduct hearing.",
+      "contexts": [
+        "Man City's hearing for 115 charges begins\nThe hearing into Manchester City's 115 charges for alleged breaches of the Premier League's financial rules begins on Monday.",
+        "Covid inquiry turns spotlight on Scottish decisions\nIt is the first time the hearings have taken place outside of London since it began in August 2022.",
+        "How long will it take?\nThe inquiry into the UK government's handling of the pandemic has held its first public hearings.",
+        "Bianca Williams search: Officers to appear at gross-misconduct hearing\nFive Met Police officers are due to appear at a hearing over the stop-and-search of Bianca Williams.",
+        "Black teenager stopped by Met Police 6 times in 5 months\nEight Met officers are under investigation by the police watchdog."
+      ],
+      "faithfulness": 1.0,
+      "response_relevancy": 0.7017034481886635
+    },
+    {
+      "question": "Why is Mo Farah not running in the London Marathon?",
+      "answer": "Mo Farah withdrew from the London Marathon due to a hip injury.",
+      "contexts": [
+        "London Marathon 2023: Mo Farah prepares for 'emotional goodbye' at home race\nMo Farah will say an \"emotional\" London Marathon \"goodbye\" to his home support after confirming his participation in this year's race.",
+        "Mo Farah finishes fourth in The Big Half in final London race\nMo Farah's final race in his home city of London ends with a fourth-placed finish in The Big Half, as Jack Rowe wins.",
+        "London 10,000: Mo Farah to race for first time since June\nMo Farah says it would not \"make any sense\" to continue racing if he could compete at the top, as he prepares for the London 10,000.",
+        "Mo Farah fourth in final race of career\nBritain's four-time Olympic champion Mo Farah brings the curtain down on his illustrious career with a fourth-place finish in the Great North Run.",
+        "Mo Farah: British runner will not run London Marathon\nFour-time Olympic champion Mo Farah withdraws from Sunday's London Marathon with a hip injury."
+      ],
+      "faithfulness": 1.0,
+      "response_relevancy": 0.8897327878211136
+    },
+    {
+      "question": "Which event did the Just Stop Oil trio run onto the pitch during?",
+      "answer": "The Just Stop Oil trio ran onto the pitch during the second Ashes Test match at Lord's.",
+      "contexts": [
+        "Just Stop Oil protesters force stoppage of rugby final\nJust Stop Oil protesters force stoppage of the Gallagher Premiership final between Saracens and Sale at Twickenham.",
+        "Just Stop Oil: Why protesters are tying themselves to goalposts\nFootball matches recently have been disrupted by activists who have crashed the pitch.",
+        "London Marathon 2023: Just Stop Oil 'will continue disrupting sporting events'\nA Just Stop Oil spokesperson tells the BBC the group will \"continue disrupting cultural and sporting events\" before Sunday's London Marathon.",
+        "Just Stop Oil trio given community order over Lord's Ashes Test protest\nThe activists are ordered to carry out unpaid work for disrupting an Ashes Test match.",
+        "Just Stop Oil trio deny Lord's Ashes Test trespass\nThe three activists ran on to the pitch during the second Ashes Test match of the summer."
+      ],
+      "faithfulness": 1.0,
+      "response_relevancy": 0.6656821454879667
+    },
+    {
+      "question": "What does the archbishop warn will be harmed by migrant visa changes?",
+      "answer": "The archbishop warns that families will be harmed by migrant visa changes.",
+      "contexts": [
+        "Asylum seekers: Will this migrant bill become a reality?\nThe government has unveiled sweeping changes to asylum rules - but admits they may never come into force.",
+        "Rishi Sunak seeks to calm minimum income visa fears\nThe prime minister suggests migrant families already in the UK may get exemptions from higher wage rules.",
+        "Couples 'devastated' by migration visa rule changes\nNew rules will make it harder for British citizens to live in the UK with a foreign partner.",
+        "How are the visa rules changing and how many people come to the UK?\nThe government is making it harder to get UK work and family visas to try to reduce legal migration.",
+        "Migrant visa changes will harm families, archbishop warns\nArchbishop raises concerns about new rules for Britons who want to bring a foreign family member to the UK."
+      ],
+      "faithfulness": 1.0,
+      "response_relevancy": 0.8276809297264975
+    },
+    {
+      "question": "Who is Hans Niemann suing?",
+      "answer": "Hans Niemann is suing grandmaster Magnus Carlsen and others, including Chess.com, for libel.",
+      "contexts": [
+        "Chess grandmaster Hans Niemann denies using vibrating sex toy to cheat\nHans Niemann was accused of cheating after he beat Norwegian grandmaster Magnus Carlsen last September.",
+        "Chess rivals settle long-running cheating dispute\nWorld champion Magnus Carlsen's accusations against Hans Niemann left the world of chess in turmoil.",
+        "Magnus Carlsen and Hans Niemann: The cheating row that's blowing up the chess world\nMagnus Carlsen's apparent accusation against Hans Niemann is the biggest chess scandal in years.",
+        "Chess cheating row: Hans Niemann sues accusers Magnus Carlsen and Chess.com for libel\nHans Niemann is suing grandmaster Magnus Carlsen and others after they accused him of cheating.",
+        "Hans Niemann: Chess player accused of cheating 'not backing down'\nAfter winning his US Championship match, Hans Niemann said the game was \"a message to everyone\"."
+      ],
+      "faithfulness": 1.0,
+      "response_relevancy": 0.9139900765982694
+    },
+    {
+      "question": "How much money are infected blood victims likely to receive in compensation?",
+      "answer": "Infected blood victims are likely to receive £100,000 in compensation.",
+      "contexts": [
+        "Infected blood victims set for £400m in compensation\nInquiry judge recommends first ever compensation for more than 4,000 victims of scandal.",
+        "Infected blood victims could get £2m compensation\nGovernment unveils package after final report of public inquiry into scandal published on Monday.",
+        "The Infected Blood Scandal Payouts\nPlus, are more strikes on the way?",
+        "Infected blood victims to get £100,000 compensation\nAfter a decades-long campaign, more than 4,000 people across the UK will get interim payments.",
+        "Scottish blood victims were 'studied without knowledge'\nThe Infected Blood Inquiry has released its findings on the biggest treatment scandal in NHS history."
+      ],
+      "faithfulness": 1.0,
+      "response_relevancy": 0.9596342448562656
+    },
+    {
+      "question": "How much was erased from people's medical debt due to Casey McIntyre's wishes?",
+      "answer": "$16m.",
+      "contexts": [
+        "Which debts and bills should I pay first?\nWhat help and options are available to people struggling with debt repayments?",
+        "Post Christmas debt: Which bills should I pay first?\nWhat help and options are available to people struggling with debt repayments?",
+        "Dying patients living longer than expected lose NHS funds\nMore than 1,300 people a year are having their palliative care funding withdrawn, BBC analysis shows.",
+        "Has spending on NHS dentists fallen?\nClaims about spending on dentistry, patients seen and children in hospital.",
+        "US cancer patient's dying wish erases $16m in people's medical debt\nCasey McIntyre left a heart-wrenching goodbye on social media - and multi-million dollar gift."
+      ],
+      "faithfulness": 1.0,
+      "response_relevancy": 0.3607899738861011
+    },
+    {
+      "question": "How many days did Abi Burton spend in an induced coma?",
+      "answer": "Abi Burton spent 25 days in an induced coma.",
+      "contexts": [
+        "Quiz of the week: Who helped Dolly write a novel?\nHow closely have you been paying attention to what's been going on during the past seven days?",
+        "Quiz of the week: What was blamed on Beyoncé?\nHow closely have you been paying attention to what's been going on over the past seven days?",
+        "Woman spends nine days in A&E in stroke unit wait\nA woman who spent 36 hours on a trolley waits more than a week for admission to a stroke unit.",
+        "Quiz of the week: Batgirl film canned - but what's her name?\nHow closely have you been paying attention to what's been going on over the past seven days?",
+        "The Olympian wrongly sectioned for 26 days\nBritish Olympian Abi Burton was wrongly sectioned for 26 days and spent 25 days in an induced coma; this is her story."
+      ],
+      "faithfulness": 1.0,
+      "response_relevancy": 0.9697995260297454
+    },
+    {
+      "question": "Who played Bayard Rustin in the Obama-backed film?",
+      "answer": "Colman Domingo played Bayard Rustin in the Obama-backed film \"Rustin\".",
+      "contexts": [
+        "Oppenheimer's Cillian Murphy and Robert Downey Jr scoop Bafta Film Awards\nCillian Murphy, Robert Downey Jr and Christopher Nolan all win Bafta Film Awards for Oppenheimer.",
+        "Succession star praised for emotional film role\nThe actor stars opposite Jesse Eisenberg in A Real Pain, a film about family and grief with a comedic spin.",
+        "Ryan Gosling plays one, but what makes a real stunt actor?\nCan Ryan Gosling and Emily Blunt's new film get stunt performers the recognition they've been missing?",
+        "Rust premieres at low-key film festival three years after shooting\nThe movie’s star Alec Baldwin was not invited and did not attend the screening.",
+        "Rustin: Obama-backed film gets Oscar buzz for Colman Domingo\nActor Colman Domingo plays Bayard Rustin, who was a key figure in the civil rights movement."
+      ],
+      "faithfulness": 1.0,
+      "response_relevancy": 0.9749487088342249
+    },
+    {
+      "question": "What does the banner unfurling at the stage say?",
+      "answer": "The banner that unfurls at the stage reads \"I crashed the economy\".",
+      "contexts": [
+        "Eurovision contenders compete to win over superfans in 'pre-party' stage\nParticipants of the song contest begin the build-up to Liverpool by performing for fans across Europe.",
+        "Which songs will define this year's festival?\nAs the festival gates open, we look at the songs that could give us a \"Glastonbury moment\" this year.",
+        "Top moments from Eurovision Song Contest 2024 in pictures\nSkimpy costumes, wacky performances and furious flag-waving... it can only be Eurovision. ",
+        "Commonwealth Games: Ozzy Osbourne surprise appearance headlines Birmingham 2022 closing ceremony\nBirmingham ends a hugely successful Commonwealth Games as legendary Brummie rocker Ozzy Osbourne headlines the closing ceremony.",
+        "Liz Truss leaves stage as lettuce banner unfurls\nThe former prime minister brings a speech to an abrupt end when the banner - which also reads \"I crashed the economy\" - appears."
+      ],
+      "faithfulness": 1.0,
+      "response_relevancy": 0.9434484389509034
+    },
+    {
+      "question": "How much was the initial fee for Romeo Lavia's transfer to Chelsea?",
+      "answer": "The initial fee for Romeo Lavia's transfer to Chelsea was £53m, with an additional £5m in add-ons.",
+      "contexts": [
+        "Raheem Sterling: Chelsea agree fee with Manchester City for England winger\nChelsea and Manchester City agree a fee worth up to £50m for Raheem Sterling, who is set to join the Stamford Bridge club on a five-year contract.",
+        "Romelu Lukaku: What went wrong for striker at Chelsea?\nRomelu Lukaku was supposed to elevate Chelsea to title contenders, but returns to Inter Milan just 10 months after his £97.5m arrival - so what went wrong for the striker at the Blues?",
+        "Chelsea agree Felix fee, Gallagher to join Atletico\nChelsea agree a fee in principle for Atletico Madrid forward Joao Felix, with Conor Gallagher moving in the other direction as part of the deal.",
+        "Chelsea sign forward Pierre-Emerick Aubameyang from Barcelona\nChelsea sign forward Pierre-Emerick Aubameyang in a £10m deal from Barcelona and Juventus midfielder Denis Zakaria on loan.",
+        "Romeo Lavia: Chelsea agree initial fee of £53m for Southampton midfielder\nChelsea agree a fee with Southampton of £53m plus £5m in add-ons for midfielder Romeo Lavia."
+      ],
+      "faithfulness": 1.0,
+      "response_relevancy": 0.987766155461644
+    },
+    {
+      "question": "What do locals accuse politicians of doing during the Australian floods?",
+      "answer": "Locals in Australia accuse politicians of ignoring them during the floods.",
+      "contexts": [
+        "Australia floods: 'I'm angry it's happening again'\nAustralians are reeling from one of their worst natural disasters, but many despair at a sense of déjà vu.",
+        "Queensland floods: Residents evacuate as Australia faces new emergency\nQueensland is enduring its second flood emergency in three months, with several regions on alert.",
+        "Australia floods: Unfounded cloud seeding claims spread online\nFalse suggestions that Sydney floods were linked to weather manipulation reach thousands online.",
+        "Assam: Muslims falsely accused of waging ‘flood jihad’\nWhy have members of Assam’s Muslim community been blamed for recent floods in the state?",
+        "Australia floods: 'We're resilient, but how about helping us?'\nLocals tell dramatic stories of survival and recovery, but accuse politicians of ignoring them."
+      ],
+      "faithfulness": 1.0,
+      "response_relevancy": 0.9697739391571112
+    },
+    {
+      "question": "What became a beloved Christmas favorite due to Raymond Briggs' work?",
+      "answer": "The Snowman, a classic children's book by Raymond Briggs, became a beloved Christmas favorite.",
+      "contexts": [
+        "The Snowman 50p coin unveiled by Royal Mint for Christmas\nThe collectable coin celebrates Raymond Briggs' classic 1978 children's book.",
+        "Wham!, Mariah Carey and The Pogues lead flood of Christmas songs in UK top 40\nLast Christmas is back at number one, followed by Mariah Carey and The Pogues with Kirsty MacColl.",
+        "This year's Christmas Number One: Your very quick guide\nWhen's it announced, who's in the running, and what's the biggest Christmas song of all time?",
+        "Last Christmas scores Christmas number one, beating Sam Ryder and Mariah Carey\nWham's festive classic tops the Christmas chart for the first time, 39 years after its release.",
+        "Raymond Briggs obituary: An illustrious career\nAward-winning illustrator and cartoonist whose work The Snowman became a Christmas favourite."
+      ],
+      "faithfulness": 1.0,
+      "response_relevancy": 0.8183212572650623
+    },
+    {
+      "question": "What does a scalper do with products like PlayStations?",
+      "answer": "A scalper stockpiles popular products, such as PlayStations, in order to resell them for profit.",
+      "contexts": [
+        "Prince William's role is changing - what does he really want to do with it?\nThe Prince of Wales is sharing the burden with his father more than ever. What does he want to achieve?",
+        "Shop owners hope that tech can deter thieves\nRetailers are investing in high-tech and low-tech measures to tackle an increase in theft.",
+        "Cuddly toy reviews used for headphones on Amazon\nSellers are boosting ratings of electronics with reviews for completely different products, Which? finds.",
+        "Xbox games on Nintendo and PlayStation: Is the console war over?\nWhy the war between the big games console makers may be coming to an end.",
+        "Console 'scalper' on stockpiling PlayStations for profit\nOmar Mehtab spoke to a 'scalper;' a person who stockpiles popular products and resells them for profit."
+      ],
+      "faithfulness": 1.0,
+      "response_relevancy": 0.971434490522761
+    },
+    {
+      "question": "What are two topics highlighted in the newspapers according to the context?",
+      "answer": "The two topics highlighted in the newspapers include green policies and crime, with many papers focusing on battles within the Tory and Labour parties over their respective stances on these issues.",
+      "contexts": [
+        "Newspaper headlines: Ulez policy warning and police pledge on crime\nMany of the papers focus on the battles within the Tory and Labour parties over their green policies.",
+        "Newspaper headlines: PM's pro-car pledge and 'EU holiday chaos'\nMany of Sunday's papers focus on prime minister Rishi Sunak's green policies.",
+        "What the leaked files show\nUkraine's spring offensive and Chinese hypersonic weapons are among the issues highlighted in the leaks.",
+        "Newspaper headlines: 'Patients in danger' and Starmer's 'dirty deal'\nNHS waiting times and the Labour leader's pledge to tackle migration are among the front-page stories.",
+        "Andy Warhol artworks stolen in Dutch gallery heist\nTwo works in the Reigning Queens series were taken, according to the gallery's owner. "
+      ],
+      "faithfulness": 0.0,
+      "response_relevancy": 0.6621712667177446
+    },
+    {
+      "question": "Why does Uber want customers to wait longer for an electric taxi?",
+      "answer": "Uber wants customers to wait longer for an electric taxi because the company is trying to boost the take-up of electric cars.",
+      "contexts": [
+        "Will electric motorbike sales take-off across Asia?\nSoaring petrol prices could speed up the transition to electric much faster than expected.",
+        "Fuel prices: Could I save money driving an electric car?\nAs petrol and diesel prices continue to increase, interest in electric vehicles is rising",
+        "Will electric flying taxis live up to their promise?\nSmall electric aircraft will be carrying passengers soon in Europe soon, but will they catch on?",
+        "Electric cars: Five big questions answered\nThe electric car revolution is speeding up but what do buyers really want to know?",
+        "Wait longer for an electric taxi, says Uber boss\nThe platform wants customers to go 'green' as it tries to boost the take-up of electric cars."
+      ],
+      "faithfulness": 0.6666666666666666,
+      "response_relevancy": 0.9999995464729046
+    },
+    {
+      "question": "Who told Mr. Trump's legal team to control him?",
+      "answer": "Judge Arthur Engoron told Mr Trump's legal team to \"control him\".",
+      "contexts": [
+        "Trump pushes legal challenges in two cases\nMr Trump's legal team want a district attorney removed in one case and a gag order limited in another.",
+        "Trump waves to supporters as he enters Manhattan court\nThe former US president arrived surrounded by a team of Secret Service members.",
+        "Trump sues justice department over Mar-a-Lago search\nThe lawsuit asks that \"further review of seized materials\" be halted until a watchdog can be appointed.",
+        "Fireworks in court as Trump team calls ex-lawyer Michael Cohen a liar\nLawyers for Trump tried to undermine Michael Cohen's credibility during high-stakes fraud case.",
+        "Donald Trump clashes repeatedly with judge during New York testimony\nJudge Arthur Engoron told Mr Trump's legal team to \"control him\" as he gave evidence in Manhattan."
+      ],
+      "faithfulness": 1.0,
+      "response_relevancy": 0.5930959582835388
+    },
+    {
+      "question": "When might Serena Williams potentially retire according to her statement?",
+      "answer": "Serena Williams has not made a specific statement about when she will retire, but she has suggested that this year's US Open could be \"almost the end of an era\" for her.",
+      "contexts": [
+        "Serena Williams will play Wimbledon after being given a singles wildcard\nSerena Williams will make her return to Grand Slam tennis at Wimbledon after being given a singles wildcard.",
+        "Caroline Wozniacki: Returning star eyes US Open title as Serena Williams backs comeback\nFormer world number one Caroline Wozniacki announces she will return to professional tennis after retiring in January 2020.",
+        "Serena Williams: 'Almost the end of an era' with American icon set to retire\nAs Serena Williams suggests she is set to retire, BBC Sport looks at the biggest moments from her iconic career.",
+        "Serena Williams: Will the US Open really be the end for the American great?\nSerena Williams admits she has been \"pretty vague\" about her retirement plans, fuelling doubt about whether this year's US Open will be her final tournament.",
+        "US Open: Serena Williams beats Danka Kovinic in New York\nSerena Williams extends her US Open farewell after a gritty opening win on an entertaining night packed with hope and celebration in New York."
+      ],
+      "faithfulness": 1.0,
+      "response_relevancy": 0.0
+    },
+    {
+      "question": "How far was the square found from the slums of Edinburgh?",
+      "answer": "The entrance to the forgotten square in Edinburgh was found just 200 yards away from the slums.",
+      "contexts": [
+        "Edinburgh to be first Scottish city to ban pavement parking\nFrom January, drivers in Edinburgh who park on the kerb face a £100 fine under plans by the council.",
+        "Entrance to forgotten square revealed by huge fire in Edinburgh\nWorkmen uncover \"exciting\" story of high society living just 200 yards from the slums of Edinburgh.",
+        "Forgotten street found behind a hidden library door\nA passageway gives a glimpse of how the Scottish city looked centuries ago.",
+        "In one of the poorest slums in Argentina, families rely on a huge landfill site for food.\nIn one of the poorest slums in Argentina, hundreds of families rely on a huge landfill site to feed their children.",
+        "China spacecraft to try to land on Moon's far side\nThe mission hopes to bring rocks back to earth from the far side of the Moon for the first time."
+      ],
+      "faithfulness": 0.0,
+      "response_relevancy": 0.6539755626972246
+    },
+    {
+      "question": "Where are influencers engaging in risky behaviors during hurricanes?",
+      "answer": "There is no information provided in the articles about where influencers engage in risky behaviors during hurricanes.",
+      "contexts": [
+        "How unusual has this hurricane season been?\nHurricanes Helene and Milton have bookended a particularly stormy period. What's behind it?",
+        "Hurricanes: Are they getting more violent?\nAs Hurricane Ian makes its way through the Caribbean towards the US - we ask if climate change is making these storms more severe?",
+        "Can you dress up for Halloween without hurting the planet?\nHow influencers are combatting the environmental costs of fast fashion Halloween costumes",
+        "How hurricane conspiracy theories took over social media\nThe misinformation has been fuelled by a social media universe that rewards engagement over truth.",
+        "Nigeria elections 2023: How influencers are secretly paid by political parties\nNigerian politicians are hiring social media influencers to spread disinformation ahead of February's elections."
+      ],
+      "faithfulness": 1.0,
+      "response_relevancy": 0.0
+    },
+    {
+      "question": "What could become a future political issue according to the text?",
+      "answer": "According to the articles, one potential future political issue that could arise is Donald Trump's possible arrest and its implications on his future, as mentioned in the article \"Could Donald Trump be arrested tomorrow?\"",
+      "contexts": [
+        "Americanswers! What is Project 2025? Will Biden take a cognitive test?\nWe answer your questions on the biggest issues in the run-up to the election",
+        "Electioncast: What could happen in final 5 days?\nWhat could happen in the final five days?",
+        "The numbers behind Scotland's council election results\nWhat can the national trends in the council election tell us about how the country's politics could be changing?",
+        "Rusty Bowers defied Donald Trump - what happens now?\nThe political fate of a \"nobody\" Republican will reveal a lot about the ex-president's future too.",
+        "Could Donald Trump be arrested tomorrow?\nThe former president could become the first to face criminal charges. Here's what possibly lies ahead."
+      ],
+      "faithfulness": 1.0,
+      "response_relevancy": 0.81185726531785
+    },
+    {
+      "question": "How old was Obe when he fell and got injured?",
+      "answer": "There is no information about Edoardo Bove's age or the age of the person who fell and got injured in the article.",
+      "contexts": [
+        "Former Leeds and Cardiff defender Bamba dies aged 39\nFormer Cardiff City, Leeds United, Hibernian and Middlesbrough defender Sol Bamba has died aged 39.",
+        "Bolton striker injured after 'hefty sneeze'\nBolton Wanderers striker Victor Adeboyejo missed their EFL Trophy win at Barrow having injured himself during a \"hefty sneeze\".",
+        "Serie A footballer in intensive care after collapsing on pitch\nFiorentina midfielder Edoardo Bove is in intensive care after collapsing on the pitch during his side's match against Inter Milan.",
+        "Britain's Got Talent star Jonathan Goodwin sues US show after injuries\nThe escapologist was doing rehearsals in October 2021 when he was seriously injured.",
+        "Sir Ian McKellen falls off stage during performance\nSir Ian McKellen was in a fight scene when he lost his footing and fell off stage at Noël Coward theatre."
+      ],
+      "faithfulness": 1.0,
+      "response_relevancy": 0.0
+    },
+    {
+      "question": "How much are the Tories behind Labour with four days left before the election?",
+      "answer": "With four days to go until the election, the Tories are still behind Labour by 20 points.",
+      "contexts": [
+        "Who will replace Boris Johnson?\nFive Tory MPs remain in the contest to become the next party leader and prime minister - but who are they?",
+        "Sir John Curtice: Tories still behind Labour... in 60 seconds\nWith four days to go until election day, the Tories are still behind Labour by 20 points.",
+        "Labour far ahead of Tories in election donations\nLabour raised nearly £4.4m in the second week of the campaign, way ahead of the Tories' £292,500.",
+        "Electioncast Results: What's in Labour’s In Tray?\nAnd, who could be the new Tory leader?",
+        "Will conflict in the Middle East impact the US election?\nAnd how much influence will the next president have on the region?"
+      ],
+      "faithfulness": 1.0,
+      "response_relevancy": 0.9190740110219777
+    },
+    {
+      "question": "How much money did the average person save during this dry January?",
+      "answer": "The average person saved £118 during this dry January.",
+      "contexts": [
+        "Energy prices: How much will you pay from January?\nUse our interactive calculator to find out how much more you'll be paying for energy each month.",
+        "What is the energy price cap and how high will bills go?\nA typical household bill is now predicted to reach £4,000 in January.",
+        "January debt: What should I pay first and what can I do?\nWhat help and options are available to people struggling with debt repayments?",
+        "Record Dry January saved the average person £118\nThis January was the driest in history with a survey suggesting one in five drinkers gave up alcohol.",
+        "Social media: Did the pandemic poison online politics?\nAs the UK spent countless hours online during lockdown, how much has it changed us?"
+      ],
+      "faithfulness": 1.0,
+      "response_relevancy": 0.9922608031705085
+    },
+    {
+      "question": "Which Indian player was run out by New Zealand's fielders?",
+      "answer": "Suryakumar Yadav was run out by New Zealand's Mitch Santner and Trent Boult.",
+      "contexts": [
+        "Watch Devine's best shots as New Zealand stun India\nWatch New Zealand captain Sophie Devine's best shots against India at the Women's T20 World Cup.",
+        "ICC Cricket World Cup highlights: Kane Williamson stars as New Zealand cruise past Bangladesh\nWatch highlights as New Zealand continue their perfect start to their ICC Cricket World Cup 2023 campaign with an eight-wicket victory over Bangladesh in Chennai.",
+        "Cricket World Cup 2023: New Zealand beat Netherlands to continue winning start\nNew Zealand continue their unbeaten start to the Men's Cricket World Cup with a dominant 99-run win over the Netherlands in Hyderabad.",
+        "India beat NZ to reach final after Kohli's record century\nIndia reach the World Cup final by holding off New Zealand on a memorable night in Mumbai that includes Virat Kohli's record-breaking 50th one-day international century.",
+        "ICC Cricket World Cup: Suryakumar run out by 'outrageous' New Zealand fielding\nNew Zealand's Mitch Santner and Trent Boult combine brilliantly to run out India batter Suryakumar Yadav during their World Cup match in Dharamsala."
+      ],
+      "faithfulness": 1.0,
+      "response_relevancy": 0.5671660513121618
+    },
+    {
+      "question": "Why can't football handle the risk of pitch invasions?",
+      "answer": "Football cannot afford to take the gamble of a player or manager being seriously injured during a pitch invasion, according to the Professional Footballers' Association (PFA).",
+      "contexts": [
+        "Pitch invaders seeking selfies a 'concern' as Uefa steps up security \nFans invading the pitch to try to take selfies with players is \"a concern\", says Portugal manager Roberto Martinez.",
+        "WSL: As women's football breaks records, can it also break barriers?\nCan the sport capitalise on its record-breaking interest to address some of the problems players face?",
+        "Euro 2022: Who are the big hitters England need to fear?\nWith England beating Spain to reach the Euro 2022 semi-finals, who poses the biggest challenge to England's campaign for the trophy?",
+        "Pitch invasions: Football 'cannot gamble' over incidents - PFA\nFootball \"cannot afford to take the gamble\" of a player or manager being seriously injured during a pitch invasion, says the PFA.",
+        "Pitch invasions & violence: Klopp, Arteta, Howe 'worried' about safety\nBBC Sport recaps a week of pitch invasions and violence in football as managers express concerns for safety."
+      ],
+      "faithfulness": 1.0,
+      "response_relevancy": 0.7143529226771005
+    },
+    {
+      "question": "When is the next UK general election?",
+      "answer": "The next UK general election will take place on 4 July.",
+      "contexts": [
+        "A simple guide to the 4 July general election\nThe next UK general election will take place on 4 July.",
+        "General election: When is the next one and who decides?\nA UK general election has to be held by 28 January 2025, but could take place earlier.",
+        "Curtice: What could the local elections mean for the general election?\nThe polls are the last big test of the Westminster government's popularity before the next election.",
+        "General election 2024 poll tracker: How do the parties compare?\nHow do people say they will vote in the UK general election? Our poll tracker measures the trends."
+      ],
+      "faithfulness": 1.0,
+      "response_relevancy": 0.9799446426072616
+    },
+    {
+      "question": "How old was William Friedkin when he died?",
+      "answer": "There is no relevant information about a person named William Friedkin in the provided articles.",
+      "contexts": [
+        "Bernard Cribbins: Doctor Who pays tribute to veteran actor\nThe veteran actor, who died in 2022 aged 93, reprised his role as Wilfred Mott one last time.",
+        "From Wombles to Doctor Who: Cribbins' career in video\nThe actor has died at the age of 93.",
+        "Olympic champion swimmer Wilkie dies aged 70\nBritish Olympic swimming champion David Wilkie dies at the age of 70.",
+        "William Brown: Arrest after boy, 7, killed in Sandgate hit-and-run\nA man has been arrested after seven-year-old William Brown died when he was hit by a vehicle.",
+        "William Hill: Gambling addict says bookmaker didn't help him stop\nA teacher says William Hill should have done more to stop him betting when he was staking thousands."
+      ],
+      "faithfulness": 1.0,
+      "response_relevancy": 0.0
+    },
+    {
+      "question": "Are attitudes towards pre-owned goods changing?",
+      "answer": "Yes, attitudes towards pre-owned goods are changing, with a growing acceptance and appreciation for second-hand shopping as prices rise.",
+      "contexts": [
+        "Renting: Can bidding wars be stopped?\nIntense competition for places to live is driving rents up and up, but is there hope for change?",
+        "Have supermarkets reached peak self-scan?\nSupermarkets are beginning to question the divisive technology after years of criticism from shoppers.",
+        "Cost of living: Second-hand shopping in vogue as prices rise\nAttitudes towards pre-owned goods are changing and sustainability advocates welcome the shift.",
+        "Why second-hand fashion is back in style\n\"Pre-loved\" clothing is big business and it is not just about saving money and the planet.",
+        "Attitudes towards disability: 'Teenagers threatened to tip me out of my wheelchair'\nFrom physical threats to patronising comments, attitudes towards disabled people are revealed."
+      ],
+      "faithfulness": 1.0,
+      "response_relevancy": 0.9999999999999994
+    },
+    {
+      "question": "Where was the delivery lorry searched after leaving?",
+      "answer": "The delivery lorry was searched by police after leaving HMP Wandsworth.",
+      "contexts": [
+        "Daniel Khalife: Police search catering delivery lorry\nFootage shows the vehicle being searched by police after it left HMP Wandsworth.",
+        "Lorry falls 60 metres from motorway bridge\nThe lorry fell off the Thelwall Viaduct on the M6 and landed on the embankment below.",
+        "Alex Batty's long night journey home on unlit roads\nIt was the middle of the night when a delivery driver stumbled across the teenager in the Pyrenees.",
+        "Suspected package thief pulled from drain after drone finds hiding spot\nPolice used a drone to find the man after he tried to steal a package and caused a minor traffic accident.",
+        "Watch: How I helped save six women trapped in a lorry in France\nKhue Luu helped track down the vehicle after receiving a distress call about the lorry in France."
+      ],
+      "faithfulness": 1.0,
+      "response_relevancy": 0.6964273943192764
+    },
+    {
+      "question": "In what year did the interview between John Motson and Brian Clough take place?",
+      "answer": "The interview between John Motson and Brian Clough took place in 1979.",
+      "contexts": [
+        "John Motson quotes: Five great moments from iconic BBC Sport commentator\nFive famous lines from iconic BBC football commentator John Motson, who has died aged 77.",
+        "John Motson obituary: BBC commentator was 'voice of football' for 50 years\nJohn Motson, who has died at the age of 77, was famed for his iconic football commentaries.",
+        "John Motson reminisces about his career as a football commentator\nJohn Motson talks to Dan Walker and Mark Lawrenson about his long career as a football commentator.",
+        "John Motson explains decision to hang up microphone with the BBC\nLegendary commentator John Motson speaks to Dan Roan in 2017 after announcing his BBC career was coming to an end.",
+        "John Motson: When Motty went head-to-head with Brian Clough\nLegendary BBC Sport commentator John Motson recalls a classic interview from 1979, in which a prickly Brian Clough gave a young Motty a hard time."
+      ],
+      "faithfulness": 1.0,
+      "response_relevancy": 0.983297892777915
+    },
+    {
+      "question": "Which event are the BBC pundits picking their England team for?",
+      "answer": "The BBC pundits are picking their England team for Sunday's Euro 2024 game against Serbia.",
+      "contexts": [
+        "Who will win the World Cup? BBC pundits make their predictions\nWho will win, who might spring a surprise and how will England and Wales do? BBC pundits predict what will happen at the 2022 World Cup.",
+        "BBC pundits predict Euro 2022: Can England go all the way?\nWho will win Euro 2022? Who will be the tournament's top goalscorer? Which team can cause an upset? BBC pundits predict what will happen at this summer's tournament.",
+        "What England should do next - BBC Sport pundits have their say\nAs England prepare for Sunday's Euro 2024 last-16 tie, BBC Sport pundits debate how they have performed and what needs to happen next.",
+        "BBC pundits pick their England teams\nGary Lineker, Alan Shearer, Wayne Rooney and company pick their England team for Sunday's Euro 2024 game against Serbia.",
+        "Fans and pundits react to England win\nWatch the reaction from England fans and the BBC presenting team as Gareth Southgate’s side beat Switzerland on penalties in the quarter-finals of Euro 2024."
+      ],
+      "faithfulness": 1.0,
+      "response_relevancy": 0.6799943214632169
+    },
+    {
+      "question": "How much do secondary school uniforms cost parents annually?",
+      "answer": "According to the article \"Secondary school uniform costs parents £422 a year\", secondary school uniforms cost parents approximately £422 per year.",
+      "contexts": [
+        "Secondary school places: When do parents find out?\nCouncils will soon be offering secondary school places to children in England and Wales.",
+        "Primary school places 2024: When do parents find out offers?\nParents will soon be finding out which primary school their children will be going to.",
+        "Cost of living: Are high school proms too expensive?\nPupils are skipping school as their families cannot afford expensive outfits and limos, charity warns.",
+        "Secondary school uniform costs parents £422 a year\nParents still spending \"exorbitant\" sums on uniforms despite rules meant to cut costs, says charity.",
+        "Do new school uniform rules save parents money?\nSchools now have to take unnecessary logos off uniforms, but so far not all parents are benefitting."
+      ],
+      "faithfulness": 1.0,
+      "response_relevancy": 0.9138638247603761
+    },
+    {
+      "question": "What has Netanyahu warned Iran about?",
+      "answer": "Netanyahu has warned Iran that it will face a \"heavy price\" if it attacks Israel.",
+      "contexts": [
+        "Israel-Gaza war: Netanyahu orders military to plan evacuations from Rafah\nThe Israeli PM's order comes after the US warned against an unplanned invasion of the Gazan city.",
+        "'Don't' - Biden warns Iran against attacking Israel\nIsrael says it is ready to defend itself against retaliation for an attack on an Iranian consulate in Syria.",
+        "Netanyahu warns Lebanon of 'destruction like Gaza'\nBenjamin Netanyahu's appeal came as Israel expanded its ground invasion against Hezbollah.",
+        "Egypt warned Israel days before Hamas struck, US committee chairman says\nBut PM Benjamin Netanyahu describes any claim Israel received a specific warning as \"totally fake news\".",
+        "How might Israel respond to Iran?\nNetanyahu has warned Iran will pay a “heavy price”"
+      ],
+      "faithfulness": 1.0,
+      "response_relevancy": 0.8383248317598594
+    },
+    {
+      "question": "Where are troops headed in preparation for a new battle?",
+      "answer": "Troops are heading to the Donbas region in eastern Ukraine.",
+      "contexts": [
+        "Ukraine war in maps: Tracking the Russian invasion\nRussian troops and military equipment are massing along Ukraine's eastern border ahead of a renewed offensive in the Donbas region.",
+        "Wagner: Satellite images reveal Belarus camp arrival\nA large convoy of suspected Wagner fighters has arrived at a new camp in Belarus.",
+        "Donbas: Battle in east Ukraine expected to be bloody and decisive\nUkrainian troops in the Donbas region are preparing for heavy strikes as Russia turns its focus to the east.",
+        "Ukraine round-up: Putin defends 'necessary' invasion and Kyiv averts cyber-attack\nTroops head to the Donbas in preparation for fresh battle and Ukraine averts a cyber-attack on its energy grid",
+        "War in Ukraine: Troops dig in near Kyiv\nUkrainians are determined to defend their capital city as Russian troops prepare for an assault."
+      ],
+      "faithfulness": 1.0,
+      "response_relevancy": 0.7844472813714023
+    },
+    {
+      "question": "How long had passed since Barkha Dutt lost her father when she wrote about it?",
+      "answer": "Barkha Dutt lost her father one year before writing about it.",
+      "contexts": [
+        "Kfar Aza kibbutz massacre: Father saves daughter he hadn’t seen for six years\nNeta had not spoken to her father for years, but she knew he was the only person who could save her.",
+        "Vishal Mehrotra: Killed boy's family cannot forgive police inaction\nThe father of Vishal Mehrotra says his death 40 years ago has not been fully investigated by police.",
+        "Lakhimpur: India family shattered by rape and murder of Dalit sisters\nTwo days after the rape and murder of two sisters in India, the family speak to the BBC.",
+        "Coronavirus: Woman who watched mum die recalls her last moments\nSpeaking three years after the first Covid lockdown, Anabel Sharma looks back on her mum's last moments.",
+        "Barkha Dutt: 'My father did not have to die'\nA year after losing her father to Covid, Indian journalist Barkha Dutt writes on coping with loss and regret."
+      ],
+      "faithfulness": 1.0,
+      "response_relevancy": 0.909356693723387
+    },
+    {
+      "question": "How many runs did Jermaine Blackwood score?",
+      "answer": "Jermaine Blackwood scored 102 runs.",
+      "contexts": [
+        "Bairstow century leads Punjab to record T20 run-chase\nJonny Bairstow's astonishing 108 from 48 balls leads Punjab Kings to the highest-ever successful T20 run-chase.",
+        "The Hundred 2023: England's Tammy Beaumont and Joe Root feature in plays of the day\nWatch the plays of the day from The Hundred including a record-breaking score from Welsh Fire batter Tammy Beaumont and a ramp six from Joe Root of the Trent Rockets.",
+        "Glenn Maxwell: Where does Australian's double century rank in greatest men's ODI innings?\nWhere does Australia batter Glenn Maxwell's stunning 201 not out to beat Afghanistan rank among the greatest men's ODI innings?",
+        "T20 World Cup: Junaid Siddique hits massive six out of ground\nUnited Arb Emirates' Junaid Siddique hits a 109-metre six out of the ground at the Kardinia Park in Geelong, Australia during their 79-run defeat to Sri Lanka at the T20 World Cup.",
+        "Brathwaite and Blackwood centuries thwart wasteful England\nA dogged unbeaten century from Kraigg Brathwaite and Jermaine Blackwood's 102 blunts England on day three of the second Test in Barbados."
+      ],
+      "faithfulness": 1.0,
+      "response_relevancy": 0.9999993361895132
+    },
+    {
+      "question": "Who took pole position for the Mexico City Grand Prix?",
+      "answer": "Carlos Sainz took pole position for the Mexico City Grand Prix.",
+      "contexts": [
+        "Mexico City Grand Prix: Ferrari's Charles Leclerc takes surprise pole position ahead of Carlos Sainz\nCharles Leclerc leads Carlos Sainz to a sensational and surprising Ferrari one-two in qualifying for the Mexico City Grand Prix.",
+        "Mexico City Grand Prix: Max Verstappen wins from Lewis Hamilton\nRed Bull's Max Verstappen broke the record for wins in a season with a comfortable and controlled victory in the Mexico City Grand Prix.",
+        "Mexico City Grand Prix: Max Verstappen wins restarted race after Kevin Magnussen crash\nRed Bull's Max Verstappen takes a dominant victory in the Mexico City Grand Prix to break his own record for wins in a single Formula 1 season.",
+        "Mexico City Grand Prix: Max Verstappen tops practice\nRed Bull's Max Verstappen heads McLaren's Lando Norris in Friday practice at the Mexico City Grand Prix.",
+        "Sainz on Mexico City pole, but Norris 'happy' with third\nFerrari’s Carlos Sainz beats title rivals Max Verstappen and Lando Norris to pole position at the Mexico City Grand Prix."
+      ],
+      "faithfulness": 0.0,
+      "response_relevancy": 0.9999995187256653
+    },
+    {
+      "question": "Will iPhone users in the EU be able to download apps from sources other than the App Store?",
+      "answer": "Yes, according to Article Title: Apple to allow rival app stores on iPhones in EU, iPhone users in the EU will soon be able to download apps from places other than the App Store.",
+      "contexts": [
+        "Apple forced to ditch lightning charger in new iPhone\nApple confirms new iPhone 15 will have a common USB-C charging port after the EU forced the change.",
+        "BBC iPlayer to end programme downloads for PCs and Macs\nMobile and tablet apps are unaffected, meaning users can still download BBC shows to watch later.",
+        "New iPhone, new charger: Apple bends to EU rules\nA European Union law will require portable devices to have a common charger by 2024.",
+        "Apple in breach of law on App Store, says EU\nIt is the first time a company has been found to be in breach of the Digital Markets Act (DMA).",
+        "Apple to allow rival app stores on iPhones in EU\niPhone users in the EU will soon be able to download apps from places other than the App Store."
+      ],
+      "faithfulness": 1.0,
+      "response_relevancy": 0.9999995579228316
+    },
+    {
+      "question": "How old was Nashawn Breedlove when he died?",
+      "answer": "Nashawn Breedlove was 46 years old when he died.",
+      "contexts": [
+        "Aaron Carter: Singer and brother of Backstreet Boys' Nick dies aged 34\nAaron Carter, famous as a child pop star, was the younger brother of Backstreet Boys' Nick Carter.",
+        "Rugby League legend Rob Burrow dies aged 41\nThe Leeds Rhinos star was diagnosed with motor neurone disease two years after he retired from playing, following a stellar 17-year career.",
+        "Dejan Milojevic: Golden State Warriors assistant coach dies aged 46\nGolden State Warriors assistant coach Dejan Milojevic dies at the age of 46 after suffering a heart attack, the NBA team confirms.",
+        "Paul Rendall: Former England and Wasps prop dies aged 69\nPaul Rendall dies at the age of 69 after being diagnosed with motor neurone disease last year.",
+        "8 mile actor Nashawn Breedlove dies aged 46\nThe actor and rapper, known for rap-battling Eminem in the 2002 film, died at his home on Sunday."
+      ],
+      "faithfulness": 1.0,
+      "response_relevancy": 0.9999999999999998
+    },
+    {
+      "question": "Who took responsibility for England's World Cup exit?",
+      "answer": "Harry Kane took responsibility for England's World Cup exit after missing a crucial penalty during their 2-1 defeat to France.",
+      "contexts": [
+        "Gareth Southgate: England manager on decision to stay, World Cup & human rights\nGareth Southgate talks to BBC sports editor Dan Roan about his decision to remain England manager, the team's performance in Qatar and why he has no regrets.",
+        "England fans despair at World Cup loss\nFans watched as England are knocked out of the World Cup after losing to France.",
+        "Rugby League World Cup: Where did it go wrong for England as they exit at semi-finals?\nAnother Rugby League World Cup, another gut-wrenching failure for England - but where did it all go wrong for Shaun Wane's side?",
+        "World Cup 2022: Harry Kane takes responsibility after World Cup exit\nHarry Kane took responsibility for England's World Cup exit after missing a crucial penalty during their 2-1 defeat to France.",
+        "Who will be next England manager?\nAfter Gareth Southgate's resignation as England boss, BBC Sport looks at who could replace him."
+      ],
+      "faithfulness": 1.0,
+      "response_relevancy": 0.8687106475039978
+    },
+    {
+      "question": "Who made bids to purchase Manchester United?",
+      "answer": "Sheikh Jassim bin Hamad Al Thani of Qatar and Sir Jim Ratcliffe's Ineos Group made bids to purchase Manchester United.",
+      "contexts": [
+        "Manchester United: Qatar's Sheikh Jassim and Ineos make bids for Premier League club\nQatar's Sheikh Jassim bin Hamad Al Thani and Sir Jim Ratcliffe's Ineos make bids to buy Manchester United.",
+        "Manchester United sale: Revised bids for club due on Wednesday evening\nProspective owners of Manchester United are told they have until 21:00 GMT on Wednesday to submit second, revised bids for the club as the takeover saga accelerates.",
+        "Sir Jim Ratcliffe: Billionaire wants to buy Manchester United\nBritish billionaire Sir Jim Ratcliffe wants to buy Manchester United if the Glazer family put the club up for sale.",
+        "Manchester United takeover: Club still negotiating sale with multiple parties\nNegotiations around the potential sale of Manchester United are still taking place with multiple parties.",
+        "Manchester United: Sir Jim Ratcliffe & Sheikh Jassim make final bids\nQatari banker Sheikh Jassim bin Hamad Al Thani and Sir Jim Ratcliffe's Ineos Group submit final bids for Manchester United."
+      ],
+      "faithfulness": 1.0,
+      "response_relevancy": 0.9997885174076621
+    },
+    {
+      "question": "How many people in the UK have experienced Unboxed's programme?",
+      "answer": "Around 18 million people across the UK have enjoyed Unboxed's programme of events.",
+      "contexts": [
+        "How many people still smoke in the UK?\nThe government wants to create a smoke-free generation and restrict the sale and marketing of vapes.",
+        "Record 17.4m peak TV audience see Euro 2022 final\nEngland's Euro 2022 final win over Germany was watched by a peak television audience of 17.4 million, making it the most-watched programme in the UK so far in 2022.",
+        "Watching the lying-in-state - 'The queue has a meditative magic of its own'\nThe live-stream has become an unexpected hit on iPlayer. What's behind the viewing figures?",
+        "Eurovision: Why is the UK hosting it and when is it on?\nAround 160 million people from across the globe will watch the world's biggest song contest live from Liverpool on 13 May.",
+        "Unboxed Festival: Do audience numbers justify £120m cost?\nThe arts festival says 18m people across the UK have enjoyed Unboxed's programme of events."
+      ],
+      "faithfulness": 1.0,
+      "response_relevancy": 0.8451337959544629
+    },
+    {
+      "question": "Where did the crowd storm the airport looking for Jews?",
+      "answer": "The crowd stormed an airport in southern Russia, specifically Makhachkala airport in Dagestan.",
+      "contexts": [
+        "'They shouted Jewish, IDF': Israeli football fans describe attack in Amsterdam\nMaccabi Tel Aviv fans say they were beaten and kicked by gangs of young men.",
+        "'It's utter chaos': Video shows huge crowds stuck in darkness at terminal\nOne passenger describes seeing people climbing over one another after a major power cut hit the airport.",
+        "US rejects Putin claim that West organised anti-Jewish airport mob\nHundreds stormed an airport in southern Russia on Sunday ahead of the arrival of a flight from Israel.",
+        "Anti-Israel mob storms Dagestan airport in Russia\nIsrael urges Russia to protect \"all its citizens and all Jews\" after a mob storms Makhachkala airport.",
+        "The story of the four-hour football match\nWatch the key moments from Argentina and Morocco's opening game where crowd trouble forces the match to be suspended for nearly two hours at the Paris 2024 Olympics."
+      ],
+      "faithfulness": 1.0,
+      "response_relevancy": 0.5295095604478703
+    },
+    {
+      "question": "Who caught David Miller in the final over of the T20 World Cup final?",
+      "answer": "Suryakumar Yadav took an incredible catch to dismiss David Miller for 21 in the final over of the T20 World Cup final against South Africa.",
+      "contexts": [
+        "India crush England to reach T20 World Cup final\nEngland defence of the T20 World Cup is over after they slump to a 68-run thrashing by a superb India in the semi-final in Guyana.",
+        "India beat NZ to reach final after Kohli's record century\nIndia reach the World Cup final by holding off New Zealand on a memorable night in Mumbai that includes Virat Kohli's record-breaking 50th one-day international century.",
+        "The Hundred 2023: Stunning Ross Whiteley catch helps Oval Invincibles past Northern Superchargers\nA stunning catch from Ross Whiteley helps Oval Invincibles edge out Northern Superchargers in The Hundred men's competition.",
+        "Suryakumar takes incredible boundary catch in final over\nWatch as India's Suryakumar Yadav takes an incredible catch to dismiss David Miller for 21 in the final over of the T20 World Cup final against South Africa.  ",
+        "ICC Cricket World Cup: David Miller's juggling catch dismisses Rahmat Shah\nSouth Africa's David Miller makes a meal of a catch, including hitting himself in the face with the ball, before holding on to remove Afghanistan's Rahmat Shah for 26 in the Cricket World Cup."
+      ],
+      "faithfulness": 1.0,
+      "response_relevancy": 0.693235450002565
+    },
+    {
+      "question": "How many Razzie Awards did Netflix's Diana the Musical win?",
+      "answer": "Netflix's Diana the Musical won five Razzie Awards.",
+      "contexts": [
+        "Sunset Boulevard equals Olivier Awards record\nThe musical won seven prizes including best revival and best actress for Nicole Scherzinger",
+        "The best BBC performances from soul legend Diana Ross\nA celebration of the best BBC performances from soul legend Diana Ross.",
+        "The Crown: How has Netflix handled Princess Diana's death?\nOne of the most anticipated storylines in season six of the royal drama has divided audiences.",
+        "The Crown: Seven takeaways from the latest series of Netflix's royal drama\nElizabeth Debicki is perfect as Diana, and John Major's portrayal is a revelation, says Katie Razzall.",
+        "Netflix's Diana the Musical named worst film by Razzie Awards\nThe Netflix musical \"wins\" five Razzie Awards, which name and shame the year's worst films."
+      ],
+      "faithfulness": 1.0,
+      "response_relevancy": 0.9999993341150092
+    },
+    {
+      "question": "How long did their handshake last?",
+      "answer": "The Queen's handshake with Martin McGuinness lasted four seconds.",
+      "contexts": [
+        "Who had his manager blowing kisses? Garth Crooks' Team of the Week\nWhich players impressed our football pundit Garth Crooks enough to make his latest Team of the Week?",
+        "Saudi Arabia: The significance of Biden's fist bump with crown prince\nA photograph of Joe Biden and Mohammed bin Salman fist-bumping has gone viral - will their meeting be remembered for more?",
+        "Watch: Zelensky and D-Day veteran call each other 'hero'\nUkraine’s president hugged the World War Two soldier at a ceremony to mark the 80th anniversary of D-Day.",
+        "The Queen and Martin McGuinness' four-second handshake\nHow the eyes of the world watched the Queen and former IRA leader Martin McGuinness shake hands.",
+        "Mini heatwave: Will the very warm weather last?\nVery warm and sunny at the moment, but for how long will it last?"
+      ],
+      "faithfulness": 1.0,
+      "response_relevancy": 0.6860646465918366
+    },
+    {
+      "question": "What city was attacked by missiles according to the context?",
+      "answer": "According to the articles, Zhytomyr in north-west Ukraine is being bombed heavily.",
+      "contexts": [
+        "First came the alert message, then the boom of interceptions\nAs missiles lit up the skies above Israel, our reporter Alice Cuddy reported from a safe room in Jerusalem. ",
+        "Zhytomyr: Aerial attacks hit city that is corridor to Kyiv\nZhytomyr, in north-west Ukraine, is facing intense daily attacks. Why is it being bombed so heavily?",
+        "Moscow drone attack: What we know about the strikes\nSeveral buildings have been damaged by drone attacks in Moscow.",
+        "Ukraine Eurovision act's city Ternopil attacked before performance\nTernopil was hit by Russian missiles before Tvorchi took the stage in Liverpool, authorities say.",
+        "Ukraine war: Russian missiles pound major cities days after Kherson pull-out\nKyiv and other cities are targeted, days after Russia's damaging withdrawal from Kherson."
+      ],
+      "faithfulness": 1.0,
+      "response_relevancy": 0.23371698852572975
+    },
+    {
+      "question": "Who echoed Rishi Sunak in not committing to the pension triple lock?",
+      "answer": "Angela Rayner, Labour's deputy leader, echoed Rishi Sunak in refusing to commit to the pension triple lock.",
+      "contexts": [
+        "Rishi Sunak and the £10m question\nA spokesperson for the PM released the statement late on Tuesday.",
+        "Rishi Sunak refusing to budge on pay as strike action escalates\nThe prime minister is under pressure to reopen nurses' pay talks, as ambulance workers prepare for walk outs.",
+        "Is Rishi Sunak meeting his asylum pledge?\nIt has been a year since the prime minister pledged to clear the legacy backlog, so how is he getting on?",
+        "Angela Rayner cautious about committing Labour to pension triple lock\nLabour's deputy leader echoes Rishi Sunak in refusing to commit to the policy at the next election.",
+        "What is the state pension and the triple lock?\nThe state pension will rise by 8.5% in April following a pledge to protect the value of the benefit."
+      ],
+      "faithfulness": 1.0,
+      "response_relevancy": 0.0
+    },
+    {
+      "question": "What are children doing in the footage released by Network Rail?",
+      "answer": "Children are playing on railway tracks as seen in footage released by Network Rail, which aims to raise safety awareness.",
+      "contexts": [
+        "Cardiff: What new CCTV tells us about teens' final minutes\nThe BBC's Dan Johnson maps out the timeline of the moments before the crash in Cardiff on Monday.",
+        "Notting Hill Carnival: Children's day in pictures\nThe next generation of carnival performers took to the streets of west London for the children's day parade",
+        "Mariupol steelworks: Video appears to show children in Azovstal bunker\nUkrainian fighters post a video of civilians who they say have been hiding under a steel plant for weeks.",
+        "Children working as riders for food delivery apps - BBC investigation\nA black-market trade in riders' accounts lets underage teenagers sign up for work, investigation reveals.",
+        "Watch: Children play on railway tracks as man looks at phone\nNetwork Rail has released footage from covert cameras at level crossings to raise safety awareness."
+      ],
+      "faithfulness": 1.0,
+      "response_relevancy": 0.8107902980755042
+    },
+    {
+      "question": "How many copies did the Legend of Zelda game sell in three days?",
+      "answer": "The Legend of Zelda game sold 10 million copies in three days.",
+      "contexts": [
+        "Princess Zelda finally stars in her own game\nThe Nintendo heroine takes the starring role in one of its most popular series for the first time.",
+        "Palworld: 'Pokémon with guns' sells 5m copies in three days\nThe surprising success of Palword causes server crashes and exposes \"serious bugs\" in the game.",
+        "Still building on its success - Minecraft first game to sell 300m\nThe Lego-like block-building game cements its position as the best-selling video game of all time.",
+        "Zelda Tears of the Kingdom: Why Nintendo's latest game is more than a sequel\nThe games giant releases the highly anticipated sequel to The Legend of Zelda: Breath of the Wild.",
+        "Legend of Zelda game sells 10 million copies in three days\nTears of the Kingdom becomes the fastest-selling game in the Legend of Zelda franchise."
+      ],
+      "faithfulness": 1.0,
+      "response_relevancy": 0.9953380075651352
+    },
+    {
+      "question": "Was Steph Houghton considered for the World Cup squad?",
+      "answer": "Yes, according to England manager Sarina Wiegman, Steph Houghton was in the team's conversations for the 2023 Women's World Cup, but ultimately left out of the squad.",
+      "contexts": [
+        "World Cup 2022: England squad features Maddison, Rashford and Wilson\nJames Maddison, Marcus Rashford and Callum Wilson are included in England's 26-man Fifa World Cup squad for Qatar.",
+        "‘I think there is a space for me’ - can England ignore Maddison?\nAfter once again starring for Leicester in their thrashing of Nottingham Forest, can James Maddison force his way into England's World Cup squad?",
+        "James Maddison: Has Leicester's England hopeful failed final World Cup audition?\nWith England boss Gareth Southgate watching Leicester's goalless draw with Crystal Palace, has James Maddison failed his World Cup audition?",
+        "Steph Houghton: Former England captain left out of squad for women's Euros\nFormer England captain Steph Houghton has not been included in the 23-player squad for the women's Euros.",
+        "Steph Houghton: Ex-England captain was considered for World Cup spot\nEngland manager Sarina Wiegman says former captain Steph Houghton was \"in our conversations\" despite being left out of the World Cup squad."
+      ],
+      "faithfulness": 1.0,
+      "response_relevancy": 0.918296166348708
+    },
+    {
+      "question": "Which team did England lose the series to?",
+      "answer": "England lost the series to West Indies.",
+      "contexts": [
+        "The Ashes 2023: England denied by Australia in Edgbaston classic\nAustralia somehow prevail in another Edgbaston Ashes classic to beat England by two wickets and take a 1-0 lead in the series.",
+        "England 59-61 South Africa: Proteas edge in front late on to take series to a decider\nSouth Africa earn a late 61-59 win over England to take their three-match series with England down to a decider.",
+        "ICC Cricket World Cup highlights: England slump to eight-wicket defeat by Sri Lanka\nEngland's World Cup future is out of their hands after they lose by eight wickets to Sri Lanka in Bangalore at the Cricket World Cup.",
+        "ICC Cricket World Cup highlights: England suffer shock defeat to Afghanistan\nWatch highlights as England suffer a shock 69-run defeat to Afghanistan in Delhi at the Cricket World Cup.",
+        "England suffer 10-wicket defeat by West Indies in third Test - and lose series 1-0\nEngland slump to a chastening 10-wicket defeat early on the fourth day of the third Test to lose their series against West Indies 1-0."
+      ],
+      "faithfulness": 1.0,
+      "response_relevancy": 0.6767160348022909
+    },
+    {
+      "question": "Are travel firms optimistic about their prospects for 2022?",
+      "answer": "Travel agents are dealing with calls from holidaymakers anxious about their plans, but there is no indication of optimism in the articles provided regarding travel firms' prospects for 2022.",
+      "contexts": [
+        "Fears grow for summer holidays after flight cancellations\nTravel agents say staff are dealing with calls from holidaymakers anxious about their plans.",
+        "Easter holiday travel: No repeat of airport chaos, industry says\nAirports and airlines say they have enough staff to cope as they expect near 2019 levels of travel.",
+        "Will there be more air travel chaos this summer?\nAir travel is booming, but last year delays were much worse than pre-pandemic. Will 2024 be the same?",
+        "Families stranded by air traffic control glitch worried about expenses\nPassengers are having to fork out for food, travel and accommodation, but are worried about costs.",
+        "Welcome to 'Carsball' as handbrake comes off for England\nEngland took the handbrake off against the Republic of Ireland to leave their fans with plenty to be optimistic about after Lee Carsley's first game as interim boss. "
+      ],
+      "faithfulness": 0.5,
+      "response_relevancy": 0.9188897386191953
+    },
+    {
+      "question": "Which country's chancellor met with Putin in Moscow?",
+      "answer": "The Austrian Chancellor met with Putin in Moscow.",
+      "contexts": [
+        "Ukraine round-up: Austria pessimistic after Putin talks\nRussia warns two Nordic nations against Nato membership, and the Austrian chancellor meets Putin in Moscow.",
+        "Russia can end war now, says PM as Putin warns West \nKeir Starmer made the comments as he travelled to Washington for talks with US President Joe Biden.",
+        "Putin, Is It Xi You’re Looking For?\nRussia and China’s leaders meet in Beijing",
+        "Russia’s fury over US missiles\nAnd, when Prime Minister Starmer met China’s President Xi.",
+        "NYC's Met opera house hosts concert in support of Ukraine\nThe Metropolitan Opera holds a concert for Ukraine, opening with the war-torn country's national anthem."
+      ],
+      "faithfulness": 1.0,
+      "response_relevancy": 0.8190119899534992
+    },
+    {
+      "question": "Who won the Irish Open at Royal County Down?",
+      "answer": "Rasmus Hojgaard pipped Rory McIlroy to win the Irish Open at Royal County Down.",
+      "contexts": [
+        "Ireland beat Scotland to retain Six Nations title\nIreland retain the Six Nations by beating Scotland in Dublin, a result that ends England's hopes of snatching the title.",
+        "Rory McIlroy withdraws from PGA Tour's RBC Heritage event\nNorthern Ireland's Rory McIlroy pulls out of this week's PGA Tour event at Hilton Head in South Carolina.",
+        "McIlroy 'getting used to' painful near-misses\nRory McIlroy admits he's \"unfortunately getting used to\" painful near-misses as Rasmus Hojgaard pips him to the Irish Open at Royal County Down.",
+        "Lowry leads from Rose and Brown at Royal Troon Open\nIreland's Shane Lowry sets the clubhouse target at seven under in round two of The Open at Royal Troon.",
+        "Parents 'destroyed' after baby's death at Royal Sussex County Hospital\nThe mum and dad of a two-day-old girl who died want a national inquiry into maternity services."
+      ],
+      "faithfulness": 1.0,
+      "response_relevancy": 0.8832421422420844
+    },
+    {
+      "question": "How long was the Russian journalist Gershkovich sentenced to jail?",
+      "answer": "Gershkovich was sentenced to 16 years in jail.",
+      "contexts": [
+        "Ukrainian journalist, 27, who chronicled Russian occupation dies in prison\nViktoriia Roshchyna had been detained last year while reporting in Russian-occupied Ukraine.",
+        "Igor Girkin shot down a passenger jet, then insulted Putin. Which one put him in jail?\nIgor Girkin escaped justice for downing flight MH17 but goes to jail after criticising Russia's leader.",
+        "Evan Gershkovich: Russia charges US journalist with spying - reports\nEvan Gershkovich, who was arrested last week, categorically rejects the accusations, reports say.",
+        "Russia rejects offer to release jailed reporter Evan Gershkovich, US says\nThe Wall Street Journal reporter was arrested in Russia on espionage charges, which he has denied.",
+        "Russia jails US journalist Gershkovich for 16 years\nHis employer, The Wall Street Journal, has called the allegations \"shameful\" and a \"sham\"."
+      ],
+      "faithfulness": 1.0,
+      "response_relevancy": 0.8766711329365328
+    },
+    {
+      "question": "Will the cost of alcohol increase according to the context?",
+      "answer": "Yes, according to Chancellor Jeremy Hunt's statement and MSPs' decision to raise the minimum cost of alcohol, the cost of alcohol is expected to increase.",
+      "contexts": [
+        "Duty frozen on beer, cider, wine and spirits\nChancellor Jeremy Hunt said he recognised that going to the pub had become more expensive.",
+        "Did the last Budget deliver growth and cheap beer?\nThe previous Budget was meant to help growth, investment, pubs and parents. Has it worked so far?",
+        "Pub chain warns of higher food prices as VAT rises\nWith hospitality businesses facing soaring costs, some are warning they will have to increase prices.",
+        "Cheap booze prices to rise as MSPs raise minimum cost\nMSPs are set to increase the cost of alcohol but opinions remain split over the policy's effectiveness.",
+        "Cost of living: The young people saving money by going sober\nWith the price of alcohol going up, young people say they're saving money by going sober."
+      ],
+      "faithfulness": 0.6666666666666666,
+      "response_relevancy": 0.6419148337030052
+    },
+    {
+      "question": "Where are the accusations against Conor McGregor being investigated?",
+      "answer": "The accusations against Conor McGregor are being investigated in both Dublin, Ireland (following a civil rape case) and Miami, USA.",
+      "contexts": [
+        "Woman wins civil rape case against Conor McGregor\nA jury found that the Irish mixed martial arts fighter assaulted Nikita Hand in a Dublin hotel in 2018.",
+        "Christian Horner: Red Bull team principal under investigation following allegations\nRed Bull Formula 1 team boss Christian Horner is under investigation after a complaint was made against him, the company said on Monday.",
+        "Conor McGregor accused of sex assault in US\nThe former UFC champion denies the allegations, which are being investigated by police in Miami.",
+        "Conor McGregor stunt: Mascots being punched 'not the brightest thing' says UFC's Dana White\nMascots being punched is not \"the brightest thing in the world\", UFC boss Dana White says after Conor McGregor reportedly injured an NBA mascot in a promotional stunt.",
+        "Conor McGregor won't face charges after sexual assault claim\nProsecutors drop their inquiry into a woman's allegation the UFC fighter attacked her at a Miami arena."
+      ],
+      "faithfulness": 0.3333333333333333,
+      "response_relevancy": 0.9999999999999996
+    },
+    {
+      "question": "How much money did Mr Cameron make from promoting Greensill Capital?",
+      "answer": "According to BBC News articles, David Cameron made $10m (approximately £7.7m) by promoting Greensill Capital, a finance business that later collapsed.",
+      "contexts": [
+        "BBC Verify: Would Labour spend £28bn a year on green projects?\nWhat is Labour's green investment plan and what would it do to the UK economy?",
+        "Ex-PM David Cameron becomes Lord\nArriving as David William Donald Cameron, he is sworn in as the peer Lord Cameron of Chipping Norton.",
+        "Cameron's return revives memories of Greensill finance scandal\nDocuments suggest Mr Cameron made $10m promoting the controversial finance business Greensill Capital, which later collapsed.",
+        "David Cameron denies £10m payment from Greensill Capital\nThe foreign secretary says he was a \"private citizen\" while working for the collapsed finance firm.",
+        "How much money does the UK government raise and spend each year?\nA breakdown of where the government's money comes from and where it goes."
+      ],
+      "faithfulness": 0.5,
+      "response_relevancy": 0.9509981229318337
+    },
+    {
+      "question": "How long has passed since the Mariupol siege?",
+      "answer": "According to the articles, the exact duration of the Mariupol siege is not specified. However, it can be inferred that the siege started at least two weeks before the article \"Ukraine war: Drone shots show Mariupol devastated by fighting\" on March 14, 2022, and continued for six weeks until the article \"Ukraine: The critical fight for 'heart of this war' Mariupol\" on April 13, 2022.",
+      "contexts": [
+        "Ukraine: The critical fight for 'heart of this war' Mariupol\nRussia could be on the brink of fully capturing the city after a devastating, six-week assault.",
+        "Why did Russia invade Ukraine and has Putin's war failed?\nAlmost nine months after Putin unleashed war on Ukraine, Russian forces have suffered repeated setbacks.",
+        "Ukraine war: Drone shots show Mariupol devastated by fighting\nThousands of civilians have been trapped in the Ukrainian port city for nearly two weeks",
+        "Mariupol: Key moments in the siege of the city\nAs Ukrainian fighters are evacuated from the Azovstal steelworks, how Russia has closed in on the city.",
+        "War in Ukraine: Estimated 300 dead in Mariupol theatre strike\nThe Mariupol attack reportedly caused the worst known loss of life in one strike since the invasion began."
+      ],
+      "faithfulness": 0.2,
+      "response_relevancy": 0.0
+    },
+    {
+      "question": "Who won the sprint finish in stage two of the 2023 Tour de France Femmes?",
+      "answer": "Liane Lippert won the sprint finish in stage two of the 2023 Tour de France Femmes.",
+      "contexts": [
+        "Tour de France 2023: Belgium's Jasper Philipsen sprints to victory on stage three\nBelgium's Jasper Philipsen sprints to victory on stage three of the Tour de France as Britain's Adam Yates retains the leader's yellow jersey.",
+        "Tour de France 2023: Jonas Vingegaard retains title as Jordi Meeus claims surprise win in Paris\nDenmark's Jonas Vingegaard seals his second successive Tour de France triumph as Jordi Meeus sprints to a surprise win on the final stage.",
+        "Tour de France Femmes 2023: Yara Kastelijn claims first WorldTour win with stage four victory\nYara Kastelijn claims her first WorldTour win with victory on stage four of the Tour de France Femmes.",
+        "Cycling World Championships 2023: Emma Finucane claims first major title with gold in women's sprint\nGreat Britain's Emma Finucane claims her first major title with gold in the women's sprint at the Cycling World Championships in Glasgow.",
+        "Tour de France Femmes 2023: Liane Lippert beats Lotte Kopecky in sprint to win stage two\nLiane Lippert wins a sprint for the line as the German claims victory on the second stage of the Tour de France Femmes."
+      ],
+      "faithfulness": 1.0,
+      "response_relevancy": 0.9999999999999998
+    },
+    {
+      "question": "Which chemical plant experienced a large fire due to Russian shelling?",
+      "answer": "The Azot plant in Severodonetsk experienced a large fire due to Russian shelling.",
+      "contexts": [
+        "Nuclear plant: How close was nuclear plant attack to catastrophe?\nAfter Russia seizes two nuclear plant sites, experts weigh the risk to Ukraine and the world at large.",
+        "Watch: Huge explosion at Russia arms depot\nFootage shot from the road shows a massive blast and huge plume of smoke in Tikhoretsk.",
+        "Ukraine war: Blasts rock Russian airbase in annexed Crimea\nBlack smoke is seen rising from the territory, which Russia annexed from Ukraine in 2014.",
+        "Huge fire rips through warehouse in Russia\nHundreds of firefighters battled to put out the blaze at the Wildberries warehouse in St Petersburg.",
+        "Ukraine war: Chemical plant hit as fighting rages in Severodonetsk\nRussian shelling causes a huge fire at the Azot plant in Severodonetsk, a Ukrainian official says."
+      ],
+      "faithfulness": 1.0,
+      "response_relevancy": 0.6304643015072383
+    },
+    {
+      "question": "Where did the collision between the two planes occur?",
+      "answer": "The collision between the two planes occurred at Heathrow Airport.",
+      "contexts": [
+        "Heathrow Airport: Two planes in minor collision\nThe incident involving an Icelandair and Korean Air aircraft is being investigated.",
+        "Yorkshire helicopter crash: Two dead near Burton in Lonsdale\nThe aircraft came down in a field near Burton in Lonsdale at about midday on Monday, police say.",
+        "US drone crashes after encounter with Russian jet\nThe US says the two aircraft collided over the Black Sea, but Russia says there was no contact.",
+        "Planes in minor collision at Heathrow Airport\nA British Airways plane waiting to take off was struck by a Virgin Atlantic aircraft.",
+        "Man dies after collision between two jet skis\nThe 42-year-old died in hospital the day after the incident in Wigtown Bay, Dumfries and Galloway."
+      ],
+      "faithfulness": 1.0,
+      "response_relevancy": 0.9999994676428317
+    },
+    {
+      "question": "What does the context suggest fans think about Britney Spears being more in control?",
+      "answer": "The context suggests that fans, particularly those from the K-pop scene, may have a controlling attitude towards Britney Spears' private life, as they invest significant time and money into her personal affairs and expect to dictate aspects of it.",
+      "contexts": [
+        "Britney Spears returns to music scene with Elton John collaboration\nLittle is known about the new track, but it will be called Hold Me Closer.",
+        "Britney Spears says she is pregnant after conservatorship ends\nThe singer, 40, also says she has previously suffered perinatal depression.",
+        "Jealous K-pop fans try to dictate their idols' private lives\nThey invest massive amounts of time and money - and expect control of their K-pop idol's private lives.",
+        "Britney Spears and Justin Timberlake: Everytime video revisited following abortion news\nThe music video for Everytime is being interpreted in new ways by some after news Spears had an abortion.",
+        "Dolly Parton, Britney Spears and Taylor Swift tribute acts stage protest over Meta 'ban'\nBritney Spears and Dolly Parton impersonators say Facebook and Instagram has banned their profiles."
+      ],
+      "faithfulness": 0.25,
+      "response_relevancy": 0.6997762106122127
+    },
+    {
+      "question": "Is the Nationality and Borders Bill under debate in Parliament?",
+      "answer": "Yes, the Nationality and Borders Bill was being debated in Parliament.",
+      "contexts": [
+        "Illegal Migration Bill passes as Tory rebellion defused\nThe government makes concessions on child detention in response to concerns from some of its own MPs.",
+        "Mason: The row over the Migration Bill is just beginning \nThe prime minister's aim is clear, but can the Illegal Migration Bill work?",
+        "Rishi Sunak: Hurdles in the race to pass Illegal Migration Bill\nWill new legislation aimed at cutting numbers crossing the Channel have an impact?",
+        "Nationality and Borders Bill: Can you lose your citizenship?\nThe Nationality and Borders Bill, currently being debated in Parliament, has sparked controversy.",
+        "It's A Wonderful Life: The Borders village linked to a movie classic\nWhy is Birgham in the Scottish Borders \"twinned\" with the fictional town in It's A Wonderful Life?"
+      ],
+      "faithfulness": 1.0,
+      "response_relevancy": 0.9372996326640698
+    },
+    {
+      "question": "How many 'banned' books is Pink planning to give away at her Florida concerts?",
+      "answer": "Pink plans to give away 2,000 'banned' books at her Florida concerts.",
+      "contexts": [
+        "Books of 2023: Prince Harry's Spare kicks off publishing bonanza\nJoin us as we lift the curtain on some of the most anticipated books coming our way next year.",
+        "Rare tiny Brontë book could set $1.25m sale record\nThe world's first tennis guide and Amy Winehouse's library are also on offer at the NY Antiquarian Book Fair.",
+        "World Book Day: 'Why I've given away 6,000 free books'\nWriter Sofia Akel is encouraging more people to read by giving out free books to those who can't afford them.",
+        "Book releases 2024: From RuPaul to Salman Rushdie\nBritney, Stephen King and Chigozie Obioma also have new books coming out in the next 12 months.",
+        "Pink: Singer to give away 2,000 'banned' books at Florida concerts\nThe pop star says she is \"unwilling to stand by and watch while books are banned by schools\"."
+      ],
+      "faithfulness": 1.0,
+      "response_relevancy": 0.6749925794099041
+    },
+    {
+      "question": "How many people died in the Stonehaven derailment?",
+      "answer": "Three people died in the Stonehaven derailment.",
+      "contexts": [
+        "Lessons from Ladbroke Grove crash 25 years on\nIt was one of the worst rail crashes of the last century killing 31 people.",
+        "Necropolis Railway: The train trip where only some passengers returned\nWhen London's burial grounds started to overflow, a rail route began for mourners - and their dead.",
+        "Stonehaven crash victim 'was talking to me one minute and gone the next'\nA survivor describes the Stonehaven rail crash and her shock at the death of conductor Donald Dinnie.",
+        "War in Ukraine: Can we say how many people have died?\nRussia and Ukraine have different claims of how many people have died in the conflict. The BBC explores the data.",
+        "Faulty drainage work blamed for fatal Stonehaven derailment\nThree people died when the train hit a landslide in heavy rain in Aberdeenshire in 2020."
+      ],
+      "faithfulness": 1.0,
+      "response_relevancy": 0.999999465690546
+    },
+    {
+      "question": "Which player scored the winning goal in the match?",
+      "answer": "The answer to which player scored the winning goal is not explicitly stated in the provided articles.",
+      "contexts": [
+        "Has Man Utd winger already won goal of the season?\nHas Alejandro Garnacho already wrapped up goal of the season - and how does his effort compare to some classic overhead kicks?",
+        "World Cup 2022: Lionel Messi voted your star player in semi-final win\nLionel Messi was voted player of the match as he led his side to the World Cup final with victory over Croatia in Qatar.",
+        "Watch: England goal stuns reporter during live interview\nJude Bellingham scored a winning goal against Slovakia, with an airborne kick that shocked the audience.\r\n",
+        "'What a goal!' Young goalkeeper scores amazing long-range winner\nA video of Charlie Clarke scoring from inside his own half is watched more than a million times.",
+        "Brehme 'saved his best for the biggest games'\nBBC Sport remembers former Germany defender Andreas Brehme, who scored the winning goal in the 1990 World Cup final and has died aged 63."
+      ],
+      "faithfulness": 0.0,
+      "response_relevancy": 0.0
+    },
+    {
+      "question": "How many goals did Cristiano Ronaldo score in the match?",
+      "answer": "Cristiano Ronaldo scored 1 goal in the match against Everton.",
+      "contexts": [
+        "Everton 1-2 Man Utd: Cristiano Ronaldo scores 700th club goal as visitors come from behind to win\nCristiano Ronaldo scores his 700th club goal as Manchester United come from behind to beat Everton at Goodison Park in the Premier League.",
+        "Which records could Ronaldo break at Euro 2024?\nCristiano Ronaldo is back to spearhead Portugal's bid to become European champions again - in potentially his last major tournament.",
+        "Manchester United 1-1 Chelsea: Cristiano Ronaldo scores 17th goal of the season in draw\nCristiano Ronaldo scores his 17th goal of the season to earn Manchester United a point after David de Gea frustrates Chelsea with several superb saves at Old Trafford.",
+        "Cristiano Ronaldo and Lionel Messi both score in exhibition\nCristiano Ronaldo scores twice in his first game in Saudi Arabia and Lionel Messi is also on the scoresheet as PSG edge a Riyadh All-Stars XI.",
+        "Sheriff Tiraspol 0-2 Man Utd: Cristiano Ronaldo and Jadon Sancho score\nCristiano Ronaldo ends his barren spell with the first Europa League goal of his career as Manchester United earn victory at Sheriff Tiraspol."
+      ],
+      "faithfulness": 1.0,
+      "response_relevancy": 0.8179195673553312
+    },
+    {
+      "question": "How did the man pay off his mortgage?",
+      "answer": "The man paid off his mortgage by betting on the outcome of a Eurovision song contest.",
+      "contexts": [
+        "Mortgage calculator: how much will my mortgage go up?\nUse our calculator to find out how much mortgage payments could go up for your household.",
+        "What happens if I can't afford to pay my mortgage?\nMany homeowners are worried about higher mortgage costs, but lenders must help those struggling.",
+        "What if I can't pay my mortgage? Your questions answered\nThe BBC's Kevin Peachey answers your questions and concerns on pensions and mortgages.",
+        "The man who paid off his mortgage with a Eurovision bet\nTempted to bet on the outcome of a song contest? Here's how one man made a living out of it.",
+        "Wegovy, the 'Viagra' of weight-loss drugs flying off the shelves\nHow did Danish weight-loss treatment Wegovy become a global sales sensation?"
+      ],
+      "faithfulness": 1.0,
+      "response_relevancy": 0.9999995383230156
+    },
+    {
+      "question": "How many goals did Andrej Kramaric score in the match?",
+      "answer": "Andrej Kramaric scored twice in the 2022 World Cup match against Canada.",
+      "contexts": [
+        "Netherlands 2-4 Croatia: Zlatko Dalic's side seal Nations League final spot after extra-time thriller\nCroatia are one win away from their first major title after two extra-time goals help them beat the Netherlands and earn a place in the Uefa Nations League final.",
+        "Zagreb's Pjaca scores 'absolute beauty' in Champions League win\nMarko Pjaca scores  a brilliant opening goal during Dinamo Zagreb's 2-0 win over Qarabag in their Uefa Champions League play-off second leg.",
+        "Croatia 1-0 Armenia: Hosts secure final automatic Euro 2024 spot with Ante Budimir goal\nAnte Budimir's goal sees Croatia beat Armenia and secure the final automatic qualification spot for Euro 2024.",
+        "World Cup 2022: Andrej Kramaric double eliminates Canada\nAndrej Kramaric scores twice as Croatia beat Canada 4-1 to knock them out of the World Cup despite Alphonso Davies scoring their first ever men's World Cup goal.",
+        "World Cup 2022: Croatia 4-1 Canada - Andrej Kramaric scores twice to send Canada out\nAlphonso Davies scores Canada's first-ever World Cup goal, but it is not enough to stop them being knocked out following a defeat by Croatia."
+      ],
+      "faithfulness": 1.0,
+      "response_relevancy": 0.8516504466090715
+    },
+    {
+      "question": "What do Israeli extremists aim to make irreversible in the West Bank?",
+      "answer": "Israeli extremists aim to make settlements in the West Bank permanently irreversible.",
+      "contexts": [
+        "Weeks into the war, how much closer is Israel to its goal?\nIsrael wants to destroy Hamas, but there are questions over whether that is achievable.",
+        "Could an Israeli ground invasion of Gaza meet its aims?\nIsraeli forces are expanding ground operations in Gaza, and their ultimate goal is to dismantle Hamas.",
+        "Israeli settlers are seizing Palestinian land under cover of war - they hope permanently\nIsraeli extremists are working to make settlements in the West Bank irreversible, analysts fear.",
+        "Israeli army strapped wounded Palestinian to jeep in West Bank\nThe Israeli military says the man was a suspect in a raid in the West Bank, but its forces violated protocol.",
+        "Are you setting up a warm bank? We want your stories\nAlong with the Jeremy Vine show, we want to know, are you are setting up a warm bank?"
+      ],
+      "faithfulness": 1.0,
+      "response_relevancy": 0.7708270585050545
+    },
+    {
+      "question": "How old was Danielle Carr-Gomm when she passed away?",
+      "answer": "Danielle Carr-Gomm was 71 years old when she passed away.",
+      "contexts": [
+        "Woman 'in pain' before death at slapping workshop, court hears\nDiabetic Danielle Carr-Gomm, 71, stopped taking insulin during sessions run by an alternative healer.",
+        "South Wales explosion: Tributes paid to Danielle Evans\nThe woman found dead at Treforest Industrial Estate is named as 40-year-old Danielle Evans.",
+        "Crazy P frontwoman Danielle Moore dies aged 52\nThe electronic group have said their \"hearts are broken\" after Moore died in \"sudden and tragic circumstances\". ",
+        "Slapping therapist guilty of manslaughter\nDanielle Car-Gomm, 71, died four days into a slapping therapy workshop in Wiltshire. ",
+        "Queen's favourite brands hope to keep Royal Warrants\nWhen Queen Elizabeth II passed away, more than 600 Royal Warrants passed with her."
+      ],
+      "faithfulness": 1.0,
+      "response_relevancy": 0.999999432064497
+    },
+    {
+      "question": "What trend has been observed regarding care worker numbers?",
+      "answer": "There has been a \"massive rise\" in the number of young carers since the pandemic, according to charities.",
+      "contexts": [
+        "The young Essex carers whose help equates to a full-time job\nCharities say they have seen a \"massive rise\" in the number of young carers since the pandemic.",
+        "Covid: Staff propped up care homes without extra pay, says report\nMost care homes struggled but some paid more to shareholders, says the Warwick University-led study.",
+        "Care sector fears migration changes are a step back\nMany in social care believe overseas staff saved the system from collapse, reports Alison Holt.",
+        "Census 2021: 'It took me two years before I realised I was a carer'\nWhy have the number of unpaid carers dropped, according to the 2021 census?",
+        "Care worker migrant surge 'should've been obvious'\nThe former independent borders watchdog has criticised the Home Office's approach foreign care staff and airport security."
+      ],
+      "faithfulness": 1.0,
+      "response_relevancy": 0.0
+    },
+    {
+      "question": "What does a Ukrainian man have to choose between in this situation?",
+      "answer": "A Ukrainian man has to choose between his family and his country.",
+      "contexts": [
+        "Ukraine war: Putin raises the stakes in a dangerous game\nWhen faced with a choice, Vladimir Putin always seems to choose escalation, writes the BBC's Russia editor.",
+        "Ukraine war: 'I'd rather go to jail than fight in Ukraine', Russian man says\nRussia has mobilised many thousands of men to fight in Ukraine. But Mikhail Ashichev refuses to go.",
+        "Ukraine war: Is Russia about to win another victory?\nWith Russia on the verge of taking Avdiivka, the Ukrainians have tough choices to make.",
+        "Ukraine’s incursion: Where does it go from here?\nKyiv needs to decide whether to keep its forces in Russia to exert maximum pressure on Moscow or withdraw now.",
+        "A Ukrainian man has to choose between his family and his country\nA Ukrainian man has to choose between his family and his country."
+      ],
+      "faithfulness": 1.0,
+      "response_relevancy": 0.865672830501763
+    },
+    {
+      "question": "Who does Tom Youngs speak to about dealing with grief and loneliness?",
+      "answer": "Tom Youngs speaks to BBC Breakfast about dealing with grief and loneliness.",
+      "contexts": [
+        "William and Harry united in grief\nWhat messages were sent by Prince William and Catherine, Prince Harry and Meghan, appearing together?",
+        "All of Us Strangers: Andrew Scott film explores trauma and loss\nAll of Us Strangers explores the comfort of having imagined conversations with relatives no longer with us.",
+        "Bereavement: How do you navigate grief as a child?\nTwo schoolboys from Belfast describe how they are dealing with the pain of losing loved ones.",
+        "Liam Payne's death prompts music industry soul searching\nIs duty of care to musicians, particularly young artists, being addressed in the music industry?",
+        "Tom Youngs: Ex-England, Leicester and Lions hooker on dealing with grief\nEx-England, Leicester and Lions hooker Tom Youngs speaks to BBC Breakfast about dealing with grief and loneliness following the death of his wife Tiffany."
+      ],
+      "faithfulness": 1.0,
+      "response_relevancy": 0.5286329999377548
+    },
+    {
+      "question": "What did Emma's family say about why they were angry with the police?",
+      "answer": "Emma's mother, Emma Webber, condemned the police for denying her repeated requests to address the members of a messaging group privately and anonymously, leading her to write an open letter.",
+      "contexts": [
+        "Family accuse government of 'attack on the truth'\nThe family of a murdered man express anger over a government legal challenge against his inquest.",
+        "Emma Caldwell inquiry update coming 'within days'\nHer mother is calling for an inquiry into police failings in the investigation into killer Iain Packer.",
+        "Chris Kaba's mother: 'My heart is broken'\nThe parents of Chris Kaba, a 24-year-old man shot by police, accuse the Metropolitan Police of racism.",
+        "Victim's mum condemns 'abhorrent' police message\nEmma Webber said she had been denied \"repeated requests\" to address the members of the messaging group \"privately and anonymously\", and so instead wrote an open letter.",
+        "Family unable to grieve after 'hospital nightmare'\nA 90-year-old woman's family say they were not told about a cancer diagnosis until finding records."
+      ],
+      "faithfulness": 0.75,
+      "response_relevancy": 0.5198644949065865
+    },
+    {
+      "question": "Which player scored the winning goal for the Netherlands?",
+      "answer": "Jude Bellingham scored the winning goal against Slovakia.",
+      "contexts": [
+        "Euro 2022 - Netherlands v Portugal: Van de Donk stunner restores lead\nDanielle van de Donk scores \"an absolute rocket\" to secure a 3-2 win for the Netherlands over Portugal at Euro 2022.",
+        "Belgium 1-4 Netherlands: Dutch win in Nations League after Lukaku injury\nThe Netherlands begin their Nations League campaign with a dominant win over a dire Belgium, who also lose Romelu Lukaku to injury.",
+        "Watch: England goal stuns reporter during live interview\nJude Bellingham scored a winning goal against Slovakia, with an airborne kick that shocked the audience.\r\n",
+        "Highlights: Netherlands come from behind to beat Turkey \nWatch highlights as Netherlands come from behind to beat Turkey 2-1 in Berlin to set up a Euro 2024 semi-final against England. ",
+        "Brehme 'saved his best for the biggest games'\nBBC Sport remembers former Germany defender Andreas Brehme, who scored the winning goal in the 1990 World Cup final and has died aged 63."
+      ],
+      "faithfulness": 0.0,
+      "response_relevancy": 0.5939937622299365
+    },
+    {
+      "question": "What situation exists regarding punishment of rapists in Sierra Leone?",
+      "answer": "In Sierra Leone, despite a presidential declaration of an emergency over rape, perpetrators are rarely punished.",
+      "contexts": [
+        "Stephen Lawrence would have been 50 today. Is there still a chance to get justice for him?\nOn the day Stephen Lawrence would have turned 50, how there may be an opportunity to secure justice.",
+        "What is the transgender prisoners row all about?\nA transgender woman is facing a prison term for rape - but where should she serve her sentence?",
+        "Sierra Madre: Fighting to save what's left of a vital rainforest\nAround 90% of the Sierra Madre, which protects the Philippines from the worst of climate change, is gone.",
+        "US leak: What punishment could Jack Teixeira face?\nExperts believe that if convicted, Jack Teixeira could face a lengthy prison sentence.",
+        "A president declared an emergency over rape. What happened next?\nDespite Sierra Leone declaring sexual violence a national emergency, perpetrators are rarely punished."
+      ],
+      "faithfulness": 1.0,
+      "response_relevancy": 0.7895666074222474
+    },
+    {
+      "question": "Which clubs are leading the race for Alexis Mac Allister?",
+      "answer": "According to the articles, Man Utd and Liverpool are leading the race for Alexis Mac Allister.",
+      "contexts": [
+        "Alexis Mac Allister: Brighton hope to keep Argentina midfielder for as long as possible\nBrighton hope \"it won't be a problem for a couple of years\" when it comes to keeping hold of Alexis Mac Allister, says chief executive Paul Barber.",
+        "Liverpool battle past Sheff Utd to return to top\nJurgen Klopp praises Alexis Mac Allister's \"wonder goal\" as Liverpool overcome Sheffield United to reclaim top spot in the Premier League and maintain control of the title race.",
+        "Wednesday's transfer gossip: Kane, Messi, Mourinho, Moyes, Mac Allister\nParis St-Germain want Harry Kane, David Moyes to leave West Ham, Man Utd and Liverpool lead race for Alexis Mac Allister, plus more.",
+        "2 Good, 2 Bad - Richards in net & Mac Allister's miss\nWatch this week's edition of 2 Good, 2 Bad featuring a wild attempt on goal by Alexis Mac Allister and our very own Micah Richards in goal.",
+        "Brighton 1-0 Manchester United: Alexis Mac Allister scores 99th-minute penalty to win it\nBrighton snatched a dramatic win over Champions League-chasing Manchester United courtesy of a 99th-minute penalty by Alexis Mac Allister."
+      ],
+      "faithfulness": 0.5,
+      "response_relevancy": 0.9219664909272207
+    },
+    {
+      "question": "How long ago did Sparsh's family flee?",
+      "answer": "Sparsh's family fled 75 years ago.",
+      "contexts": [
+        "Family who refused to leave estate facing demolition evicted\nThe Woldehiwots had been the only family still living in their block of flats for the last two years.",
+        "Yulduz and Fariba Hashimi: Escaping the Taliban, chasing a dream\nWhen the Taliban seized power in 2021, Yulduz and Fariba Hashimi faced a choice; leave behind their family or leave behind their sporting dreams.",
+        "Ukraine: Family escapes Kharkiv to Poland to treat daughter's cancer\nAfter four days on the run, three-year-old Polina and her mother have made it out of Ukraine.",
+        "Ukraine war: How a BBC journalist's family escaped the country\nVitaly Shevchenko's family fled Ukraine with the help of two BBC audience members.",
+        "Partition: My journey to the ‘place no-one spoke of’\nSparsh's family fled in terror 75 years ago - it wasn't spoken about until his grandfather agreed to talk."
+      ],
+      "faithfulness": 1.0,
+      "response_relevancy": 0.9691141629382682
+    },
+    {
+      "question": "What type of center is the prison being transformed into?",
+      "answer": "There is no information in the provided articles about the type of center a prison is being transformed into.",
+      "contexts": [
+        "Last night in jail for some prisoners before early release\nReleases are due to begin on Tuesday as governors unlock cells under the plan to free up 5,500 beds.",
+        "Which prisoners will be released from jail early? \nEmergency measures to deal with prison overcrowding are due to be announced on Friday.",
+        "Seychelles: The island paradise held prisoner by heroin\nThe BBC goes inside a Seychelles' jail to see the sharp end of a problem threatening the country.",
+        "What is the transgender prisoners row all about?\nA transgender woman is facing a prison term for rape - but where should she serve her sentence?",
+        "Rasmus Hojlund: Getting to know the Manchester United target\nRasmus Hojlund is being heavily linked with Manchester United - but what type of player is he, and what are his stats?"
+      ],
+      "faithfulness": 1.0,
+      "response_relevancy": 0.0
+    },
+    {
+      "question": "What did Daniel White do to his wife?",
+      "answer": "Daniel White strangled his wife and slit her throat in their home.",
+      "contexts": [
+        "Husband who killed seriously ill wife cleared of murder\nDavid Hunter admitted suffocating his wife of 57 years at their home in Cyprus to end her suffering.",
+        "Top snooker player jailed for assaulting partner\nMichael White is jailed for three years and removed from the World Snooker Tour and rankings list.",
+        "David Venables jailed for wife's septic tank murder\nDavid Venables killed his wife Brenda 40 years ago and her remains lay undiscovered for decades.",
+        "UFC president Dana White suggests he will not be punished for slapping wife\nUFC president Dana White suggests he will not be punished by the organisation for his part in an altercation with his wife.",
+        "Daniel White strangled and slit wife's throat in their home\nDaniel White kicked open his wife's locked door, strangled her and then cut her throat."
+      ],
+      "faithfulness": 1.0,
+      "response_relevancy": 0.9614590660337434
+    },
+    {
+      "question": "When does the Rugby League World Cup start?",
+      "answer": "The article \"World Rugby: New international competition announced in 'significant overhaul'\" states that a new international competition will start in 2026 as part of a significant overhaul of the men's international calendar.",
+      "contexts": [
+        "Rugby League World Cup: Why England's men could go all the way\nFrom rejuvenated stars to dynamic wingers, BBC Sport looks at why optimism is growing about England's Rugby League World Cup hopes.",
+        "World Rugby: New international competition announced in 'significant overhaul'\nWorld Rugby announces a new competition starting in 2026 as part of a \"significant overhaul\" of the men's international calendar.",
+        "Nadine Dorries: Culture secretary confuses rugby codes in speech at Rugby League World Cup event\nCulture secretary Nadine Dorries confuses the two rugby codes in a speech at a Rugby League World Cup event in St Helens.",
+        "Rugby World Cup final: All you need to know as England face New Zealand\nWho, when, where - everything you need to know about Saturday's Rugby World Cup final between New Zealand and England.",
+        "Rugby World Cup: Highlights of South Africa v Romania Australia v Fiji and England v Japan\nWatch the best of Sunday's action at the Rugby world cup, including wins for England, South Africa and Fiji."
+      ],
+      "faithfulness": 1.0,
+      "response_relevancy": 0.6151421252960673
+    },
+    {
+      "question": "How many goals did Arsenal score against Sheffield United?",
+      "answer": "Arsenal scored 5 goals against Sheffield United.",
+      "contexts": [
+        "Arsenal win at Wolves to return to top spot\nArsenal put their Champions League disappointment behind them to beat Wolves and move back to the top of the Premier League.",
+        "Liverpool 1-1 Arsenal: Gunners top of Premier League after thrilling Anfield draw\nArsenal maintain their place at the top of the Premier League after a thrilling draw with Liverpool at Anfield.",
+        "Sheffield United 0-2 Liverpool: Virgil van Dijk & Dominik Szoboszlai spoil Chris Wilder return\nLiverpool spoil Chris Wilder's Bramall Lane homecoming to remain hot on the heels of Premier League leaders Arsenal.",
+        "WSL highlights: Arsenal score four against Brighton to move third\nWatch highlights as Arsenal score four goals against Brighton to move into third place in the Women's Super League.",
+        "Arsenal 5-0 Sheffield United: Eddie Nketiah scores hat-trick as Gunners remain unbeaten\nEddie Nketiah scores his first Premier League hat-trick as Arsenal extend their unbeaten start to the season with victory over Sheffield United."
+      ],
+      "faithfulness": 1.0,
+      "response_relevancy": 0.9999992879149059
+    },
+    {
+      "question": "Who scored the winning goal for Manchester United?",
+      "answer": "Marcus Rashford scored the winning goal for Manchester United.",
+      "contexts": [
+        "Manchester United 1-0 Brentford: Marcus Rashford hit winner to send Red Devils fourth\nManchester United climb back into the Premier League's top four by overcoming Brentford at Old Trafford.",
+        "Manchester United 2-0 Arsenal: Red Devils win New Jersey friendly\nBruno Fernandes and Jadon Sancho score as Manchester United beat Premier League rivals Arsenal in front of 82,000 fans in New Jersey.",
+        "Manchester United 3-2 Tottenham Hotspur: Cristiano Ronaldo scores hat-trick in thriller\nCristiano Ronaldo scores a hat-trick as Manchester United beat Tottenham to move into the Champions League places.",
+        "Watch: England goal stuns reporter during live interview\nJude Bellingham scored a winning goal against Slovakia, with an airborne kick that shocked the audience.\r\n",
+        "MOTD analysis: Does Marcus Rashford have a new role at Manchester United?\nGabby Logan, Leon Osman and Dion Dublin analyse Marcus Rashford's performance as he scores the winning goal in Manchester United's 1-0 home win over Brentford."
+      ],
+      "faithfulness": 1.0,
+      "response_relevancy": 0.9999999999999998
+    },
+    {
+      "question": "How old was the girl who was killed?",
+      "answer": "The age of the girls who were killed varies across the articles. Elianne Andam was 15 years old when she died from a stabbing in Croydon. A 9-year-old girl died after a suspected stabbing in Boston, but no further details are provided about her identity. Bebe King was 6 years old when she died from injuries sustained during a knife attack at a dance class.",
+      "contexts": [
+        "Elianne Andam: Mourners remember 15-year-old girl\nElianne Andam was fatally stabbed while on her way to school in Croydon on 27 September.",
+        "Girl, 9, dies after suspected stabbing in Boston town centre\nThe young girl died from what is believed to be a stab wound in Boston, Lincolnshire Police say.",
+        "Girl, 10, dies after being bitten by family dog\nDespite attempts to save the girl, she suffered serious injuries and died at the scene. ",
+        "Funeral held for Southport victim Bebe King\nSix-year-old Bebe was the youngest of the three girls killed in the knife attack at a dance class.",
+        "Teenage girl traumatised after police strip-search, says mum\nA 14-year-old girl who was strip-searched by police was traumatised by the incident, her mum says."
+      ],
+      "faithfulness": 1.0,
+      "response_relevancy": 0.8072269326447541
+    },
+    {
+      "question": "How much is the typical household energy bill expected to be this winter?",
+      "answer": "The typical household energy bill is expected to be £3,549.",
+      "contexts": [
+        "Energy price cap: What is it and what will happen to bills in January?\nThe price cap which sets typical annual household energy bills is expected to rise slightly from January.",
+        "'Lives at risk' without more help on energy bills\nThe typical household energy bill will hit £3,549, prompting concern for people's health this winter."
+      ],
+      "faithfulness": 1.0,
+      "response_relevancy": 0.8453628879767212
+    },
+    {
+      "question": "When does the 2022-23 Premier League season start?",
+      "answer": "The 2022-23 Premier League season starts on Friday.",
+      "contexts": [
+        "Premier League predictions: Who will finish where in 2024-25?\nThe new Premier League season starts on Friday - BBC Sport chief football writer Phil McNulty and BBC Sport fan writers predict who will finish where.",
+        "Premier League 2022-23 fixtures: Schedule to be announced on Thursday\nThe 2022-23 Premier League fixtures will be released at 09:00 BST on Thursday - find out how to follow your favourite team on BBC Sport.",
+        "Premier League: What should you look out for on the final day?\nThe 2022-23 Premier League season finishes on Sunday - and the battle to avoid relegation looks set to provide the main drama.",
+        "Premier League: The biggest moments from the 2022-23 season in under 90 seconds\nThe biggest stories from the 2022-23 Premier League season told in under 90 seconds.",
+        "Premier League clubs agree to five substitutes from 2022-23 season\nPremier League shareholders agree to change the rules relating to the use of substitutes, allowing five to be used from next season."
+      ],
+      "faithfulness": 0.0,
+      "response_relevancy": 0.9999993978037433
+    },
+    {
+      "question": "How many years has Liege-Bastogne-Liege been celebrated as cycling's oldest spring classic?",
+      "answer": "Liege-Bastogne-Liege has been celebrated as cycling's oldest spring classic for 130 years.",
+      "contexts": [
+        "Track Cycling World Championships: Great Britain win three bronze medals on opening day\nGreat Britain win three bronze medals on the opening day of the Track Cycling World Championships in France.",
+        "Alfred Dunhill Links: Romain Langasque equals Old Course record to lead\nRomain Langasque says he will remember equalling the Old Course record to lead the Alfred Dunhill Links Championship \"for the rest of my life\".",
+        "How city of light changed the Olympics\nThe 2024 Paris Olympics mark 100 years since the French capital last played host. From art competitions to the Chariots of Fire legend, it was a Games of many firsts and lasts.",
+        "Le Mans 24 Hours: Danger, beauty & hydrocarbon - why the race is more important than you realise\nThe 100th anniversary of the first edition of the Le Mans 24 Hour race tapped into the event's glorious past. What it might mean for the next 100 years of motoring is just as profound.",
+        "Liege-Bastogne-Liege: Cycling's oldest spring classic celebrates 130 years of torture\nLiege-Bastogne-Liege rarely fails to test riders. In its 130th year, a legend of the race looks back on his most remarkable win."
+      ],
+      "faithfulness": 1.0,
+      "response_relevancy": 0.982134793228261
+    },
+    {
+      "question": "Which team does Edoardo Bove play for?",
+      "answer": "Edoardo Bove plays for Fiorentina.",
+      "contexts": [
+        "All you need to know about Euro 2024\nWho has the toughest group? Where will the games be played? And who are favourites to win the tournament?",
+        "Which of Europe's biggest names are still available on free transfers?\nWill Paul Pogba return to Juventus? What next for Gareth Bale? And where could Christian Eriksen end up?",
+        "Serie A footballer in intensive care after collapsing on pitch\nFiorentina midfielder Edoardo Bove is in intensive care after collapsing on the pitch during his side's match against Inter Milan.",
+        "Kemi Badenoch: Who is new Tory leader and what does she stand for?\nKemi Badenoch is a political trailblazer with a combative style and a mission to renew her party.",
+        "Women's World Cup: Can Republic of Ireland, a 'horrible team to play against', cause a shock?\nAfter being described as a \"horrible team to play against\", can the Republic of Ireland shock Canada in the Women's World Cup?"
+      ],
+      "faithfulness": 1.0,
+      "response_relevancy": 0.9486784843845208
+    },
+    {
+      "question": "How many cases of parasite outbreaks have been reported in Devon?",
+      "answer": "Up to 100 people have reported symptoms, and the number of confirmed cases has risen to 46.",
+      "contexts": [
+        "What is the water parasite making some people ill?\n\"Small traces\" of Cryptosporidium were found in Brixham in south Devon, South West Water says.",
+        "Boil water notice mostly lifted in Devon\nSouth West Water says about 2,500 homes will have to keep boiling water due to a parasite.",
+        "Faulty valve possible source of parasite outbreak\nUp to 100 people have reported symptoms to their GP since a parasite was found in the water network.",
+        "Kinder chocolate factory told to shut over salmonella cases\nDozens of suspected cases have been reported in countries including the UK, Germany, France and Belgium.",
+        "Parasite outbreak cases in Devon double to 46\nMP calls for \"heads to roll\" after confirmed cases of cryptosporidiosis in Devon rise to 46."
+      ],
+      "faithfulness": 1.0,
+      "response_relevancy": 0.37550886332893757
+    },
+    {
+      "question": "How long will Lisandro Martinez be out for due to his injury?",
+      "answer": "Lisandro Martinez will miss the rest of the season due to a fractured metatarsal bone in his foot.",
+      "contexts": [
+        "Manchester United complete Lisandro Martinez signing from Ajax in £57m deal\nManchester United complete the signing of Argentina defender Lisandro Martinez from Ajax in a deal worth up to 67m euros (£57m).",
+        "Lisandro Martinez: Manchester United boss Erik ten Hag says injury 'doesn't look good'\nManchester United boss Erik ten Hag says he is concerned about the injury Lisandro Martinez sustained in the 3-0 win against West Ham.",
+        "Luis Diaz: Liverpool forward expected to be out until December\nLiverpool forward Luis Diaz is likely to be out until December with the knee injury he sustained in the 3-2 defeat by Arsenal on Sunday.",
+        "Lisandro Martinez: Manchester United defender visibly upset after injury\nManchester United boss Erik ten Hag says Lisandro Martinez's injury during the Europa League quarter-final with Sevilla \"does not look that great\".",
+        "Lisandro Martinez: Manchester United defender out for rest of season with fractured foot\nManchester United defender Lisandro Martinez will miss the rest of the season after fracturing a metatarsal bone in his foot against Sevilla on Thursday."
+      ],
+      "faithfulness": 1.0,
+      "response_relevancy": 0.8376876825991283
+    },
+    {
+      "question": "Which mountain did the rescuers call for help?",
+      "answer": "The Ben Nevis mountain.",
+      "contexts": [
+        "Vale of Glamorgan: Helicopter cliff rescue of family cut off by tide\nThey were taken to safety by helicopter after getting stuck at the bottom of cliffs near Nash Point.",
+        "Rescued by mountain heroes after I slipped scattering dad's ashes\nKitty Harrison felt \"proper doom\" while precariously perched on a ledge on a notorious mountain.",
+        "Climbers rescued after three days on mountain\nFay Manners says she is \"mentally destroyed\" after a battle for survival 20,000ft up a mountain.",
+        "Mountain Rescuers called up Ben Nevis for struggling dog\nLochaber Mountain Rescue helped Turkish Mountain dog Maggie off the hill when she refused to budge.",
+        "China plane crash: Rescuers search for survivors as families await news\nRescuers continue to search for survivors of the China Eastern flight, which was carrying 132 people."
+      ],
+      "faithfulness": 0.0,
+      "response_relevancy": 0.3550504830309548
+    },
+    {
+      "question": "Who requested to be judged on addressing Channel crossings?",
+      "answer": "Rishi Sunak requested to be judged on tackling Channel crossings.",
+      "contexts": [
+        "How many people cross the Channel in small boats and where do they come from?\nHow many people seek asylum in the UK versus other countries, and how many are allowed to stay?",
+        "Rishi Sunak: Hurdles in the race to pass Illegal Migration Bill\nWill new legislation aimed at cutting numbers crossing the Channel have an impact?",
+        "How is the UK stopping Channel crossings and what are the legal routes to the UK?\nNew plans to tackle small-boat crossings have been set out by the home secretary.",
+        "Chris Mason: Chance for progress on small boats - but can PM deliver?\nRishi Sunak has asked to be judged on tackling Channel crossings but there are no easy solutions.",
+        "Faisal Islam: Is Truss's growth plan running out of time?\nThe prime minister wants to be judged on boosting economic growth, but how easy will that be to deliver?"
+      ],
+      "faithfulness": 1.0,
+      "response_relevancy": 0.3679066126614846
+    },
+    {
+      "question": "What ingredient is crucial for beer quality mentioned in the context?",
+      "answer": "Hops are a crucial ingredient for beer quality.",
+      "contexts": [
+        "Fans warned over German beer strength before Euros\nThe Foreign Office warns football fans that \"stronger\" German beer could get them barred from stadiums.",
+        "Italian label maybe but the beer's British brewed\nThe global brewing giants highlight a brand's nationality but does it matter when they brew it overseas?",
+        "Would you drink genetically modified beer?\nA growing number of US brewers are now using GM yeast to make their beers.",
+        "Climate change could make beer taste worse\nStudy shows quality and quantity of hops - a crucial ingredient - are falling with hotter weather.",
+        "Who is Karen McDougal? The second woman in the case\nThe former Playboy model is mentioned in the indictment against the former president."
+      ],
+      "faithfulness": 1.0,
+      "response_relevancy": 0.6654581589814288
+    },
+    {
+      "question": "How many countries and meals are discussed in the context?",
+      "answer": "Five countries (no specific information about the meal plans) and five meals (from \"From jelly to hummus: a history of street party food\") are discussed.",
+      "contexts": [
+        "BBC Food's family £1 recipe meal plan\nThis budget-friendly meal plan covers a week's worth of dinners for four adults, coming in at under £28 in total.",
+        "BBC Food's romantic dinners on a budget\nA three-course meal plan for someone special that won't break the bank.",
+        "From jelly to hummus: a history of street party food\nThe food served at royal street parties reflect the changing tastes of a nation.",
+        "How many countries still have the death penalty, and how many people are executed?\nThe number of executions is rising globally, but many countries have banned capital punishment.",
+        "Five countries, five meals - tackling the food inflation crisis\nAround the world people are adapting to high food prices, sometimes by changing what they eat."
+      ],
+      "faithfulness": 0.75,
+      "response_relevancy": 0.0
+    },
+    {
+      "question": "Who is presumed dead after the plane crash?",
+      "answer": "Yevgeny Prigozhin, the chief of Wagner group, is presumed dead after a plane he was meant to be on crashed.",
+      "contexts": [
+        "What we know about the incident so far\nWagner chief Yevgeny Prigozhin is presumed dead after a plane he was meant to be on crashed.",
+        "Wagner boss Prigozhin confirmed dead in plane crash - Moscow\nGenetic analysis of the bodies was carried out following Wednesday's crash, Russian officials say.",
+        "Six presumed dead after Baltimore bridge collapse\nSix people are presumed dead after the landmark Francis Scott Key Bridge gave way.",
+        "Solving the greatest mystery in aviation history\nTen years after a plane carrying 239 people vanished, can new evidence finally locate it?",
+        "Navy Seals presumed dead after anti-Houthi mission\nThe commandos were part of an operation to seize Iranian-made missile parts bound for Yemen."
+      ],
+      "faithfulness": 1.0,
+      "response_relevancy": 0.0
+    },
+    {
+      "question": "What does Ukraine accuse Russia of regarding the gas pipelines?",
+      "answer": "Ukraine accuses Russia of sabotaging a water pipe to Mykolaiv, not specifically regarding gas pipelines.",
+      "contexts": [
+        "What do we know about drone attacks in Russia?\nRussia accuses Ukraine of trying to kill President Putin in a drone attack, which Ukraine denies.",
+        "COP27: War causing huge release of climate warming gas, claims Ukraine\nUkraine tells UN climate summit it will use evidence of environmental crimes to sue Russia.",
+        "Ukraine claims to retake Black Sea drilling rigs from Russian control\nThe four strategically important oil and gas platforms were seized by Russia in 2015.",
+        "Russia accused of sabotaging Ukraine water pipe to Mykolaiv\nA BBC investigation finds evidence that Russian forces deliberately destroyed a pipeline to Mykolaiv.",
+        "Ukraine round-up: Possible war crimes and an attack on Russia\nDay 37 saw Russia accuse Ukraine of bombing an oil facility on its territory, and the BBC witnessed possible evidence of war crimes."
+      ],
+      "faithfulness": 0.5,
+      "response_relevancy": 0.7252780749790413
+    },
+    {
+      "question": "How many Ukrainians have fled their homes since the Russian invasion?",
+      "answer": "More than 12 million Ukrainians have fled their homes since the Russian invasion.",
+      "contexts": [
+        "How many Ukrainians have fled their homes and where have they gone?\nThe UN says more than 12 million people have fled their homes since the Russian invasion of Ukraine."
+      ],
+      "faithfulness": 1.0,
+      "response_relevancy": 0.9999995088935768
+    },
+    {
+      "question": "Who is leading the US PGA Championship 2023?",
+      "answer": "Brooks Koepka leads the US PGA Championship 2023.",
+      "contexts": [
+        "US PGA Championship 2023: Justin Rose challenges, Michael Block makes headlines\nJustin Rose sets the clubhouse target in round two of the US PGA Championship at Oak Hill with the top three in the world among the later starters.",
+        "US PGA Championship 2023: Brooks Koepka beats Scottie Scheffler and Viktor Hovland at Oak Hill\nA resurgent Brooks Koepka holds off Scottie Scheffler and Viktor Hovland to claim his third US PGA Championship title at Oak Hill.",
+        "US PGA Championship 2023: Brooks Koepka leads with Rory McIlroy and Justin Rose in touch\nJustin Rose and Rory McIlroy are among a stellar group of contenders who will challenge leader Brooks Koepka in Sunday's final round at the US PGA Championship.",
+        "US PGA Championship: Tiger Woods withdraws after third round\nTiger Woods withdraws from the US PGA Championship following the third round at Southern Hills in Oklahoma",
+        "US PGA Championship 2023: DeChambeau leads Scheffler, McIlroy battles, Rahm struggles at Oak Hill\nBryson DeChambeau takes the lead at the US PGA Championship at Oak Hill, where Jon Rahm endures a nightmare start."
+      ],
+      "faithfulness": 1.0,
+      "response_relevancy": 0.9999999999999998
+    },
+    {
+      "question": "Where did the Queen's state funeral take place?",
+      "answer": "The Queen's state funeral took place at Westminster Abbey.",
+      "contexts": [
+        "Queen's funeral plans: What we know so far\nHere's what we know about events on the day of the Queen's state funeral.",
+        "The Queen's journey to lying-in-state\nHer coffin travels from Buckingham Palace to Westminster Hall, where the public can pay their respects.",
+        "The Queen's funeral in pictures\nPhotos of the Queen's state funeral, the service at Westminster Abbey to her final journey to Windsor."
+      ],
+      "faithfulness": 1.0,
+      "response_relevancy": 0.9999993990855797
+    },
+    {
+      "question": "Who was Starmer's counterpart during his first PMQs appearance?",
+      "answer": "During his first PMQs appearance, Sir Keir Starmer's counterpart was Rishi Sunak.",
+      "contexts": [
+        "Electioncast: Starmer Inside No 10\nStarmer holds cabinet meeting on his first full day as PM",
+        "Sir Keir Starmer's PMQs Debut\nAnd is Kamala Harris having a ‘brat summer’?",
+        "Starmer vows Ukraine support in low-key first PMQs\nThe Labour leader largely agreed with Tory counterpart Rishi Sunak in his first appearance at PMQs.",
+        "PMQs: New Prime Minister Liz Truss and Labour leader Keir Starmer's first PMQs in full\nNew Prime Minister Liz Truss and Labour leader Sir Keir Starmer face each other in the Commons.",
+        "Natalie Elphicke: who is the new Labour MP?\nThe MP for Dover and Deal crossed the floor during PMQs but will stand down at the general election."
+      ],
+      "faithfulness": 1.0,
+      "response_relevancy": 0.9441433693535091
+    },
+    {
+      "question": "Which areas experienced flooding due to Storm Bert?",
+      "answer": "According to the article \"Storm Henk: Billing Aquadrome evacuated after severe flooding\", parts of the East Midlands were severely affected by flooding and strong winds brought by Storm Henk. There is no information in the provided articles about specific areas experiencing flooding due to Storm Bert.",
+      "contexts": [
+        "Storm Bert heads to UK with heavy rain, wind and snow\nMeteorologists forecast multiple weather hazards across the UK over the weekend due to the Atlantic storm.",
+        "More rain forecast after Storm Bert hits UK \nAt least five people died as the storm brought heavy rain, wind and snow over the weekend.",
+        "Your pictures of Storm Bert from around the UK\nThere's widespread disruption across the country as severe weather hits large areas.",
+        "Storm Henk: Billing Aquadrome evacuated after severe flooding\nParts of the East Midlands have been severely affected by flooding and strong winds, brought by Storm Henk.",
+        "Storm Henk batters UK leading to power outages, travel disruption and flooding\nThe storm brought gusts of up to 81mph, causing widespread travel disruption, flooding and power cuts."
+      ],
+      "faithfulness": 1.0,
+      "response_relevancy": 0.0
+    },
+    {
+      "question": "What field of use do the developers hope for their mini aircraft?",
+      "answer": "The developers of the mini aircraft hope it will be used by the armed forces.",
+      "contexts": [
+        "Could the 'flying piano' help transform air cargo?\nA Texas start-up is developing cargo gliders that would be towed behind a jet.",
+        "Why private helicopters are still in demand\nDespite the flagging economy, demand is strong for helicopters and new models are being launched.",
+        "A mind-reading combat jet for the future\nThe Tempest fighter jet will have artificial intelligence tech to monitor and help the pilot.",
+        "Aerospace charts a future without jet fuel\nElectric and hybrid aircraft are under development which could cut the need for jet fuel.",
+        "How a jetpack design helped create a flying motorbike\nThe developers of a powerful mini aircraft hope it will be used by the armed forces."
+      ],
+      "faithfulness": 1.0,
+      "response_relevancy": 0.839544134094327
+    },
+    {
+      "question": "How many fashion brands are mentioned as presenting new collections in Paris?",
+      "answer": "Seven fashion brands are mentioned as presenting new collections in Paris: Louis Vuitton, Dior, Hermes, Rick Owens, Loewe, Kenzo, and Dries Van Noten.",
+      "contexts": [
+        "Olympics: Is Paris poised for success?\nFrance grapples with politics, climate and security as the Games begin",
+        "Paris Fashion Week: Haute couture shows go ahead after riots\nThere had been mixed feelings about the event taking place against the backdrop of civil unrest.",
+        "Ukraine designers fight back at Paris Fashion Week\nHow Ukraine's \"indomitable\" fashion designers are showcasing their work in the French capital.",
+        "Stars take over Paris for sporty Vogue fashion show\nSupermodels, singers and sports star took to the runway in Paris as Vogue turned a square into a runway.",
+        "Champagne, caffeine and chaos: Fashion week descends on Paris\nLouis Vuitton, Dior, Hermes, Rick Owens, Loewe, Kenzo and Dries Van Noten all introduce new collections in Paris. "
+      ],
+      "faithfulness": 1.0,
+      "response_relevancy": 0.8981430606597572
+    },
+    {
+      "question": "Where did the King and Queen stay in Wales before Charles' coronation?",
+      "answer": "The King and Queen stayed at a Welsh country estate, which is no longer held by the King.",
+      "contexts": [
+        "King Charles III in Cardiff for first Wales visit as monarch\nKing Charles III extends his \"heartfelt thanks for your kind words\" following the Queen's death.",
+        "William and Kate made Prince and Princess of Wales\nKing Charles III names William and his wife Catherine as the Prince and Princess of Wales.",
+        "King and Queen begin summer stay in Scotland at Balmoral\nKing Charles is continuing his mother's royal tradition of taking a summer residence in Scotland.",
+        "Prince and Princess of Wales: William and Kate's Anglesey 'refuge'\nWhy a quiet corner of Wales gave William and Catherine a taste of relatively normal life for a time.",
+        "King to give up lease on Welsh country estate\nIt served as a royal home to the King and Queen during visits to Wales prior to Charles' coronation."
+      ],
+      "faithfulness": 0.5,
+      "response_relevancy": 0.5706271463318956
+    },
+    {
+      "question": "How old was Alain Delon when he died?",
+      "answer": "Alain Delon was 88 years old when he died.",
+      "contexts": [
+        "Man killed in A5 crash was Caolan Devlin\nMr Devlin, who was 30, was pronounced dead at the scene of the crash between Omagh and Ballygawley.",
+        "France shooting: Who was Nahel M, shot by police in Nanterre?\nHe was learning to be an electrician and played rugby league but died at a police check near Paris.",
+        "The Papers: 'Royal role models' and 'unforgettable' Alain Delon\nFront pages include the Sussexes finishing their Colombia tour and tributes to the French actor Alain Delon.",
+        "Brigitte Bardot leads tributes as French star Alain Delon dies aged 88\nBrigitte Bardot says Delon's death has left a \"huge void that nothing and no-one will be able to fill\".",
+        "Alain Delon: Tragic finale as film great's family is torn apart\nOld feuds and past rivalries re-emerge in public as ailing cinematic great's children fight for his legacy."
+      ],
+      "faithfulness": 1.0,
+      "response_relevancy": 0.9999999999999993
+    },
+    {
+      "question": "How heavy was the unexploded bomb found in Chernihiv?",
+      "answer": "The unexploded bomb found in Chernihiv weighed 500kg.",
+      "contexts": [
+        "Ukrainians injured or killed by unexploded ammunition\nAcross Ukraine’s Kyiv region, efforts have begun to clear the countless pieces of unexploded ammunition left behind after fierce fighting.",
+        "What is a thermobaric or vacuum bomb?\nWhat is a thermobaric or vacuum bomb, and why is Russia using them in the war in Ukraine?",
+        "Chernihiv: Russian missile strike kills seven and injures 144, Ukraine says\nA Russian missile strike hits the heart of the northern city of Chernihiv, Ukraine says.",
+        "Ukraine war cluster munitions: 'Everything began to explode'\nA BBC investigation has gathered evidence of the repeated use of cluster munitions in the city of Chernihiv, northern Ukraine.",
+        "WATCH: Disposal experts defuse unexploded bomb in Ukraine\nAn unexploded 500kg (1102lb) bomb was discovered in Chernihiv in northern Ukraine."
+      ],
+      "faithfulness": 1.0,
+      "response_relevancy": 0.9364099340946146
+    },
+    {
+      "question": "What major project is causing controversy according to the newspaper headlines?",
+      "answer": "The Rosebank oil field is the major project causing controversy, as regulators have approved its development despite potential concerns.",
+      "contexts": [
+        "Rosebank oil field: What is the row over the project?\nRegulators have approved the development of a controversial oil field in the North Sea.",
+        "Newspaper headlines: Tory infighting warning and migrant tagging plans\nCalls for an end to schisms among Tory MPs and plans for migrants to be given GPS tags lead the papers.",
+        "Newspaper headlines: Britain 'runs into buffers' as PM 'inflames' rail dispute\nThe biggest rail strike in 30 years, which starts on Tuesday, leads nearly all the front pages.",
+        "The Papers: Electric car 'chaos' and Israel-Hezbollah ceasefire\nProblems with the UK's net-zero plans and Israel's deal with Hezbollah lead Wednesday's papers.",
+        "The place where property prices are set by what locals earn\nA housing project in south London is selling flats with prices set according to local income levels."
+      ],
+      "faithfulness": 0.6666666666666666,
+      "response_relevancy": 0.7111759396228138
+    },
+    {
+      "question": "In which round did Jordan Gill stop Michael Conlan?",
+      "answer": "Michael Conlan was stopped in the seventh round by Jordan Gill.",
+      "contexts": [
+        "Jai Opetaia v Jordan Thompson: Champion stops Briton in fourth round to retain IBF world title\nBritish cruiserweight Jordan Thompson's world-title challenge ends in a brutal fourth round stoppage loss to IBF and Ring Magazine champion Jai Opetaia In London.",
+        "Zhilei Zhang beats Joe Joyce: British heavyweight suffers back-to-back knockout defeats\nHeavyweight Joe Joyce was sensationally stopped in the third round by Zhilei Zhang in London, leaving the Briton's dream of securing a world-title shot in tatters.",
+        "Michael Conlan reveals he is OK after Leigh Wood retains world title with brutal knockout\nLeigh Wood produces a brutal last-round knockout of Michael Conlan to retain his WBA featherweight title amid worrying scenes.",
+        "Michael Conlan: Belfast fighter defeats Miguel Marriaga in comeback bout\nBelfast featherweight Michael Conlan returns to winning ways with a comprehensive unanimous-decision victory over Colombia's Miguel Marriaga.",
+        "Michael Conlan v Jordan Gill: England's Gill stops Belfast fighter Conlan in seventh round\nBelfast's Michael Conlan suffers further disappointment as he is stopped in the seventh round by England's Jordan Gill in his home city."
+      ],
+      "faithfulness": 1.0,
+      "response_relevancy": 0.8748421332034008
+    },
+    {
+      "question": "How old is the BBC turning this year?",
+      "answer": "The BBC is turning 100 years old this year.",
+      "contexts": [
+        "Mystery of BBC radio's first broadcasts revealed 100 years on\nNew research shows the BBC may have launched in London but Manchester played a big role in many early shows.",
+        "BBC 100: 40 interesting facts about its biggest programmes\nFrom Doctor Who to Desert Island Discs, here are some nuggets of trivia from 100 years of BBC programming.",
+        "Will the UK economy ‘bounce back’ this year?\nThe Prime Minister calls falling inflation a turning point, is he right?",
+        "An incomplete history of pop on BBC television\nIt's 70 years since the BBC launched its first televised chart show. How have things changed since?",
+        "Five challenges the BBC faces now\nThe BBC's media editor on how the BBC has to prove its worth, as it reaches its 100th birthday."
+      ],
+      "faithfulness": 1.0,
+      "response_relevancy": 0.954919868826969
+    },
+    {
+      "question": "How many UK jobs are at risk according to the context?",
+      "answer": "According to the article \"Is UK being left behind in global fight for investment?\", no specific number of UK jobs is mentioned as being at risk.",
+      "contexts": [
+        "Who are the millions of Britons not working?\nThe unemployment rate is relatively low historically, but millions aren't working.",
+        "More than half of the world's palm trees in danger\nMany useful members of this \"iconic\" plant family are at risk of extinction, according to a study.",
+        "Hemsby: How many other communities are at risk of erosion?\nWhat can be done to protect coastal communities at risk of being swallowed up by the sea?",
+        "Is UK being left behind in global fight for investment?\nThe future of the planet and the global economy are entwined in a potentially risky geopolitical game.",
+        "Boeing to axe 17,000 jobs amid strike and quality concerns\nThe company said all jobs are at risk as it cuts 10% of its workforce"
+      ],
+      "faithfulness": 1.0,
+      "response_relevancy": 0.0
+    },
+    {
+      "question": "What issue are Welsh students facing in their university flats?",
+      "answer": "There is no information provided in the articles about the specific issue Welsh students are facing in their university flats.",
+      "contexts": [
+        "Are young people forced out of Wales to find work?\nYoung people say they may have to leave Wales to find higher-paid work elsewhere.",
+        "University student complaints hit record high in England and Wales for fourth successive year\nComplaints about grades have risen in England and Wales since the end of Covid disruption policies.",
+        "Gareth Lewis: The challenges in Labour's inbox\nWhat are the issues the new UK government will have to tackle immediately in Wales? ",
+        "If a university goes bust, which students lose most?\nWhoever forms the next government is going to find it hard to ignore the issue of university funding",
+        "Bath University makes students resit exam after giving answers\nA university accidentally printed the answers on one of their exams and is making students resit."
+      ],
+      "faithfulness": 1.0,
+      "response_relevancy": 0.0
+    },
+    {
+      "question": "What does Rushdi Abualouf describe as a daily challenge for reporters in Gaza?",
+      "answer": "Rushdi Abualouf describes getting stories out of Gaza as a \"daily challenge\".",
+      "contexts": [
+        "Journalists call for foreign media access to Gaza\nMore than 50 correspondents and presenters urge Israel and Egypt to allow them to enter Gaza.",
+        "BBC in south Gaza: The scene is tragic\nThe BBC's Rushdi Abualouf says the city is struggling to cope as refugees from northern Gaza flood in.",
+        "Rushdi Abualouf: My daughters beg for Gaza City return - but our old lives are over\nThe BBC's Rushdi Abualouf describes his family narrowly avoiding a drone attack - and being displaced four times in 15 days.",
+        "Rushdi Abualouf: 'It's so much harder to watch Gaza from the outside'\nThe BBC's Rushdi Abualouf talks about his sorrow at leaving Gaza and how he plans to go back some day.",
+        "‘Daily challenge to get stories out of Gaza’ - BBC's Rushdi Abualouf\nThe BBC's Rushdi Abualouf sheds light on the challenges of reporting the war from inside and outside of Gaza."
+      ],
+      "faithfulness": 1.0,
+      "response_relevancy": 0.7849059006639919
+    },
+    {
+      "question": "What does Antony claim he never did?",
+      "answer": "Antony claims he never attacked any woman.",
+      "contexts": [
+        "What to know as Alec Baldwin's Rust shooting trial begins\nThe actor maintains he never pulled the trigger, which will be a key claim at the centre of the trial.",
+        "Antony to delay Manchester United return after assault allegations\nManchester United's Antony will delay his return to the club after allegations of assault.",
+        "Antony: Is Manchester United forward starting to live up to £81m price tag?\nAntony scores once and assists another as Manchester United move up to third in the Premier League - so is he finally starting to prove his worth?",
+        "Manchester United's Antony appears on Brazilian TV to deny allegations of assault\nManchester United's Antony appears on Brazilian TV to deny allegations of assault saying \"I never attacked any woman\".",
+        "How did Netflix know I was gay before I did?\nTech recommendations can reveal more about us than we know ourselves - but how and why does this happen?"
+      ],
+      "faithfulness": 1.0,
+      "response_relevancy": 0.6511276966243722
+    },
+    {
+      "question": "Why won't there be any presenters or pundits on Match of the Day?",
+      "answer": "Gary Lineker was told to step back from hosting Match of the Day, resulting in the program airing without presenters or pundits.",
+      "contexts": [
+        "Gary Lineker: The tweet row explained in under 90 seconds\nMatch of the Day will air without presenters or pundits on Saturday after the Lineker was pulled from the air by the BBC.",
+        "Match of the Day: Who could replace Gary Lineker as host?\nWe take a look at the runners and riders for the coveted role on the flagship football programme.",
+        "'Pitch perfect delivery': Match of the Day meets Last Night of the Proms\nTo mark the 60th anniversary of Match of the Day, the football pundits had a go at some Proms commentary.",
+        "Why a plane to Rwanda won't be taking off any time soon\nThe Rwanda bill has finally been approved - but planes won't be taking off any time soon.",
+        "Match of the Day to air with no presenters or pundits after Gary Lineker told to step back\nPundits including Ian Wright and Alan Shearer had said they would not appear on Saturday's show."
+      ],
+      "faithfulness": 1.0,
+      "response_relevancy": 0.6246711496031766
+    },
+    {
+      "question": "Who won the Diamond League event in Eugene?",
+      "answer": "There is no information about a Diamond League event in Eugene in the provided articles.",
+      "contexts": [
+        "Diamond League: Keely Hodgkinson leads British 800m one-two as Armand Duplantis clears highest jump of 2022\nKeely Hodgkinson leads British one-two in women's 800m and Armand Duplantis clears biggest height of 2022 in the Diamond League meeting in Oslo, Norway",
+        "Ingebrigtsen beats Olympic champion Hocker in rematch\nJakob Ingebrigtsen blows away 1500m Olympic champion Cole Hocker with a dominant performance at the Diamond League in Lausanne.",
+        "Dobson claims surprise win at Diamond League season finale \nGreat Britain’s Charlie Dobson produces a stunning run in the Diamond League season finale in Brussels to win the men’s 400 metres.",
+        "Ingebrigtsen & Duplantis break world records\nJakob Ingebrigtsen smashes the 3,000m world record before Armand Duplantis breaks his own pole vault world record at the Diamond League event in Silesia.",
+        "Diamond League: Jake Wightman wins 800m as Shelly-Ann Fraser-Pryce suffers shock 100m defeat\nBritain's Jake Wightman wins men's 800m while Shelly-Ann Fraser-Pryce and Armand Duplantis suffer shock defeats at the Brussels Diamond League."
+      ],
+      "faithfulness": 1.0,
+      "response_relevancy": 0.7408328212069157
+    },
+    {
+      "question": "Did the audit opinion state that due process was not followed?",
+      "answer": "Yes, according to the article \"Criticism of decision to pay Johnson Partygate legal fees\", an audit opinion stated that due process was not followed.",
+      "contexts": [
+        "Why is there no decision on Captain Tom's charity?\nThe statutory inquiry has reached a two-year milestone but was expected to conclude earlier this year.",
+        "Indyref court case could have an explosive outcome\nJudges heard two days of legal arguments about whether Holyrood has the power to set up a referendum.",
+        "Trump sues justice department over Mar-a-Lago search\nThe lawsuit asks that \"further review of seized materials\" be halted until a watchdog can be appointed.",
+        "What did ICJ ruling mean in South Africa's genocide case against Israel?\nThe ICJ ruling has come under intense scrutiny, centring on the word \"plausible\". What did the court mean?",
+        "Criticism of decision to pay Johnson Partygate legal fees\nAn audit opinion says due process was not followed when the government approved the bill for the former PM's lawyers."
+      ],
+      "faithfulness": 0.6666666666666666,
+      "response_relevancy": 0.7852687267914742
+    },
+    {
+      "question": "Who was killed during the Ukraine war?",
+      "answer": "Several individuals were killed during the Ukraine war. Denys Sosnenko, a body collector, was killed by an anti-tank mine while helping to recover remains of soldiers. Oleksandr Bondarenko, a former BBC journalist who volunteered to defend his country, was also killed on the front line. Additionally, Russian journalist Oksana Baulina died while filming destruction caused by shelling in Kyiv.",
+      "contexts": [
+        "Ukraine war: Funeral held for battleground body collector\nDenys Sosnenko was was killed by an anti-tank mine while helping to recover the remains of soldiers.",
+        "Ukraine war: Ex-BBC journalist Bondarenko killed on front line\nOleksandr Bondarenko had volunteered to defend his country at the start of Russia's 2022 invasion.",
+        "Ukraine war: Russian journalist Oksana Baulina killed in Kyiv shelling\nOksana Baulina died while filming destruction caused by Russian shelling in a Kyiv neighbourhood.",
+        "Ukraine war: Holy Trinity painting on display in Moscow\nA fragile historic painting was moved from a museum to a church. What does it say about the war?",
+        "Ukraine war: Ukrainians mourn their fallen soldiers\nFunerals are held for the first Ukrainian victims of the Ukraine-Russia war."
+      ],
+      "faithfulness": 1.0,
+      "response_relevancy": 0.9357719782358754
+    },
+    {
+      "question": "Where are Liz Truss and Rishi Sunak holding their event to seek Scottish Tory support?",
+      "answer": "Liz Truss and Rishi Sunak are holding their event in Perth, Scotland.",
+      "contexts": [
+        "Tory leadership: Stoke-on-Trent hosts Rishi Sunak and Liz Truss debate\nRishi Sunak and Liz Truss will face off in Stoke-on-Trent, a city where many do not know the MPs.",
+        "Tory leadership: How will the new party leader and PM be chosen?\nEither Rishi Sunak or Liz Truss will become the UK's next prime minister.",
+        "What can we expect from Scottish Tory hustings?\nWhat are the big issues likely to be for Liz Truss and Rishi Sunak at the Tory hustings in Perth?",
+        "Rishi Sunak and Liz Truss: Your guide to the BBC Tory leadership debate\nHere's what you need to know about Monday's head-to-head debate between Rishi Sunak and Liz Truss.",
+        "Tory leadership: Liz Truss and Rishi Sunak target Scottish votes at Perth hustings\nLiz Truss and Rishi Sunak are in Perth to pitch for the votes of Scottish Tory members at a hustings."
+      ],
+      "faithfulness": 1.0,
+      "response_relevancy": 0.865486686943457
+    },
+    {
+      "question": "Is there public pressure to release a congressional ethics report on Gaetz?",
+      "answer": "Yes, public pressure is growing to release a congressional ethics report into Matt Gaetz's conduct.",
+      "contexts": [
+        "Stop and search data published with 'dodgy' warning\nA note on a Home Office data release questions whether some of the figures should be released.",
+        "Could toxic Depp-Heard case have chilling effect on accusers?\nCould the Depp-Heard case have a chilling effect on others bringing allegations of domestic abuse?",
+        "Right-wing Republican files bid to oust McCarthy\nMatt Gaetz files bid to oust Kevin McCarthy as Speaker of US House, setting up a vote within 48 hours.",
+        "Fate of Gaetz ethics report uncertain after congressional panel deadlocked\nPresident-elect Donald Trump's pick for the next attorney general is at the centre of a number of allegations, which he denies.",
+        "What to know about the Matt Gaetz investigation\nPublic pressure is growing to release a congressional ethics report into Gaetz's conduct."
+      ],
+      "faithfulness": 1.0,
+      "response_relevancy": 0.9493609422690271
+    },
+    {
+      "question": "Who is Emma Hayes proud of for speaking out on body image?",
+      "answer": "Emma Hayes is proud of Fran Kirby, a midfielder for Chelsea FC, for speaking out on body image issues in women's football.",
+      "contexts": [
+        "Vamps star tells of liposuction body-image pressure\nJames Brittain-McVey tells MPs he wishes he had talked to friends about worries over how he looked.",
+        "Emma Stone: Sex scenes in Poor Things are 'honest'\nThe star says her character in the Oscar-tipped film is \"without shame about her body\".",
+        "Strictly's Amy: How body shaming hurts me\nStrictly Come Dancing's Amy Dowden talks about how nasty comments can hurt her.",
+        "Miss England waging war on body stereotypes\nMilla Magee says embracing your looks is key to avoiding poor health due to body image pressures.",
+        "Emma Hayes: Chelsea boss 'proud' of Fran Kirby for speaking out on body image\nChelsea boss Emma Hayes says she is \"proud\" of midfielder Fran Kirby for speaking out on body image issues in women's football."
+      ],
+      "faithfulness": 1.0,
+      "response_relevancy": 0.74985478229668
+    },
+    {
+      "question": "Who won the match against Arsenal?",
+      "answer": "Manchester City won the match against Arsenal.",
+      "contexts": [
+        "Arsenal 1-3 Manchester City: Pep Guardiola's side go top with victory at Emirates\nManchester City return to the top of the Premier League for the first time since November as they leapfrog leaders Arsenal with victory at Emirates Stadium.",
+        "Arsenal 1-0 Manchester City: Gabriel Martinelli scores dramatic late winner\nGabriel Martinelli hits the late winner as Arsenal earn a statement victory over defending Premier League champions Manchester City at Emirates Stadium.",
+        "Arsenal 2-0 Liverpool: Hosts claim comfortable victory after League Cup win\nArsenal return to WSL action after winning the League Cup with a comfortable victory over Liverpool.",
+        "Premier League: Arsenal & Man City - who will win the title?\nBBC Sport crunches the numbers and analyses the fixture list to assess whether Arsenal or Manchester City are favourites for the Premier League title.",
+        "Match of the Day 2 analysis: What's wrong at Arsenal?\nMatch of the Day 2 pundits Nedum Onuoha and Paul Robinson analyse how Fulham stopped Arsenal from going top of the Premier League."
+      ],
+      "faithfulness": 1.0,
+      "response_relevancy": 0.7480745630846187
+    },
+    {
+      "question": "What aspects of life in Gaza are discussed in the context?",
+      "answer": "The article discusses various aspects of life in Gaza, including the economy, education, health, and water.",
+      "contexts": [
+        "Gaza Strip in maps: What it's like for the people who live there\nFind out more about what it is like to live in the Gaza Strip, from the economy to education, health and water.",
+        "US midterm elections: The key governor races to watch\nThese candidates have enormous power, as many aspects of American life are decided at the state level."
+      ],
+      "faithfulness": 1.0,
+      "response_relevancy": 0.8554391413586705
+    },
+    {
+      "question": "What does Virgil van Dijk want to give Louis van Gaal?",
+      "answer": "Virgil van Dijk wants to give coach Louis van Gaal \"a World Cup to never forget\" in Qatar later this year.",
+      "contexts": [
+        "Liverpool: Virgil Van Dijk says 'almost impossible' quadruple would be 'dream'\nVirgil Van Dijk says it would be a \"dream\" for Liverpool to win a historic and \"almost impossible\" quadruple.",
+        "Virgil van Dijk denies Roy Keane claim of 'arrogance' about Manchester United comments\nLiverpool captain Virgil van Dijk denies Roy Keane's claim that he was being arrogant when talking about Manchester United after their goalless draw.",
+        "Netherlands want to give Louis van Gaal 'a World Cup to never forget' after cancer diagnosis\nNetherlands captain Virgil van Dijk says he wants to give coach Louis van Gaal \"a World Cup to never forget\" in Qatar later this year.",
+        "Van Dijk in talks with Liverpool about new deal\nLiverpool captain Virgil van Dijk says he has opened talks with the club about extending his deal, which runs out at the end of the season.",
+        "Van Dijk questions desire of team-mates after loss\nLiverpool captain Virgil van Dijk questions his side's desire to win the Premier League after a damaging defeat against Merseyside rivals Everton."
+      ],
+      "faithfulness": 1.0,
+      "response_relevancy": 0.8597791429835597
+    },
+    {
+      "question": "What does Alun Wyn Jones say about a potential player strike against England?",
+      "answer": "Alun Wyn Jones states that a player strike against England would be the \"last option\" and that the threat of action is \"hard to deny\".",
+      "contexts": [
+        "Six Nations 2023: Wales to play match against England as strike action averted\nWales' Six Nations match against England will go ahead on Saturday after the Welsh players decide against strike action.",
+        "World Cup 2022: Wales v England: 'Welsh will try to win with emotion, not tactics'\nBBC pundits Jermaine Jenas and Danny Gabbidon give their verdict on where Tuesday's World Cup group match between Wales and England will be won and lost.",
+        "World Cup 2022: Your England team to face Wales in final group game\nEngland are on the brink of a place in the last 16 of the World Cup, but who did you pick to take on Wales on Tuesday?",
+        "Australia v England: Will Eddie Jones be tempted to go back to the future?\nDanny Care says England want to have an \"all-court game\", but will we see 'Old England' in the final Test against Australia?",
+        "Six Nations 2023: Wales player strike against England is 'last option' - Alun Wyn Jones\nAlun Wyn Jones says it would be the \"last option\" for Wales players to go on strike against England but admits the threat of action is \"hard to deny\"."
+      ],
+      "faithfulness": 1.0,
+      "response_relevancy": 0.0
+    },
+    {
+      "question": "How long did the rescue operation continue after the Turkey earthquake?",
+      "answer": "The exact duration of the rescue operation is not specified in the provided articles.",
+      "contexts": [
+        "Turkey earthquake: Girl survives 10 days under quake rubble\nEmergency crews celebrated the 17-year-old's survival, but rescues are becoming rare.",
+        "Turkey earthquake: Women pulled alive from quake debris nine days on\nThe women survived trapped beneath the rubble in Turkey despite freezing conditions.",
+        "Rescues carried out in silence to listen for sounds of life\nDays after Turkey's devastating earthquake, there are still some moments of joy, but they are fewer.",
+        "Turkey earthquake: How do search and rescue teams save people?\nA search and rescue operation is under way, with specialist teams arriving from around the world.",
+        "Jenin: Israeli forces start withdrawal after two-day operation\nGunfire and explosions continue to shake the West Bank city as the major two-day operation ends."
+      ],
+      "faithfulness": 1.0,
+      "response_relevancy": 0.0
+    },
+    {
+      "question": "Where is Teenager Eli Crossley performing despite his muscle condition?",
+      "answer": "Eli Crossley is performing at Glastonbury.",
+      "contexts": [
+        "Mel C takes dance lead in new show at Sadler’s Wells Theatre\nThe Spice Girl will be performing at Sadler's Wells in London in January.",
+        "London Marathon 2023: Eilish McColgan's participation in doubt because of knee issue\nBritish half-marathon record holder Eilish McColgan is a doubt for Sunday's London Marathon with a knee problem.",
+        "London Vitality 10,000: Mo Farah beaten by Ellis Cross as Eilish McColgan sets Scottish mark\nMo Farah is beaten by Ellis Cross in his first race since June while Eilish McColgan misses a British record by two seconds at the Vitality London 10,000.",
+        "'My muscle condition won't stop me playing Glastonbury'\nTeenager Eli Crossley is playing Glastonbury after a BBC video on his health condition went viral.",
+        "Watch: The 'smart suit' that is changing children's lives\nEli Crossley, who has muscular dystrophy, explains now new technology is helping in his daily life."
+      ],
+      "faithfulness": 1.0,
+      "response_relevancy": 0.7360044460641878
+    },
+    {
+      "question": "What does Nick Robinson's daughter say about feeling unsafe?",
+      "answer": "Nick Robinson's daughter says she feels unsafe when going out in the dark.",
+      "contexts": [
+        "'My first memory is sexual abuse from my dad'\nNikki Houston waives her anonymity to speak as her dad is jailed for raping her as a child.",
+        "Women’s violence adviser speaks out about own rape\nJohanna Robinson says she was raped in her early 20s and is speaking out to help others.",
+        "Bianca Williams: 'I get anxious whenever I see a police car'\nAthlete Bianca Williams says her family's ordeal with the Met Police has left her \"on edge\".",
+        "Rishi Sunak speaks of safety fears for daughter\nThe PM says the case of Olivia Pratt-Korbel \"brought home\" to him the importance of street safety.",
+        "'I feel unsafe when I go out in the dark' - Nick Robinson's daughter tells dad\nBBC host Nick Robinson interviewed his daughter about actress Saoirse Ronan's comment that women think about safety all the time."
+      ],
+      "faithfulness": 1.0,
+      "response_relevancy": 0.7677537278935309
+    },
+    {
+      "question": "In which Olympic event did Yuto Horigome win a gold medal?",
+      "answer": "Yuto Horigome won a gold medal in the men's street skateboarding event at the Paris 2024 Olympics.",
+      "contexts": [
+        "World Figure Skating Championships: Ilia Malinin lands quadruple axel\nWatch as 18-year-old Ilia Malinin lands a quadruple axel for the first time on the world stage at the World Figure Skating Championships in Saitama, Japan.",
+        "Coutya wins second Paris gold as GB beat Tokyo tally\nDimitri Coutya wins his second Paralympic gold medal in Paris with victory in the men's individual epee B final, as GB surpass their gold tally from the Tokyo Games.",
+        "Commonwealth Games: Jake Jarman wins all-around gold, Ondine Achampong takes silver in women's event\nJake Jarman beats fellow Englishman James Hall to win gold in the Commonwealth Games men's all-around gymnastics.",
+        "GB gymnasts fourth as Japan snatch men's team gold  \nGreat Britain come fourth in the Olympic men's team gymnastics competition after a thrilling final where Japan pip China for gold.",
+        "Japan's Horigome nails incredible skill to win street skateboarding gold\nWatch Japan's Yuto Horigome's \"knockout\" gold medal-winning runs in the men's street skateboarding final on day three of the Paris 2024 Olympics."
+      ],
+      "faithfulness": 1.0,
+      "response_relevancy": 0.4651028626385711
+    },
+    {
+      "question": "What percentage of Gaza war dead are women and children according to the UN?",
+      "answer": "According to the UN, nearly 70% of Gaza war dead are women and children.",
+      "contexts": [
+        "Israel Gaza: What Gaza's death toll says about the war\nAt least 20,000 Palestinians in Gaza have been reported killed in the war, according to Hamas.",
+        "Children starving to death in northern Gaza - WHO\nThe World Health Organisation chief says 10 children have died due to lack of food in northern Gaza.",
+        "Injured, hungry and alone - the Gazan children orphaned by war\nSome 19,000 children have been orphaned by the war, or have no adults to look after them, says the UN.",
+        "In Gaza, wounded children with no surviving family\nA doctor working in Gaza told the BBC 40% of those wounded are children and many have become orphans.",
+        "Nearly 70% of Gaza war dead are women and children, UN says\nA UN agency verified victims from a six-month period and said it found international law violations."
+      ],
+      "faithfulness": 1.0,
+      "response_relevancy": 0.9999995126724802
+    },
+    {
+      "question": "What did Joey Barton's charges relate to?",
+      "answer": "Joey Barton was charged with making defamatory and harassing social media posts about Jeremy Vine.",
+      "contexts": [
+        "Joey Barton's posts about Jeremy Vine defamatory\nJeremy Vine sued Joey Barton for libel and harassment over a series of social media posts.",
+        "Police investigate Joey Barton tweets\nMr Barton says he has been visited by officers \"four times in three days\".",
+        "Joey Barton to pay an extra £35,000 to Jeremy Vine\nThe ex-footballer had already agreed to pay £75,000 over a series of defamatory social media posts.",
+        "Joey Barton cleared of assaulting his wife Georgia\nThe Bristol Rovers manager would be unable to have a fair trial, a judge ruled.",
+        "Joey Barton comments on women are 'dangerous', says sports minister Stuart Andrew\nFormer footballer Joey Barton's social media tirade against women working in the men's game is \"not acceptable\", says sports minister Stuart Andrew."
+      ],
+      "faithfulness": 0.0,
+      "response_relevancy": 0.7912635100518075
+    }
+  ]
+}

@@ -1,6 +1,7 @@
 import asyncio
 import json
 import math
+from datetime import datetime
 
 import typer
 from rich.console import Console
@@ -84,6 +85,7 @@ def search(
     limit: int = typer.Option(5, "--limit", "-n", help="Number of results"),
     mode: str = typer.Option("hybrid", "--mode", "-m", help="Search mode: semantic, keyword, or hybrid"),
     reranker: str = typer.Option("none", "--reranker", help="Reranker model: none, light, or heavy"),
+    beta: float = typer.Option(None, "--beta", "-b", help="Hybrid search beta (0.0=keyword, 1.0=semantic); default uses config value (0.7)"),
 ):
     """Search for news articles using the specified retrieval mode.
 
@@ -100,11 +102,12 @@ def search(
     from src.retrieval import Retriever
     from src.reranker import Reranker
 
-    console.print(f"[dim]Mode: {mode} | Reranker: {reranker}[/dim]\n")
+    beta_str = f" | Beta: {beta}" if mode == "hybrid" and beta is not None else ""
+    console.print(f"[dim]Mode: {mode}{beta_str} | Reranker: {reranker}[/dim]\n")
     console.print(f"[bold]Searching for:[/bold] {query}\n")
 
     reranker_obj = Reranker(reranker) if reranker != "none" else None
-    retriever = Retriever(mode=mode, reranker=reranker_obj)
+    retriever = Retriever(mode=mode, reranker=reranker_obj, beta=beta)
     results = retriever.search(query, limit=limit)
 
     for i, article in enumerate(results, 1):
@@ -125,6 +128,7 @@ def ask(
     limit: int = typer.Option(5, "--context", "-c", help="Number of articles for context"),
     mode: str = typer.Option("hybrid", "--mode", "-m", help="Search mode: semantic, keyword, or hybrid"),
     reranker: str = typer.Option("none", "--reranker", help="Reranker model: none, light, or heavy"),
+    beta: float = typer.Option(None, "--beta", "-b", help="Hybrid search beta (0.0=keyword, 1.0=semantic); default uses config value (0.7)"),
 ):
     """Ask a question using the full RAG pipeline (retrieve + generate).
 
@@ -142,12 +146,13 @@ def ask(
     from src.generation import RAGGenerator
     from src.reranker import Reranker
 
-    console.print(f"[dim]Mode: {mode} | Reranker: {reranker}[/dim]\n")
+    beta_str = f" | Beta: {beta}" if mode == "hybrid" and beta is not None else ""
+    console.print(f"[dim]Mode: {mode}{beta_str} | Reranker: {reranker}[/dim]\n")
     console.print(f"[bold]Question:[/bold] {question}\n")
 
     with console.status("[bold green]Searching for relevant articles..."):
         reranker_obj = Reranker(reranker) if reranker != "none" else None
-        retriever = Retriever(mode=mode, reranker=reranker_obj)
+        retriever = Retriever(mode=mode, reranker=reranker_obj, beta=beta)
         context = retriever.search(question, limit=limit)
 
     console.print(f"[dim]Found {len(context)} relevant articles[/dim]\n")
@@ -165,6 +170,89 @@ def ask(
 
 
 @app.command()
+def trace(
+    question: str = typer.Argument(..., help="Question to trace through the RAG pipeline"),
+    limit: int = typer.Option(5, "--context", "-c", help="Number of articles for context"),
+    fetch: int = typer.Option(None, "--fetch", "-f", help="Pre-rerank candidate count (overrides context × multiplier)"),
+    mode: str = typer.Option("hybrid", "--mode", "-m", help="Search mode: semantic, keyword, or hybrid"),
+    reranker: str = typer.Option("light", "--reranker", help="Reranker model: none, light, or heavy"),
+    beta: float = typer.Option(None, "--beta", "-b", help="Hybrid search beta (0.0=keyword, 1.0=semantic); default uses config value (0.7)"),
+):
+    """Run the full RAG pipeline and save a detailed trace to traces/."""
+    import os
+    from src.retrieval import Retriever
+    from src.generation import RAGGenerator
+    from src.reranker import Reranker
+    from src.config import HYBRID_BETA
+
+    beta_str = f" | Beta: {beta}" if mode == "hybrid" and beta is not None else ""
+    console.print(f"[dim]Mode: {mode}{beta_str} | Reranker: {reranker}[/dim]\n")
+    console.print(f"[bold]Tracing:[/bold] {question}\n")
+
+    reranker_obj = Reranker(reranker) if reranker != "none" else None
+    retriever = Retriever(mode=mode, reranker=reranker_obj, beta=beta)
+
+    with console.status("[bold green]Retrieving and reranking articles..."):
+        pre_rerank, post_rerank = retriever.trace_search(question, limit=limit, fetch_limit=fetch)
+
+    console.print(f"[dim]Pre-rerank candidates: {len(pre_rerank)} | Post-rerank results: {len(post_rerank)}[/dim]\n")
+
+    generator = RAGGenerator()
+    with console.status("[bold green]Generating answer..."):
+        prompt, answer = generator.trace_answer(question, post_rerank)
+
+    now = datetime.now()
+    timestamp_str = now.strftime("%Y-%m-%d_%H-%M-%S")
+
+    trace_data = {
+        "question": question,
+        "timestamp": now.isoformat(timespec="seconds"),
+        "search_mode": mode,
+        "beta": beta if beta is not None else HYBRID_BETA,
+        "reranker": reranker,
+        "pre_rerank_results": [
+            {
+                "rank": i + 1,
+                "title": a["title"],
+                "description": a["description"],
+                "pubDate": a["pubDate"],
+                "link": a["link"],
+                "score": a["distance"],
+            }
+            for i, a in enumerate(pre_rerank)
+        ],
+        "post_rerank_results": [
+            {
+                "rank": i + 1,
+                "title": a["title"],
+                "description": a["description"],
+                "pubDate": a["pubDate"],
+                "link": a["link"],
+                "score": a["distance"],
+            }
+            for i, a in enumerate(post_rerank)
+        ],
+        "prompt": prompt,
+        "answer": answer,
+    }
+
+    trace_dir = "traces"
+    os.makedirs(trace_dir, exist_ok=True)
+    trace_path = os.path.join(trace_dir, f"trace_{timestamp_str}.json")
+    with open(trace_path, "w", encoding="utf-8") as f:
+        json.dump(trace_data, f, indent=2, ensure_ascii=False)
+
+    console.print(Panel(answer, title="Answer", border_style="green"))
+    console.print("\n[bold]Pre-rerank candidates:[/bold]")
+    for r in pre_rerank:
+        console.print(f"  [{r['distance']:.4f}] {r['title']}")
+    console.print("\n[bold]Post-rerank results:[/bold]")
+    for r in post_rerank:
+        console.print(f"  [{r['distance']:.4f}] {r['title']}")
+    console.print(f"\n[bold]Trace saved:[/bold] [cyan]{trace_path}[/cyan]")
+
+
+@app.command()
 def evaluate(
     questions_file: str = typer.Argument(..., help="Path to JSON file with evaluation questions"),
     context: int = typer.Option(5, "--context", "-c", help="Number of articles for context per question"),
@@ -173,6 +261,7 @@ def evaluate(
     mode: str = typer.Option("hybrid", "--mode", "-m", help="Search mode: semantic, keyword, or hybrid"),
     reranker: str = typer.Option("none", "--reranker", help="Reranker model: none, light, or heavy"),
     notes: str = typer.Option("", "--notes", "-n", help="Description of what changed for the changelog"),
+    beta: float = typer.Option(None, "--beta", "-b", help="Hybrid search beta (0.0=keyword, 1.0=semantic); default uses config value (0.7)"),
 ):
     """Evaluate RAG quality using RAGAS (Faithfulness & Response Relevancy).
 
@@ -195,7 +284,8 @@ def evaluate(
     """
     from src.evaluation import load_questions, async_run_rag_pipeline, async_evaluate_results, save_evaluation_log, append_changelog
 
-    console.print(f"[dim]Mode: {mode} | Reranker: {reranker}[/dim]\n")
+    beta_str = f" | Beta: {beta}" if mode == "hybrid" and beta is not None else ""
+    console.print(f"[dim]Mode: {mode}{beta_str} | Reranker: {reranker}[/dim]\n")
 
     # Phase 1: Load questions
     try:
@@ -218,6 +308,7 @@ def evaluate(
         progress_callback=progress_callback,
         search_mode=mode,
         reranker_model=reranker,
+        beta=beta,
     ))
     console.print("[green]RAG pipeline complete.[/green]\n")
 

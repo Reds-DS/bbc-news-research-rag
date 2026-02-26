@@ -31,9 +31,29 @@ class BM25Index:
         whitespace splitting to form the BM25 corpus. Called automatically by
         __init__; should not be called again after construction.
         """
-        # Fetch all documents from ChromaDB
         collection = self.db._store._collection
-        results = collection.get(include=["documents", "metadatas"])
+        batch_size = 500
+        offset = 0
+        all_documents = []
+        all_metadatas = []
+        while True:
+            results = collection.get(
+                include=["documents", "metadatas"],
+                limit=batch_size,
+                offset=offset,
+            )
+            docs = results.get("documents") or []
+            metas = results.get("metadatas") or []
+            if not docs:
+                break
+            all_documents.extend(docs)
+            all_metadatas.extend(metas)
+            if len(docs) < batch_size:
+                break
+            offset += batch_size
+
+        # Reuse variable name expected by the rest of the method
+        results = {"documents": all_documents, "metadatas": all_metadatas}
 
         for doc, metadata in zip(results["documents"], results["metadatas"]):
             self._documents.append({

@@ -1,4 +1,5 @@
 import asyncio
+import copy
 from src.database import ChromaDB
 from src.bm25_search import BM25Index, beta_score_fusion
 from src.config import RERANK_FETCH_MULTIPLIER
@@ -7,7 +8,7 @@ from src.config import RERANK_FETCH_MULTIPLIER
 class Retriever:
     """Unified retriever supporting semantic, keyword, and hybrid search modes."""
 
-    def __init__(self, mode: str = "hybrid", reranker=None):
+    def __init__(self, mode: str = "hybrid", reranker=None, beta: float | None = None):
         """Initialize the retriever with a search mode and optional cross-encoder reranker.
 
         Creates the underlying ChromaDB instance and, when the mode requires
@@ -22,11 +23,14 @@ class Retriever:
                 retriever over-fetches by RERANK_FETCH_MULTIPLIER and then
                 rescores results with the cross-encoder before returning the
                 final top-k. Defaults to None (no reranking).
+            beta: Hybrid search weight (0.0=keyword only, 1.0=semantic only).
+                None uses the HYBRID_BETA value from config.
         """
         self.mode = mode
         self.db = ChromaDB()
         self._bm25 = None
         self.reranker = reranker
+        self.beta = beta
 
         if mode in ("keyword", "hybrid"):
             self._bm25 = BM25Index(self.db)
@@ -56,12 +60,33 @@ class Retriever:
             # Hybrid: beta-weighted score fusion
             semantic = self.db.search(query, limit=fetch_limit)
             keyword = self._bm25.search(query, limit=fetch_limit)
-            results = beta_score_fusion(semantic, keyword)[:fetch_limit]
+            results = beta_score_fusion(semantic, keyword, beta=self.beta)[:fetch_limit]
 
         if self.reranker:
             results = self.reranker.rerank(query, results, top_k=limit)
 
         return results
+
+    def trace_search(self, query: str, limit: int = 5, fetch_limit: int | None = None) -> tuple[list[dict], list[dict]]:
+        """Return (pre_rerank_results, post_rerank_results)."""
+        if fetch_limit is None:
+            fetch_limit = limit * RERANK_FETCH_MULTIPLIER if self.reranker else limit
+
+        if self.mode == "semantic":
+            results = self.db.search(query, limit=fetch_limit)
+        elif self.mode == "keyword":
+            results = self._bm25.search(query, limit=fetch_limit)
+        else:
+            semantic = self.db.search(query, limit=fetch_limit)
+            keyword = self._bm25.search(query, limit=fetch_limit)
+            results = beta_score_fusion(semantic, keyword, beta=self.beta)[:fetch_limit]
+
+        if self.reranker:
+            pre_rerank = copy.deepcopy(results)
+            post_rerank = self.reranker.rerank(query, results, top_k=limit)
+            return pre_rerank, post_rerank
+
+        return results, results
 
     async def asearch(self, query: str, limit: int = 5) -> list[dict]:
         """Async counterpart of search().
@@ -92,7 +117,7 @@ class Retriever:
             keyword_task = loop.run_in_executor(None, self._bm25.search, query, fetch_limit)
 
             semantic, keyword = await asyncio.gather(semantic_task, keyword_task)
-            results = beta_score_fusion(semantic, keyword)[:fetch_limit]
+            results = beta_score_fusion(semantic, keyword, beta=self.beta)[:fetch_limit]
 
         if self.reranker:
             results = await self.reranker.arerank(query, results, top_k=limit)

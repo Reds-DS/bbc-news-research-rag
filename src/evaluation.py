@@ -337,6 +337,7 @@ async def async_run_rag_pipeline(
     progress_callback=None,
     search_mode: str = "hybrid",
     reranker_model: str = "none",
+    beta: float | None = None,
 ) -> list[QuestionResult]:
     """Run the full RAG pipeline (retrieve + generate) for all questions concurrently.
 
@@ -363,7 +364,7 @@ async def async_run_rag_pipeline(
     from src.reranker import Reranker
 
     reranker = Reranker(reranker_model) if reranker_model != "none" else None
-    retriever = Retriever(mode=search_mode, reranker=reranker)
+    retriever = Retriever(mode=search_mode, reranker=reranker, beta=beta)
     generator = RAGGenerator()
     semaphore = asyncio.Semaphore(ollama_concurrency)
 
